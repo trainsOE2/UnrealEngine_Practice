@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/meghasingh/Documents/Unreal Projects/Exercise5/Source/Exercise5/Exercise5.Build.cs",
+		"/Users/meghasingh/Documents/Unreal Projects/Exercise5/Source/Exercise5.Target.cs",
+		"/Users/meghasingh/Documents/Unreal Projects/Exercise5/Source/Exercise5Editor.Target.cs"
+	],
+	"EngineVersion": "5.1.1"
+}

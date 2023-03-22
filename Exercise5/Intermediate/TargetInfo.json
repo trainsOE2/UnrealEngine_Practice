@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Exercise5",
+			"Path": "/Users/meghasingh/Documents/Unreal Projects/Exercise5/Source/Exercise5.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Exercise5Editor",
+			"Path": "/Users/meghasingh/Documents/Unreal Projects/Exercise5/Source/Exercise5Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

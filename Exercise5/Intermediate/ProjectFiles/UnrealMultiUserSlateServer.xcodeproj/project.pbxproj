@@ -1,0 +1,1628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD494BE3B7BCBEBBCCE1212C /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 668609E4215987AB231D04FE /* DefaultEngine.ini */; };
+		92491DE749BAB6EF73F68980 /* LinuxUnrealMultiUserSlateServerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF56897F58E139F95F7B8F7B /* LinuxUnrealMultiUserSlateServerMain.cpp */; };
+		30E5AE7537E49E6FD110AC94 /* MacUnrealMultiUserSlateServerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AA96B2A9CD7C7AF677DE30B /* MacUnrealMultiUserSlateServerMain.cpp */; };
+		D2EB98BA657ECBC064F7510A /* UnrealMultiUserSlateServerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 090B0FEA250D8EA07CE377A2 /* UnrealMultiUserSlateServerMain.cpp */; };
+		2B8B8B98374D8A8FDD8ADE36 /* UnrealMultiUserSlateServerRun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08150E1E5AB9D2C5176A2794 /* UnrealMultiUserSlateServerRun.cpp */; };
+		472C437E80F364D0A868982B /* UnrealMultiUserSlateServerRun.h in Sources */ = {isa = PBXBuildFile; fileRef = A6B888ED16A13342F5D75A32 /* UnrealMultiUserSlateServerRun.h */; };
+		A26303A51BC83AB301A3E2EE /* WindowsUnrealMultiUserSlateServerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7B726165ABD206420EA5A46 /* WindowsUnrealMultiUserSlateServerMain.cpp */; };
+		23B4CB01841EC434DA61D21F /* UnrealMultiUserSlateServer.png in Sources */ = {isa = PBXBuildFile; fileRef = 3B06F193EBDAB5F24D4B192A /* UnrealMultiUserSlateServer.png */; };
+		D1252F56ECF63B2EECE92768 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 8C842831E09A6FECBBC4B026 /* Info.plist */; };
+		964E7FCE016060A6F5CDDBE9 /* UnrealMultiUserSlateServer.icns in Sources */ = {isa = PBXBuildFile; fileRef = 41192BCFD8673AAC0B686296 /* UnrealMultiUserSlateServer.icns */; };
+		D990A24E731EC80D740816EB /* icon_128x128.png in Sources */ = {isa = PBXBuildFile; fileRef = F531880C3C63D93E79D09E49 /* icon_128x128.png */; };
+		0B43542C9EC3F3537126F022 /* icon_128x128@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 830AE2B492CD3646EF17EBB2 /* icon_128x128@2x.png */; };
+		3AE91EEAD172E5339E1A157B /* icon_16x16.png in Sources */ = {isa = PBXBuildFile; fileRef = B5311BDF90292A6056E777F7 /* icon_16x16.png */; };
+		FAAFEFDB50EA8848456E4104 /* icon_16x16@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = F3DD0CE905B23D675F1F31FA /* icon_16x16@2x.png */; };
+		D089D492E9EB0AF457A20E5D /* icon_256x256.png in Sources */ = {isa = PBXBuildFile; fileRef = 6750A9618E14A48D3BD51F36 /* icon_256x256.png */; };
+		46EBD28C497B9C8054D92F15 /* icon_256x256@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 3D5E517085FDE38B80688EE7 /* icon_256x256@2x.png */; };
+		A66DF927E56DAD08F2580787 /* icon_32x32.png in Sources */ = {isa = PBXBuildFile; fileRef = 4B3CC3F96C95961B0273CFDE /* icon_32x32.png */; };
+		3F000009A5DFACC48E4E0A58 /* icon_32x32@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 93975484192F7A358ABFAC27 /* icon_32x32@2x.png */; };
+		1169B87BED12C8DE5CEAE6DC /* icon_512x512.png in Sources */ = {isa = PBXBuildFile; fileRef = 82749BE62B2722E456C92449 /* icon_512x512.png */; };
+		1D415BA3A91098DB7EF5CF0D /* icon_512x512@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 955BA9817BEE92CCEDE966FA /* icon_512x512@2x.png */; };
+		A799D3DC7DC3ED407A555D66 /* make_icns.sh in Sources */ = {isa = PBXBuildFile; fileRef = 1EB22739AB02C282E9E20A84 /* make_icns.sh */; };
+		6B7C1573C813ADBA0BB6B534 /* UnrealMultiUserSlateServer.rc in Sources */ = {isa = PBXBuildFile; fileRef = 365EDA3DB4969B7F4D1C58F1 /* UnrealMultiUserSlateServer.rc */; };
+		1AC362E72353D9C651AA790D /* icon_16x16.png in Sources */ = {isa = PBXBuildFile; fileRef = 66487AF46855908C608AE6D8 /* icon_16x16.png */; };
+		FD78E90121F3944F23238747 /* icon_24x24.png in Sources */ = {isa = PBXBuildFile; fileRef = AD08E684C64E96766937263E /* icon_24x24.png */; };
+		09EC4BC3B73250C03AA13110 /* icon_256x256.png in Sources */ = {isa = PBXBuildFile; fileRef = CCD30E6348E10AF2743843E2 /* icon_256x256.png */; };
+		EB8165A5D487EF669DC0F5A3 /* icon_32x32.png in Sources */ = {isa = PBXBuildFile; fileRef = 17750E87F301472936B9CA43 /* icon_32x32.png */; };
+		87138C4CD42FBB31B721A75C /* icon_48x48.png in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE45AA2BA57FF3EEC7D9EA /* icon_48x48.png */; };
+		2311A2601F2CE9D79AA0BC53 /* UnrealMultiUserSlateServer_2.ico in Sources */ = {isa = PBXBuildFile; fileRef = E0EBEE01A1D8B59E98BC73E1 /* UnrealMultiUserSlateServer_2.ico */; };
+		44313ED845D9BFFA6A9D6E35 /* make_ico.py in Sources */ = {isa = PBXBuildFile; fileRef = 1F096F39DDDA82067D892587 /* make_ico.py */; };
+		661C9CF4B59D8129990CA9B7 /* UnrealMultiUserSlateServer.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 50C4CC4C9EFCF408BE26A247 /* UnrealMultiUserSlateServer.Build.cs */; };
+		76066C7041057D4075887977 /* UnrealMultiUserSlateServer.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0B2C0A2488F28ADA1061B450 /* UnrealMultiUserSlateServer.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		668609E4215987AB231D04FE /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../GitHub/UnrealEngine/Engine/Programs/UnrealMultiUserSlateServer/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		CF56897F58E139F95F7B8F7B /* LinuxUnrealMultiUserSlateServerMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LinuxUnrealMultiUserSlateServerMain.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Private/Linux/LinuxUnrealMultiUserSlateServerMain.cpp"; sourceTree = SOURCE_ROOT; };
+		5AA96B2A9CD7C7AF677DE30B /* MacUnrealMultiUserSlateServerMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MacUnrealMultiUserSlateServerMain.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Private/Mac/MacUnrealMultiUserSlateServerMain.cpp"; sourceTree = SOURCE_ROOT; };
+		090B0FEA250D8EA07CE377A2 /* UnrealMultiUserSlateServerMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealMultiUserSlateServerMain.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Private/UnrealMultiUserSlateServerMain.cpp"; sourceTree = SOURCE_ROOT; };
+		08150E1E5AB9D2C5176A2794 /* UnrealMultiUserSlateServerRun.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealMultiUserSlateServerRun.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Private/UnrealMultiUserSlateServerRun.cpp"; sourceTree = SOURCE_ROOT; };
+		A6B888ED16A13342F5D75A32 /* UnrealMultiUserSlateServerRun.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealMultiUserSlateServerRun.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Private/UnrealMultiUserSlateServerRun.h"; sourceTree = SOURCE_ROOT; };
+		C7B726165ABD206420EA5A46 /* WindowsUnrealMultiUserSlateServerMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "WindowsUnrealMultiUserSlateServerMain.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Private/Windows/WindowsUnrealMultiUserSlateServerMain.cpp"; sourceTree = SOURCE_ROOT; };
+		3B06F193EBDAB5F24D4B192A /* UnrealMultiUserSlateServer.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "UnrealMultiUserSlateServer.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Linux/UnrealMultiUserSlateServer.png"; sourceTree = SOURCE_ROOT; };
+		8C842831E09A6FECBBC4B026 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; name = "Info.plist"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Mac/Info.plist"; sourceTree = SOURCE_ROOT; };
+		41192BCFD8673AAC0B686296 /* UnrealMultiUserSlateServer.icns */ = {isa = PBXFileReference; explicitFileType = image.icns; name = "UnrealMultiUserSlateServer.icns"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Mac/UnrealMultiUserSlateServer.icns"; sourceTree = SOURCE_ROOT; };
+		F531880C3C63D93E79D09E49 /* icon_128x128.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_128x128.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Mac/UnrealMultiUserSlateServer.iconset/icon_128x128.png"; sourceTree = SOURCE_ROOT; };
+		830AE2B492CD3646EF17EBB2 /* icon_128x128@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_128x128@2x.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Mac/UnrealMultiUserSlateServer.iconset/icon_128x128@2x.png"; sourceTree = SOURCE_ROOT; };
+		B5311BDF90292A6056E777F7 /* icon_16x16.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_16x16.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Mac/UnrealMultiUserSlateServer.iconset/icon_16x16.png"; sourceTree = SOURCE_ROOT; };
+		F3DD0CE905B23D675F1F31FA /* icon_16x16@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_16x16@2x.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Mac/UnrealMultiUserSlateServer.iconset/icon_16x16@2x.png"; sourceTree = SOURCE_ROOT; };
+		6750A9618E14A48D3BD51F36 /* icon_256x256.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_256x256.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Mac/UnrealMultiUserSlateServer.iconset/icon_256x256.png"; sourceTree = SOURCE_ROOT; };
+		3D5E517085FDE38B80688EE7 /* icon_256x256@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_256x256@2x.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Mac/UnrealMultiUserSlateServer.iconset/icon_256x256@2x.png"; sourceTree = SOURCE_ROOT; };
+		4B3CC3F96C95961B0273CFDE /* icon_32x32.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_32x32.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Mac/UnrealMultiUserSlateServer.iconset/icon_32x32.png"; sourceTree = SOURCE_ROOT; };
+		93975484192F7A358ABFAC27 /* icon_32x32@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_32x32@2x.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Mac/UnrealMultiUserSlateServer.iconset/icon_32x32@2x.png"; sourceTree = SOURCE_ROOT; };
+		82749BE62B2722E456C92449 /* icon_512x512.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_512x512.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Mac/UnrealMultiUserSlateServer.iconset/icon_512x512.png"; sourceTree = SOURCE_ROOT; };
+		955BA9817BEE92CCEDE966FA /* icon_512x512@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_512x512@2x.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Mac/UnrealMultiUserSlateServer.iconset/icon_512x512@2x.png"; sourceTree = SOURCE_ROOT; };
+		1EB22739AB02C282E9E20A84 /* make_icns.sh */ = {isa = PBXFileReference; explicitFileType = file.text; name = "make_icns.sh"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Mac/make_icns.sh"; sourceTree = SOURCE_ROOT; };
+		365EDA3DB4969B7F4D1C58F1 /* UnrealMultiUserSlateServer.rc */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealMultiUserSlateServer.rc"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Windows/UnrealMultiUserSlateServer.rc"; sourceTree = SOURCE_ROOT; };
+		66487AF46855908C608AE6D8 /* icon_16x16.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_16x16.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Windows/UnrealMultiUserSlateServer/icon_16x16.png"; sourceTree = SOURCE_ROOT; };
+		AD08E684C64E96766937263E /* icon_24x24.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_24x24.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Windows/UnrealMultiUserSlateServer/icon_24x24.png"; sourceTree = SOURCE_ROOT; };
+		CCD30E6348E10AF2743843E2 /* icon_256x256.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_256x256.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Windows/UnrealMultiUserSlateServer/icon_256x256.png"; sourceTree = SOURCE_ROOT; };
+		17750E87F301472936B9CA43 /* icon_32x32.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_32x32.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Windows/UnrealMultiUserSlateServer/icon_32x32.png"; sourceTree = SOURCE_ROOT; };
+		9DEE45AA2BA57FF3EEC7D9EA /* icon_48x48.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_48x48.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Windows/UnrealMultiUserSlateServer/icon_48x48.png"; sourceTree = SOURCE_ROOT; };
+		E0EBEE01A1D8B59E98BC73E1 /* UnrealMultiUserSlateServer_2.ico */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealMultiUserSlateServer_2.ico"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Windows/UnrealMultiUserSlateServer_2.ico"; sourceTree = SOURCE_ROOT; };
+		1F096F39DDDA82067D892587 /* make_ico.py */ = {isa = PBXFileReference; explicitFileType = file.text; name = "make_ico.py"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Windows/make_ico.py"; sourceTree = SOURCE_ROOT; };
+		50C4CC4C9EFCF408BE26A247 /* UnrealMultiUserSlateServer.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealMultiUserSlateServer.Build.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/UnrealMultiUserSlateServer.Build.cs"; sourceTree = SOURCE_ROOT; };
+		0B2C0A2488F28ADA1061B450 /* UnrealMultiUserSlateServer.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealMultiUserSlateServer.Target.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/UnrealMultiUserSlateServer.Target.cs"; sourceTree = SOURCE_ROOT; };
+		C6BC5E213C51FD7EB3FEE794 /* UnrealMultiUserSlateServer */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = UnrealMultiUserSlateServer; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		052C3CF7FAA5E28318F89D29 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E5AE7537E49E6FD110AC94 /* MacUnrealMultiUserSlateServerMain.cpp in Sources */,
+				D2EB98BA657ECBC064F7510A /* UnrealMultiUserSlateServerMain.cpp in Sources */,
+				2B8B8B98374D8A8FDD8ADE36 /* UnrealMultiUserSlateServerRun.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	D6A013EBCC4DE297BD395BA0 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		576542FA716F22238E552169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E34C1A3C462FC9F11F126F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 708F1F4409DF234A792F0EF0;
+			remoteInfo = "UnrealMultiUserSlateServer_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		F7861064BC90BB8641773388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 708F1F4409DF234A792F0EF0 /* UnrealMultiUserSlateServer_Build */;
+			targetProxy = 576542FA716F22238E552169 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		7D136F8EB60653C58DFE7697 = {
+			isa = PBXGroup;
+			children = (
+				0FCE235363AA78E591D33367 /* Programs */,
+				5CBCD83910DE47E21AA01843 /* Source */,
+				68B91B377EC0F030CAAB18FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FCE235363AA78E591D33367 = {
+			isa = PBXGroup;
+			children = (
+				1A069671FE3553FB5808E7FD /* UnrealMultiUserSlateServer */,
+			);
+			name = "Programs";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Programs";
+			sourceTree = "<absolute>";
+		};
+		1A069671FE3553FB5808E7FD = {
+			isa = PBXGroup;
+			children = (
+				8DE1DA306ADB9CFEB1574579 /* Config */,
+			);
+			name = "UnrealMultiUserSlateServer";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Programs/UnrealMultiUserSlateServer";
+			sourceTree = "<absolute>";
+		};
+		8DE1DA306ADB9CFEB1574579 = {
+			isa = PBXGroup;
+			children = (
+				668609E4215987AB231D04FE /* DefaultEngine.ini */,
+			);
+			name = "Config";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Programs/UnrealMultiUserSlateServer/Config";
+			sourceTree = "<absolute>";
+		};
+		5CBCD83910DE47E21AA01843 = {
+			isa = PBXGroup;
+			children = (
+				2D9841593FB97706E725C582 /* Programs */,
+			);
+			name = "Source";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source";
+			sourceTree = "<absolute>";
+		};
+		2D9841593FB97706E725C582 = {
+			isa = PBXGroup;
+			children = (
+				CF487AB63635B5C3C01D1541 /* UnrealMultiUserSlateServer */,
+			);
+			name = "Programs";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs";
+			sourceTree = "<absolute>";
+		};
+		CF487AB63635B5C3C01D1541 = {
+			isa = PBXGroup;
+			children = (
+				5D19EA79C105E3ECC89703D1 /* Private */,
+				75BEE2828ADF4A07B0221530 /* Resources */,
+				50C4CC4C9EFCF408BE26A247 /* UnrealMultiUserSlateServer.Build.cs */,
+				0B2C0A2488F28ADA1061B450 /* UnrealMultiUserSlateServer.Target.cs */,
+			);
+			name = "UnrealMultiUserSlateServer";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer";
+			sourceTree = "<absolute>";
+		};
+		5D19EA79C105E3ECC89703D1 = {
+			isa = PBXGroup;
+			children = (
+				9A43BFF7E03E9236F65669C8 /* Linux */,
+				6491ABE5EB55821083FFFC25 /* Mac */,
+				CFFE45E142D9B93844A91CF3 /* Windows */,
+				090B0FEA250D8EA07CE377A2 /* UnrealMultiUserSlateServerMain.cpp */,
+				08150E1E5AB9D2C5176A2794 /* UnrealMultiUserSlateServerRun.cpp */,
+				A6B888ED16A13342F5D75A32 /* UnrealMultiUserSlateServerRun.h */,
+			);
+			name = "Private";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Private";
+			sourceTree = "<absolute>";
+		};
+		9A43BFF7E03E9236F65669C8 = {
+			isa = PBXGroup;
+			children = (
+				CF56897F58E139F95F7B8F7B /* LinuxUnrealMultiUserSlateServerMain.cpp */,
+			);
+			name = "Linux";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Private/Linux";
+			sourceTree = "<absolute>";
+		};
+		6491ABE5EB55821083FFFC25 = {
+			isa = PBXGroup;
+			children = (
+				5AA96B2A9CD7C7AF677DE30B /* MacUnrealMultiUserSlateServerMain.cpp */,
+			);
+			name = "Mac";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Private/Mac";
+			sourceTree = "<absolute>";
+		};
+		CFFE45E142D9B93844A91CF3 = {
+			isa = PBXGroup;
+			children = (
+				C7B726165ABD206420EA5A46 /* WindowsUnrealMultiUserSlateServerMain.cpp */,
+			);
+			name = "Windows";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Private/Windows";
+			sourceTree = "<absolute>";
+		};
+		75BEE2828ADF4A07B0221530 = {
+			isa = PBXGroup;
+			children = (
+				59FE017314F34E9A469A28E2 /* Linux */,
+				F8B0F31D9C3083BA74B76F2C /* Mac */,
+				D74523515B82ADDB950089D9 /* Windows */,
+			);
+			name = "Resources";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources";
+			sourceTree = "<absolute>";
+		};
+		59FE017314F34E9A469A28E2 = {
+			isa = PBXGroup;
+			children = (
+				3B06F193EBDAB5F24D4B192A /* UnrealMultiUserSlateServer.png */,
+			);
+			name = "Linux";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Linux";
+			sourceTree = "<absolute>";
+		};
+		F8B0F31D9C3083BA74B76F2C = {
+			isa = PBXGroup;
+			children = (
+				72FF85A4B5F575ACE8158844 /* UnrealMultiUserSlateServer.iconset */,
+				8C842831E09A6FECBBC4B026 /* Info.plist */,
+				41192BCFD8673AAC0B686296 /* UnrealMultiUserSlateServer.icns */,
+				1EB22739AB02C282E9E20A84 /* make_icns.sh */,
+			);
+			name = "Mac";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Mac";
+			sourceTree = "<absolute>";
+		};
+		72FF85A4B5F575ACE8158844 = {
+			isa = PBXGroup;
+			children = (
+				F531880C3C63D93E79D09E49 /* icon_128x128.png */,
+				830AE2B492CD3646EF17EBB2 /* icon_128x128@2x.png */,
+				B5311BDF90292A6056E777F7 /* icon_16x16.png */,
+				F3DD0CE905B23D675F1F31FA /* icon_16x16@2x.png */,
+				6750A9618E14A48D3BD51F36 /* icon_256x256.png */,
+				3D5E517085FDE38B80688EE7 /* icon_256x256@2x.png */,
+				4B3CC3F96C95961B0273CFDE /* icon_32x32.png */,
+				93975484192F7A358ABFAC27 /* icon_32x32@2x.png */,
+				82749BE62B2722E456C92449 /* icon_512x512.png */,
+				955BA9817BEE92CCEDE966FA /* icon_512x512@2x.png */,
+			);
+			name = "UnrealMultiUserSlateServer.iconset";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Mac/UnrealMultiUserSlateServer.iconset";
+			sourceTree = "<absolute>";
+		};
+		D74523515B82ADDB950089D9 = {
+			isa = PBXGroup;
+			children = (
+				EB2D6A7F9E5ABBA18ED40115 /* UnrealMultiUserSlateServer */,
+				365EDA3DB4969B7F4D1C58F1 /* UnrealMultiUserSlateServer.rc */,
+				E0EBEE01A1D8B59E98BC73E1 /* UnrealMultiUserSlateServer_2.ico */,
+				1F096F39DDDA82067D892587 /* make_ico.py */,
+			);
+			name = "Windows";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Windows";
+			sourceTree = "<absolute>";
+		};
+		EB2D6A7F9E5ABBA18ED40115 = {
+			isa = PBXGroup;
+			children = (
+				66487AF46855908C608AE6D8 /* icon_16x16.png */,
+				AD08E684C64E96766937263E /* icon_24x24.png */,
+				CCD30E6348E10AF2743843E2 /* icon_256x256.png */,
+				17750E87F301472936B9CA43 /* icon_32x32.png */,
+				9DEE45AA2BA57FF3EEC7D9EA /* icon_48x48.png */,
+			);
+			name = "UnrealMultiUserSlateServer";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Resources/Windows/UnrealMultiUserSlateServer";
+			sourceTree = "<absolute>";
+		};
+		68B91B377EC0F030CAAB18FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6BC5E213C51FD7EB3FEE794 /* UnrealMultiUserSlateServer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		708F1F4409DF234A792F0EF0 /* UnrealMultiUserSlateServer_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 14F2D81A3198C1A165A69D00 /* Build configuration list for PBXLegacyTarget "UnrealMultiUserSlateServer_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/meghasingh/Documents/GitHub/UnrealEngine";
+			dependencies = (
+			);
+			name = "UnrealMultiUserSlateServer_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealMultiUserSlateServer_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		D16F4EDE1B80F3DCD5C46665 /* UnrealMultiUserSlateServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2ACB7655657ED498953BC50 /* Build configuration list for PBXNativeTarget "UnrealMultiUserSlateServer" */;
+			buildPhases = (
+				D6A013EBCC4DE297BD395BA0 /* Embed App Extensions */, 
+				9A3BE8A7059989D2FB71898A /* Shell Script */, 
+			);
+			dependencies = (
+				F7861064BC90BB8641773388 /* PBXTargetDependency */,
+			);
+			name = "UnrealMultiUserSlateServer";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealMultiUserSlateServer";
+			productReference = "C6BC5E213C51FD7EB3FEE794";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		329949EF7AB5D4587DAD8AE2 /* UnrealMultiUserSlateServer_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FDD1AAE32D6F097AD6D0C4A /* Build configuration list for PBXNativeTarget "UnrealMultiUserSlateServer_Index" */;
+			buildPhases = (
+				052C3CF7FAA5E28318F89D29 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "UnrealMultiUserSlateServer_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealMultiUserSlateServer_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79E34C1A3C462FC9F11F126F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					D16F4EDE1B80F3DCD5C46665 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 9633D0C35AB5736668F5CA54 /* Build configuration list for PBXProject "UnrealMultiUserSlateServer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 7D136F8EB60653C58DFE7697;
+			productRefGroup = 68B91B377EC0F030CAAB18FE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			D16F4EDE1B80F3DCD5C46665 /* UnrealMultiUserSlateServer */,
+			708F1F4409DF234A792F0EF0 /* UnrealMultiUserSlateServer_Build */,
+			329949EF7AB5D4587DAD8AE2 /* UnrealMultiUserSlateServer_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		C95BCBE71CF27E701CF260DE /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib/syms",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Concert/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Concert/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/Concert/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertTransport/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertTransport/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/ConcertTransport/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MessagingCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MessagingCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/MessagingCommon/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Messaging/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Messaging/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Serialization/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Serialization/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Serialization/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Cbor/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Cbor/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceInsights/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceInsights/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/AppFramework/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/AppFramework/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Slate/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Slate/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/InputCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/InputCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SlateCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SlateCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageWrapper/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageWrapper/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/DesktopPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/DesktopPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RenderCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RenderCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SourceCodeAccess/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SourceCodeAccess/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Settings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Settings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceAnalysis/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceAnalysis/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceServices/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceServices/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/WorkspaceMenuStructure/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/WorkspaceMenuStructure/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/XmlParser/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/XmlParser/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Launch/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Launch/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ProfilerService/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ProfilerService/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertSyncCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertSyncCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source/ConcertSyncCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CncrtSyncSvr/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CncrtSyncSvr/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source/ConcertSyncServer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MultiUserServer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MultiUserServer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Source/MultiUserServer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/UnrealMultiUserSlateServer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/UnrealMultiUserSlateServer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		350C097A30BDB82CFD0C29E1 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib/syms",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Concert/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Concert/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/Concert/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertTransport/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertTransport/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/ConcertTransport/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MessagingCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MessagingCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/MessagingCommon/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Messaging/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Messaging/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Serialization/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Serialization/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Serialization/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Cbor/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Cbor/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceInsights/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceInsights/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/AppFramework/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/AppFramework/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Slate/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Slate/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/InputCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/InputCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SlateCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SlateCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageWrapper/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageWrapper/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/DesktopPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/DesktopPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RenderCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RenderCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SourceCodeAccess/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SourceCodeAccess/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Settings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Settings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceAnalysis/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceAnalysis/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceServices/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceServices/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/WorkspaceMenuStructure/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/WorkspaceMenuStructure/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/XmlParser/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/XmlParser/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Launch/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Launch/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ProfilerService/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ProfilerService/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertSyncCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertSyncCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source/ConcertSyncCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CncrtSyncSvr/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CncrtSyncSvr/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source/ConcertSyncServer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MultiUserServer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MultiUserServer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Source/MultiUserServer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/UnrealMultiUserSlateServer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/UnrealMultiUserSlateServer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		E931E4DF42D71C42113B74BB /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib/syms",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Concert/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Concert/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/Concert/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertTransport/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertTransport/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/ConcertTransport/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MessagingCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MessagingCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/MessagingCommon/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Messaging/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Messaging/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Serialization/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Serialization/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Serialization/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Cbor/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Cbor/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceInsights/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceInsights/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/AppFramework/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/AppFramework/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Slate/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Slate/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/InputCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/InputCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SlateCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SlateCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageWrapper/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageWrapper/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/DesktopPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/DesktopPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RenderCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RenderCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SourceCodeAccess/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SourceCodeAccess/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Settings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Settings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceAnalysis/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceAnalysis/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceServices/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceServices/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/WorkspaceMenuStructure/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/WorkspaceMenuStructure/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/XmlParser/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/XmlParser/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Launch/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Launch/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ProfilerService/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ProfilerService/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertSyncCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertSyncCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source/ConcertSyncCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CncrtSyncSvr/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CncrtSyncSvr/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source/ConcertSyncServer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MultiUserServer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MultiUserServer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Source/MultiUserServer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/UnrealMultiUserSlateServer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/UnrealMultiUserSlateServer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		E02B4C5CF861054BA0D519D5 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib/syms",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Concert/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Concert/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/Concert/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertTransport/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertTransport/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/ConcertTransport/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MessagingCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MessagingCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/MessagingCommon/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Messaging/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Messaging/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Serialization/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Serialization/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Serialization/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Cbor/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Cbor/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceInsights/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceInsights/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/AppFramework/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/AppFramework/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Slate/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Slate/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/InputCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/InputCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SlateCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SlateCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageWrapper/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageWrapper/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/DesktopPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/DesktopPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RenderCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RenderCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SourceCodeAccess/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SourceCodeAccess/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Settings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Settings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceAnalysis/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceAnalysis/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceServices/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceServices/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/WorkspaceMenuStructure/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/WorkspaceMenuStructure/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/XmlParser/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/XmlParser/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Launch/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Launch/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ProfilerService/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ProfilerService/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertSyncCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertSyncCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source/ConcertSyncCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CncrtSyncSvr/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CncrtSyncSvr/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source/ConcertSyncServer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MultiUserServer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MultiUserServer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Source/MultiUserServer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/UnrealMultiUserSlateServer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/UnrealMultiUserSlateServer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		43C64437DC5627B2B42659BF /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib/syms",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealMultiUserSlateServer/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Concert/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Concert/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/Concert/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertTransport/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertTransport/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertMain/Source/ConcertTransport/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MessagingCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MessagingCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/MessagingCommon/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Messaging/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Messaging/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Serialization/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Serialization/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Serialization/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Cbor/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Cbor/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceInsights/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceInsights/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/AppFramework/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/AppFramework/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Slate/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Slate/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/InputCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/InputCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SlateCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SlateCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageWrapper/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageWrapper/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ImageCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/DesktopPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/DesktopPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RenderCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/RenderCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SourceCodeAccess/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/SourceCodeAccess/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Settings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Settings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceAnalysis/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceAnalysis/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceServices/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/TraceServices/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/WorkspaceMenuStructure/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/WorkspaceMenuStructure/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/XmlParser/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/XmlParser/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Launch/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/Launch/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ProfilerService/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ProfilerService/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertSyncCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/ConcertSyncCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source/ConcertSyncCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CncrtSyncSvr/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/CncrtSyncSvr/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncServer/Source/ConcertSyncServer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MultiUserServer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/MultiUserServer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/Concert/ConcertApp/MultiUserServer/Source/MultiUserServer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/UnrealMultiUserSlateServer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealMultiUserSlateServer/Inc/UnrealMultiUserSlateServer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		AC05647DC88040CCD19C5DBE /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealMultiUserSlateServer-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealMultiUserSlateServer;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealMultiUserSlateServer-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		74FF0152C3FBC723E3F3FBCD /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealMultiUserSlateServer-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealMultiUserSlateServer;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealMultiUserSlateServer-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		ACD214482975A1F5B69E910F /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealMultiUserSlateServer";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealMultiUserSlateServer;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealMultiUserSlateServer-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		842EC28B40089D57D62E7625 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealMultiUserSlateServer-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealMultiUserSlateServer;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealMultiUserSlateServer-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		CE55FE9405CB162E206D52A0 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealMultiUserSlateServer-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealMultiUserSlateServer;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealMultiUserSlateServer-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		BD3A7E7E6ECA2E6517892270 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealMultiUserSlateServer";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		057510E618B5E3B4407E4962 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealMultiUserSlateServer";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		C66D53EE7F85FB6C1E54FCE6 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealMultiUserSlateServer";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		033893AF4C0CCF4DBF550D54 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealMultiUserSlateServer";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		93E00825E87A3B67535F6B86 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealMultiUserSlateServer";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		82FB7ACBBBEB83A7DB09FAFF /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealMultiUserSlateServer-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealMultiUserSlateServer;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealMultiUserSlateServer-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		C0B4345AD0F57375D19956BB /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealMultiUserSlateServer-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealMultiUserSlateServer;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealMultiUserSlateServer-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		D1037168620651853F79ADFD /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealMultiUserSlateServer";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealMultiUserSlateServer;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealMultiUserSlateServer-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		389F74BC4FB145FBEA9CE434 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealMultiUserSlateServer-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealMultiUserSlateServer;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealMultiUserSlateServer-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		C79871692E5BA01246B4EEF9 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealMultiUserSlateServer";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealMultiUserSlateServer-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealMultiUserSlateServer;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealMultiUserSlateServer-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealMultiUserSlateServer-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9633D0C35AB5736668F5CA54 /* Build configuration list for PBXProject "UnrealMultiUserSlateServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C95BCBE71CF27E701CF260DE /* "Debug" */,
+				350C097A30BDB82CFD0C29E1 /* "DebugGame" */,
+				E931E4DF42D71C42113B74BB /* "Development" */,
+				E02B4C5CF861054BA0D519D5 /* "Test" */,
+				43C64437DC5627B2B42659BF /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		14F2D81A3198C1A165A69D00 /* Build configuration list for PBXLegacyTarget "UnrealMultiUserSlateServer_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3A7E7E6ECA2E6517892270 /* "Debug" */,
+				057510E618B5E3B4407E4962 /* "DebugGame" */,
+				C66D53EE7F85FB6C1E54FCE6 /* "Development" */,
+				033893AF4C0CCF4DBF550D54 /* "Test" */,
+				93E00825E87A3B67535F6B86 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		C2ACB7655657ED498953BC50 /* Build configuration list for PBXNativeTarget "UnrealMultiUserSlateServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC05647DC88040CCD19C5DBE /* "Debug" */,
+				74FF0152C3FBC723E3F3FBCD /* "DebugGame" */,
+				ACD214482975A1F5B69E910F /* "Development" */,
+				842EC28B40089D57D62E7625 /* "Test" */,
+				CE55FE9405CB162E206D52A0 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		4FDD1AAE32D6F097AD6D0C4A /* Build configuration list for PBXNativeTarget "UnrealMultiUserSlateServer_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FB7ACBBBEB83A7DB09FAFF /* "Debug" */,
+				C0B4345AD0F57375D19956BB /* "DebugGame" */,
+				D1037168620651853F79ADFD /* "Development" */,
+				389F74BC4FB145FBEA9CE434 /* "Test" */,
+				C79871692E5BA01246B4EEF9 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79E34C1A3C462FC9F11F126F /* Project object */;
+}

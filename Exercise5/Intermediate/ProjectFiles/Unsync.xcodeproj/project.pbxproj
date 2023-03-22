@@ -1,0 +1,1115 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6284FFD5B21706357CAA8B71 /* CMakeLists.txt in Sources */ = {isa = PBXBuildFile; fileRef = 7C40A1FBD87F3AA096690F87 /* CMakeLists.txt */; };
+		85E198F6CC8BE89D8B670E15 /* UnsyncBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2887FC2BEE2C389A4A6E5DD8 /* UnsyncBuffer.cpp */; };
+		6A3415EC8374486E5B285A8D /* UnsyncBuffer.h in Sources */ = {isa = PBXBuildFile; fileRef = 6266FC4A3C8C67A3885E870D /* UnsyncBuffer.h */; };
+		F0CE4EF185B8EFC775E05990 /* UnsyncCmdDiff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44CAD9E72BB047B486DD1DA0 /* UnsyncCmdDiff.cpp */; };
+		AB0375719CA0AB6B004C9CA2 /* UnsyncCmdDiff.h in Sources */ = {isa = PBXBuildFile; fileRef = F740E94CB8315D1DE03CA74D /* UnsyncCmdDiff.h */; };
+		0BBB67906F14A20C1B41CA08 /* UnsyncCmdHash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3097FD33FD245D726507B43 /* UnsyncCmdHash.cpp */; };
+		B04E2DADD24765794724DB9A /* UnsyncCmdHash.h in Sources */ = {isa = PBXBuildFile; fileRef = 950D5693DDD6367B7E8B5430 /* UnsyncCmdHash.h */; };
+		E37203990C6D1389956D5C2A /* UnsyncCmdPatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9414CD8A95C05165D24575AA /* UnsyncCmdPatch.cpp */; };
+		BA75E0EABD9C7825FAFCC710 /* UnsyncCmdPatch.h in Sources */ = {isa = PBXBuildFile; fileRef = CDBF1433AF5018C5838C0AEE /* UnsyncCmdPatch.h */; };
+		0EABB7DDA9E6E51683C0FAE3 /* UnsyncCmdPush.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4B8FA7252A5244EE6D6E31E /* UnsyncCmdPush.cpp */; };
+		5C56AE260A7CFE600F7D21F8 /* UnsyncCmdPush.h in Sources */ = {isa = PBXBuildFile; fileRef = 6137BF0AF48BA188D5EC0D33 /* UnsyncCmdPush.h */; };
+		E2F4A006F8552FB6AC546197 /* UnsyncCmdQuery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7023A42B6CE2FE3D1A817735 /* UnsyncCmdQuery.cpp */; };
+		6E73831C56306A607C6B2CA7 /* UnsyncCmdQuery.h in Sources */ = {isa = PBXBuildFile; fileRef = 8CD564D945F51FC318BF4EFF /* UnsyncCmdQuery.h */; };
+		194985588731AE030DB4C8A5 /* UnsyncCmdSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0B5EA6BFADEB783A7BBE1E /* UnsyncCmdSync.cpp */; };
+		5471F8DA39CE3F38336F0EE5 /* UnsyncCmdSync.h in Sources */ = {isa = PBXBuildFile; fileRef = 5AD186F13AE38758A3B80323 /* UnsyncCmdSync.h */; };
+		5A857A8D6E75A47787D5EC9D /* UnsyncCommon.h in Sources */ = {isa = PBXBuildFile; fileRef = 4116274261B5B4DA98EF842D /* UnsyncCommon.h */; };
+		1B420AA1A17BC2994B8A5B56 /* UnsyncCompression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77255947C7C337655B92AD9D /* UnsyncCompression.cpp */; };
+		E6195A5A345B496F497AFD18 /* UnsyncCompression.h in Sources */ = {isa = PBXBuildFile; fileRef = EECBE98429E92FC9B66DD236 /* UnsyncCompression.h */; };
+		92471E1D1667E59774FFE51F /* UnsyncCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8496018EFD06343098E3969 /* UnsyncCore.cpp */; };
+		4476E7ADCCC0F49B05115213 /* UnsyncCore.h in Sources */ = {isa = PBXBuildFile; fileRef = D21C301D4DDDB0EF6D052563 /* UnsyncCore.h */; };
+		8685BB96D155048B941CEBDE /* UnsyncError.h in Sources */ = {isa = PBXBuildFile; fileRef = 4EF3154742AA697141B4ECAC /* UnsyncError.h */; };
+		F1CC7E638E3A1CBB3F2335EA /* UnsyncFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A149EA59D5380CE1DE19229 /* UnsyncFile.cpp */; };
+		5BC408E3E5142E8D7D69EC89 /* UnsyncFile.h in Sources */ = {isa = PBXBuildFile; fileRef = 1B9199C8D29B55448FB02AF8 /* UnsyncFile.h */; };
+		29F28E33778A5337C8988052 /* UnsyncHash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38BE0C07C199D3579702101B /* UnsyncHash.cpp */; };
+		B41EA4DE1E377998E439481D /* UnsyncHash.h in Sources */ = {isa = PBXBuildFile; fileRef = A39F71EB2A2A520DE21DC6A0 /* UnsyncHash.h */; };
+		B8D575BD320ECD39ABBD0F00 /* UnsyncHttp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2AA1BC80B3BBD4F0093E476 /* UnsyncHttp.cpp */; };
+		FCE9B72FA3181468F0D9A125 /* UnsyncHttp.h in Sources */ = {isa = PBXBuildFile; fileRef = 48CFCFE1EC2364E0D99BD939 /* UnsyncHttp.h */; };
+		32B86708C610EB8D90DF6DBC /* UnsyncJupiter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63848A91F22C5D65549B4368 /* UnsyncJupiter.cpp */; };
+		4B9818F758A8A6965703C1CF /* UnsyncJupiter.h in Sources */ = {isa = PBXBuildFile; fileRef = 1C63F7283770A0BD36D41142 /* UnsyncJupiter.h */; };
+		10265AACB4BF919DFC5806F3 /* UnsyncLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5495A6D73C1DD9104973CD3A /* UnsyncLog.cpp */; };
+		2E2E491165BA870CF6F9E9F2 /* UnsyncLog.h in Sources */ = {isa = PBXBuildFile; fileRef = 7296DDC04A58413DE967B868 /* UnsyncLog.h */; };
+		E6C279A56414758A81CF8ACA /* UnsyncMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88EF549A0DD3160C1D68D841 /* UnsyncMain.cpp */; };
+		3A8D1D008A3E36A9C47A234D /* UnsyncMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79FF389541E2410BACBBE53B /* UnsyncMemory.cpp */; };
+		00A1973E2EEBBC80829248B3 /* UnsyncMemory.h in Sources */ = {isa = PBXBuildFile; fileRef = 48EA86560CCE8E994AC7F6D9 /* UnsyncMemory.h */; };
+		A76F61217CA20F7EA8E136CC /* UnsyncMiniCb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE55DEEDC7C07D996DF0C30D /* UnsyncMiniCb.cpp */; };
+		37B83CE9A024FA46DC551BA3 /* UnsyncMiniCb.h in Sources */ = {isa = PBXBuildFile; fileRef = 56AE599548B9456F672A34C4 /* UnsyncMiniCb.h */; };
+		4972082607E1C69C6DD4C1EF /* UnsyncPool.h in Sources */ = {isa = PBXBuildFile; fileRef = 48E7B002C10AD7A509E1812F /* UnsyncPool.h */; };
+		DA50C95A52D20F6B77AC0AE5 /* UnsyncProtocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC6D5B788183AF21304EBCAC /* UnsyncProtocol.cpp */; };
+		793F3243C915CC0C84778DDB /* UnsyncProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = 1B1661C7268E25ECC1D07AB7 /* UnsyncProtocol.h */; };
+		BEE35DCC5012BE2D6AF16821 /* UnsyncProxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ECEB0B1E8492695D425FE24 /* UnsyncProxy.cpp */; };
+		12BFA416535AD51B61E1DA3A /* UnsyncProxy.h in Sources */ = {isa = PBXBuildFile; fileRef = A1248BC50B492F9C51913C12 /* UnsyncProxy.h */; };
+		1C4E1B16A1BB01D87CE5699D /* UnsyncRemote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAE81F97A652AEB1FE0F33DA /* UnsyncRemote.cpp */; };
+		CE9F11EA940AD40CAC07D9C4 /* UnsyncRemote.h in Sources */ = {isa = PBXBuildFile; fileRef = CF321B01533F2C818BC1A818 /* UnsyncRemote.h */; };
+		7F9AC63B19B59C27E1724D5D /* UnsyncScan.h in Sources */ = {isa = PBXBuildFile; fileRef = 30F8036D4F1008BDC0F418F6 /* UnsyncScan.h */; };
+		83336E1EBB7EC63DCF20EB92 /* UnsyncSerialization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB472CD77ABD844222ABB688 /* UnsyncSerialization.cpp */; };
+		23A728A12C78EF9C58207AFB /* UnsyncSerialization.h in Sources */ = {isa = PBXBuildFile; fileRef = 5788D7EC6C79627528EA74B8 /* UnsyncSerialization.h */; };
+		DFD8816E56DDBDD2990F77FB /* UnsyncSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C85C9C883CB9CA5D44D26F /* UnsyncSocket.cpp */; };
+		819B6EAA7548137DEA38EBEF /* UnsyncSocket.h in Sources */ = {isa = PBXBuildFile; fileRef = 348ACDE55664D08C2744CC4D /* UnsyncSocket.h */; };
+		CABD4FE1CBD7B362CFDF9247 /* UnsyncTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D234215CD9C0E167C776EF9D /* UnsyncTest.cpp */; };
+		207C9CCCD4EF35AB9A1069A5 /* UnsyncTest.h in Sources */ = {isa = PBXBuildFile; fileRef = E2EAC3689DDF04A303BDADBC /* UnsyncTest.h */; };
+		C0E531ECD97D7454CEB13A5C /* UnsyncThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7591E62DD0139EF0FE546D84 /* UnsyncThread.cpp */; };
+		170E3D446EB6100F3A54B88B /* UnsyncThread.h in Sources */ = {isa = PBXBuildFile; fileRef = C4AB1E9E78CAE94D77FBAD5C /* UnsyncThread.h */; };
+		1FD6DC3B2FF893AF248495D0 /* UnsyncUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74D38E2666A01270EA858A52 /* UnsyncUtil.cpp */; };
+		3D7932AEA9696724F1FFCC64 /* UnsyncUtil.h in Sources */ = {isa = PBXBuildFile; fileRef = C0DCB4F2CE478AC1518B8440 /* UnsyncUtil.h */; };
+		9219187DE2BD303F5183CA59 /* UnsyncVarInt.h in Sources */ = {isa = PBXBuildFile; fileRef = BD5B8E98FDC97E64BF058939 /* UnsyncVarInt.h */; };
+		20C07EE39D1C62F974786FC2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3FF141C17D9287AB98E6D3B1 /* README.md */; };
+		99D1237B8E4F9AADDC6AF022 /* flat_hash_map.tps in Sources */ = {isa = PBXBuildFile; fileRef = 258B7A3943FD337860D67CB1 /* flat_hash_map.tps */; };
+		2624FC8EDE8942ED40DAC1D1 /* flat_hash_map_License.txt in Sources */ = {isa = PBXBuildFile; fileRef = F784507985D3E3E30275D78F /* flat_hash_map_License.txt */; };
+		032C18AD146A2449D9879639 /* ig-debugheap.tps in Sources */ = {isa = PBXBuildFile; fileRef = 557AD70E7CD2F7F26E15EC3D /* ig-debugheap.tps */; };
+		3FFD2C66D410BA85B3396392 /* ig-debugheap_License.txt in Sources */ = {isa = PBXBuildFile; fileRef = 8EE1AAD9103B3EE1149121C1 /* ig-debugheap_License.txt */; };
+		EC42739FF85F02C255727861 /* json11.tps in Sources */ = {isa = PBXBuildFile; fileRef = 37EC987246A7499DF441E4C8 /* json11.tps */; };
+		75B1EA2F0A79F6655E1680D4 /* json11_License.txt in Sources */ = {isa = PBXBuildFile; fileRef = 5D5F3811C9667CB69D2CD863 /* json11_License.txt */; };
+		3290C4BFD18AC50D2183EB30 /* sse-hash.tps in Sources */ = {isa = PBXBuildFile; fileRef = F000BE674443AB33B7CC31AE /* sse-hash.tps */; };
+		3B60E7962253A17C63D5495F /* sse-hash_License.txt in Sources */ = {isa = PBXBuildFile; fileRef = 65FFC211C234182F72B6ADAD /* sse-hash_License.txt */; };
+		61D523504C2FEF12B0AEB30C /* flat_hash_map.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 86411D0B79349E45FD75274F /* flat_hash_map.hpp */; };
+		EF18B377547B65720AEA70FB /* DebugHeap.c in Sources */ = {isa = PBXBuildFile; fileRef = 37274D5EE4C987F61F8BEEB4 /* DebugHeap.c */; };
+		3985ACC7CB4F49AA5EAA79D4 /* DebugHeap.h in Sources */ = {isa = PBXBuildFile; fileRef = 6273E4CB308B215C2AC67AC1 /* DebugHeap.h */; };
+		56D017215D00C6B04D6C5458 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DD7B21F19116734C0B7C1611 /* README.md */; };
+		FA60B12791D797E0BAE5BF0F /* json11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09002C96AD010EEF9AEC3F2D /* json11.cpp */; };
+		297F471CEC3E43ECADD455F7 /* json11.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 48B0C0535F011794F549C562 /* json11.hpp */; };
+		FB54E63F525C4EB2F5F14CD4 /* md5-sse2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4616D8C110BAB41128A86C8C /* md5-sse2.cpp */; };
+		5CDC3543C0162653E85915D3 /* md5-sse2.h in Sources */ = {isa = PBXBuildFile; fileRef = 1432C5B6AD5F2771C1E07960 /* md5-sse2.h */; };
+		65EFD814F3BB2DF8EAD1A8BA /* Unsync.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 27277DCE1EDEC31BB5C90213 /* Unsync.Build.cs */; };
+		3266CBCA199C8E1C9D42DDBA /* Unsync.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = F2FEA1954DF5A91D60F7EAD8 /* Unsync.Target.cs */; };
+		016B82B7A5F3D19CEDC4F432 /* vcpkg.json in Sources */ = {isa = PBXBuildFile; fileRef = 3C495BCE6FAF45AFB7BA8F2C /* vcpkg.json */; };
+		9C029D2342577B3AEDCDE131 /* vs-chromium-project.txt in Sources */ = {isa = PBXBuildFile; fileRef = 9AAA5380A6D3D57BFD0F8433 /* vs-chromium-project.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C40A1FBD87F3AA096690F87 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CMakeLists.txt"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		2887FC2BEE2C389A4A6E5DD8 /* UnsyncBuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncBuffer.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncBuffer.cpp"; sourceTree = SOURCE_ROOT; };
+		6266FC4A3C8C67A3885E870D /* UnsyncBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncBuffer.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncBuffer.h"; sourceTree = SOURCE_ROOT; };
+		44CAD9E72BB047B486DD1DA0 /* UnsyncCmdDiff.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCmdDiff.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncCmdDiff.cpp"; sourceTree = SOURCE_ROOT; };
+		F740E94CB8315D1DE03CA74D /* UnsyncCmdDiff.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCmdDiff.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncCmdDiff.h"; sourceTree = SOURCE_ROOT; };
+		A3097FD33FD245D726507B43 /* UnsyncCmdHash.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCmdHash.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncCmdHash.cpp"; sourceTree = SOURCE_ROOT; };
+		950D5693DDD6367B7E8B5430 /* UnsyncCmdHash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCmdHash.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncCmdHash.h"; sourceTree = SOURCE_ROOT; };
+		9414CD8A95C05165D24575AA /* UnsyncCmdPatch.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCmdPatch.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncCmdPatch.cpp"; sourceTree = SOURCE_ROOT; };
+		CDBF1433AF5018C5838C0AEE /* UnsyncCmdPatch.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCmdPatch.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncCmdPatch.h"; sourceTree = SOURCE_ROOT; };
+		D4B8FA7252A5244EE6D6E31E /* UnsyncCmdPush.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCmdPush.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncCmdPush.cpp"; sourceTree = SOURCE_ROOT; };
+		6137BF0AF48BA188D5EC0D33 /* UnsyncCmdPush.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCmdPush.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncCmdPush.h"; sourceTree = SOURCE_ROOT; };
+		7023A42B6CE2FE3D1A817735 /* UnsyncCmdQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCmdQuery.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncCmdQuery.cpp"; sourceTree = SOURCE_ROOT; };
+		8CD564D945F51FC318BF4EFF /* UnsyncCmdQuery.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCmdQuery.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncCmdQuery.h"; sourceTree = SOURCE_ROOT; };
+		6F0B5EA6BFADEB783A7BBE1E /* UnsyncCmdSync.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCmdSync.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncCmdSync.cpp"; sourceTree = SOURCE_ROOT; };
+		5AD186F13AE38758A3B80323 /* UnsyncCmdSync.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCmdSync.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncCmdSync.h"; sourceTree = SOURCE_ROOT; };
+		4116274261B5B4DA98EF842D /* UnsyncCommon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCommon.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncCommon.h"; sourceTree = SOURCE_ROOT; };
+		77255947C7C337655B92AD9D /* UnsyncCompression.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCompression.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncCompression.cpp"; sourceTree = SOURCE_ROOT; };
+		EECBE98429E92FC9B66DD236 /* UnsyncCompression.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCompression.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncCompression.h"; sourceTree = SOURCE_ROOT; };
+		E8496018EFD06343098E3969 /* UnsyncCore.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncCore.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncCore.cpp"; sourceTree = SOURCE_ROOT; };
+		D21C301D4DDDB0EF6D052563 /* UnsyncCore.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncCore.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncCore.h"; sourceTree = SOURCE_ROOT; };
+		4EF3154742AA697141B4ECAC /* UnsyncError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncError.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncError.h"; sourceTree = SOURCE_ROOT; };
+		9A149EA59D5380CE1DE19229 /* UnsyncFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncFile.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncFile.cpp"; sourceTree = SOURCE_ROOT; };
+		1B9199C8D29B55448FB02AF8 /* UnsyncFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncFile.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncFile.h"; sourceTree = SOURCE_ROOT; };
+		38BE0C07C199D3579702101B /* UnsyncHash.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncHash.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncHash.cpp"; sourceTree = SOURCE_ROOT; };
+		A39F71EB2A2A520DE21DC6A0 /* UnsyncHash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncHash.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncHash.h"; sourceTree = SOURCE_ROOT; };
+		A2AA1BC80B3BBD4F0093E476 /* UnsyncHttp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncHttp.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncHttp.cpp"; sourceTree = SOURCE_ROOT; };
+		48CFCFE1EC2364E0D99BD939 /* UnsyncHttp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncHttp.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncHttp.h"; sourceTree = SOURCE_ROOT; };
+		63848A91F22C5D65549B4368 /* UnsyncJupiter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncJupiter.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncJupiter.cpp"; sourceTree = SOURCE_ROOT; };
+		1C63F7283770A0BD36D41142 /* UnsyncJupiter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncJupiter.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncJupiter.h"; sourceTree = SOURCE_ROOT; };
+		5495A6D73C1DD9104973CD3A /* UnsyncLog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncLog.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncLog.cpp"; sourceTree = SOURCE_ROOT; };
+		7296DDC04A58413DE967B868 /* UnsyncLog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncLog.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncLog.h"; sourceTree = SOURCE_ROOT; };
+		88EF549A0DD3160C1D68D841 /* UnsyncMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncMain.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncMain.cpp"; sourceTree = SOURCE_ROOT; };
+		79FF389541E2410BACBBE53B /* UnsyncMemory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncMemory.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncMemory.cpp"; sourceTree = SOURCE_ROOT; };
+		48EA86560CCE8E994AC7F6D9 /* UnsyncMemory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncMemory.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncMemory.h"; sourceTree = SOURCE_ROOT; };
+		EE55DEEDC7C07D996DF0C30D /* UnsyncMiniCb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncMiniCb.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncMiniCb.cpp"; sourceTree = SOURCE_ROOT; };
+		56AE599548B9456F672A34C4 /* UnsyncMiniCb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncMiniCb.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncMiniCb.h"; sourceTree = SOURCE_ROOT; };
+		48E7B002C10AD7A509E1812F /* UnsyncPool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncPool.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncPool.h"; sourceTree = SOURCE_ROOT; };
+		DC6D5B788183AF21304EBCAC /* UnsyncProtocol.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncProtocol.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncProtocol.cpp"; sourceTree = SOURCE_ROOT; };
+		1B1661C7268E25ECC1D07AB7 /* UnsyncProtocol.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncProtocol.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncProtocol.h"; sourceTree = SOURCE_ROOT; };
+		2ECEB0B1E8492695D425FE24 /* UnsyncProxy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncProxy.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncProxy.cpp"; sourceTree = SOURCE_ROOT; };
+		A1248BC50B492F9C51913C12 /* UnsyncProxy.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncProxy.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncProxy.h"; sourceTree = SOURCE_ROOT; };
+		DAE81F97A652AEB1FE0F33DA /* UnsyncRemote.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncRemote.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncRemote.cpp"; sourceTree = SOURCE_ROOT; };
+		CF321B01533F2C818BC1A818 /* UnsyncRemote.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncRemote.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncRemote.h"; sourceTree = SOURCE_ROOT; };
+		30F8036D4F1008BDC0F418F6 /* UnsyncScan.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncScan.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncScan.h"; sourceTree = SOURCE_ROOT; };
+		EB472CD77ABD844222ABB688 /* UnsyncSerialization.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncSerialization.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncSerialization.cpp"; sourceTree = SOURCE_ROOT; };
+		5788D7EC6C79627528EA74B8 /* UnsyncSerialization.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncSerialization.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncSerialization.h"; sourceTree = SOURCE_ROOT; };
+		79C85C9C883CB9CA5D44D26F /* UnsyncSocket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncSocket.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncSocket.cpp"; sourceTree = SOURCE_ROOT; };
+		348ACDE55664D08C2744CC4D /* UnsyncSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncSocket.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncSocket.h"; sourceTree = SOURCE_ROOT; };
+		D234215CD9C0E167C776EF9D /* UnsyncTest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncTest.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncTest.cpp"; sourceTree = SOURCE_ROOT; };
+		E2EAC3689DDF04A303BDADBC /* UnsyncTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncTest.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncTest.h"; sourceTree = SOURCE_ROOT; };
+		7591E62DD0139EF0FE546D84 /* UnsyncThread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncThread.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncThread.cpp"; sourceTree = SOURCE_ROOT; };
+		C4AB1E9E78CAE94D77FBAD5C /* UnsyncThread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncThread.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncThread.h"; sourceTree = SOURCE_ROOT; };
+		74D38E2666A01270EA858A52 /* UnsyncUtil.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnsyncUtil.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncUtil.cpp"; sourceTree = SOURCE_ROOT; };
+		C0DCB4F2CE478AC1518B8440 /* UnsyncUtil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncUtil.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncUtil.h"; sourceTree = SOURCE_ROOT; };
+		BD5B8E98FDC97E64BF058939 /* UnsyncVarInt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnsyncVarInt.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private/UnsyncVarInt.h"; sourceTree = SOURCE_ROOT; };
+		3FF141C17D9287AB98E6D3B1 /* README.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "README.md"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/README.md"; sourceTree = SOURCE_ROOT; };
+		258B7A3943FD337860D67CB1 /* flat_hash_map.tps */ = {isa = PBXFileReference; explicitFileType = file.text; name = "flat_hash_map.tps"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty/Licenses/flat_hash_map.tps"; sourceTree = SOURCE_ROOT; };
+		F784507985D3E3E30275D78F /* flat_hash_map_License.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "flat_hash_map_License.txt"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty/Licenses/flat_hash_map_License.txt"; sourceTree = SOURCE_ROOT; };
+		557AD70E7CD2F7F26E15EC3D /* ig-debugheap.tps */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ig-debugheap.tps"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty/Licenses/ig-debugheap.tps"; sourceTree = SOURCE_ROOT; };
+		8EE1AAD9103B3EE1149121C1 /* ig-debugheap_License.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ig-debugheap_License.txt"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty/Licenses/ig-debugheap_License.txt"; sourceTree = SOURCE_ROOT; };
+		37EC987246A7499DF441E4C8 /* json11.tps */ = {isa = PBXFileReference; explicitFileType = file.text; name = "json11.tps"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty/Licenses/json11.tps"; sourceTree = SOURCE_ROOT; };
+		5D5F3811C9667CB69D2CD863 /* json11_License.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "json11_License.txt"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty/Licenses/json11_License.txt"; sourceTree = SOURCE_ROOT; };
+		F000BE674443AB33B7CC31AE /* sse-hash.tps */ = {isa = PBXFileReference; explicitFileType = file.text; name = "sse-hash.tps"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty/Licenses/sse-hash.tps"; sourceTree = SOURCE_ROOT; };
+		65FFC211C234182F72B6ADAD /* sse-hash_License.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "sse-hash_License.txt"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty/Licenses/sse-hash_License.txt"; sourceTree = SOURCE_ROOT; };
+		86411D0B79349E45FD75274F /* flat_hash_map.hpp */ = {isa = PBXFileReference; explicitFileType = file.text; name = "flat_hash_map.hpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty/flat_hash_map.hpp"; sourceTree = SOURCE_ROOT; };
+		37274D5EE4C987F61F8BEEB4 /* DebugHeap.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; name = "DebugHeap.c"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty/ig-debugheap/DebugHeap.c"; sourceTree = SOURCE_ROOT; };
+		6273E4CB308B215C2AC67AC1 /* DebugHeap.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DebugHeap.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty/ig-debugheap/DebugHeap.h"; sourceTree = SOURCE_ROOT; };
+		DD7B21F19116734C0B7C1611 /* README.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "README.md"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty/ig-debugheap/README.md"; sourceTree = SOURCE_ROOT; };
+		09002C96AD010EEF9AEC3F2D /* json11.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "json11.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty/json11.cpp"; sourceTree = SOURCE_ROOT; };
+		48B0C0535F011794F549C562 /* json11.hpp */ = {isa = PBXFileReference; explicitFileType = file.text; name = "json11.hpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty/json11.hpp"; sourceTree = SOURCE_ROOT; };
+		4616D8C110BAB41128A86C8C /* md5-sse2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "md5-sse2.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty/md5-sse2.cpp"; sourceTree = SOURCE_ROOT; };
+		1432C5B6AD5F2771C1E07960 /* md5-sse2.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "md5-sse2.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty/md5-sse2.h"; sourceTree = SOURCE_ROOT; };
+		27277DCE1EDEC31BB5C90213 /* Unsync.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Unsync.Build.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Unsync.Build.cs"; sourceTree = SOURCE_ROOT; };
+		F2FEA1954DF5A91D60F7EAD8 /* Unsync.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Unsync.Target.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Unsync.Target.cs"; sourceTree = SOURCE_ROOT; };
+		3C495BCE6FAF45AFB7BA8F2C /* vcpkg.json */ = {isa = PBXFileReference; explicitFileType = file.text; name = "vcpkg.json"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/vcpkg.json"; sourceTree = SOURCE_ROOT; };
+		9AAA5380A6D3D57BFD0F8433 /* vs-chromium-project.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "vs-chromium-project.txt"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Unsync/vs-chromium-project.txt"; sourceTree = SOURCE_ROOT; };
+		63FC6FB1F582CC9F23D7EBD9 /* Unsync */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Unsync; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1812EC9F2DBC5743672B9B33 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E198F6CC8BE89D8B670E15 /* UnsyncBuffer.cpp in Sources */,
+				F0CE4EF185B8EFC775E05990 /* UnsyncCmdDiff.cpp in Sources */,
+				0BBB67906F14A20C1B41CA08 /* UnsyncCmdHash.cpp in Sources */,
+				E37203990C6D1389956D5C2A /* UnsyncCmdPatch.cpp in Sources */,
+				0EABB7DDA9E6E51683C0FAE3 /* UnsyncCmdPush.cpp in Sources */,
+				E2F4A006F8552FB6AC546197 /* UnsyncCmdQuery.cpp in Sources */,
+				194985588731AE030DB4C8A5 /* UnsyncCmdSync.cpp in Sources */,
+				1B420AA1A17BC2994B8A5B56 /* UnsyncCompression.cpp in Sources */,
+				92471E1D1667E59774FFE51F /* UnsyncCore.cpp in Sources */,
+				F1CC7E638E3A1CBB3F2335EA /* UnsyncFile.cpp in Sources */,
+				29F28E33778A5337C8988052 /* UnsyncHash.cpp in Sources */,
+				B8D575BD320ECD39ABBD0F00 /* UnsyncHttp.cpp in Sources */,
+				32B86708C610EB8D90DF6DBC /* UnsyncJupiter.cpp in Sources */,
+				10265AACB4BF919DFC5806F3 /* UnsyncLog.cpp in Sources */,
+				E6C279A56414758A81CF8ACA /* UnsyncMain.cpp in Sources */,
+				3A8D1D008A3E36A9C47A234D /* UnsyncMemory.cpp in Sources */,
+				A76F61217CA20F7EA8E136CC /* UnsyncMiniCb.cpp in Sources */,
+				DA50C95A52D20F6B77AC0AE5 /* UnsyncProtocol.cpp in Sources */,
+				BEE35DCC5012BE2D6AF16821 /* UnsyncProxy.cpp in Sources */,
+				1C4E1B16A1BB01D87CE5699D /* UnsyncRemote.cpp in Sources */,
+				83336E1EBB7EC63DCF20EB92 /* UnsyncSerialization.cpp in Sources */,
+				DFD8816E56DDBDD2990F77FB /* UnsyncSocket.cpp in Sources */,
+				CABD4FE1CBD7B362CFDF9247 /* UnsyncTest.cpp in Sources */,
+				C0E531ECD97D7454CEB13A5C /* UnsyncThread.cpp in Sources */,
+				1FD6DC3B2FF893AF248495D0 /* UnsyncUtil.cpp in Sources */,
+				EF18B377547B65720AEA70FB /* DebugHeap.c in Sources */,
+				FA60B12791D797E0BAE5BF0F /* json11.cpp in Sources */,
+				FB54E63F525C4EB2F5F14CD4 /* md5-sse2.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	43C149506227CB57214B0AB8 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		6DEA002F774D5DEC0711ACFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFBA6EF85F03E67627B6E423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3518E6F1EBAE9DCBD0F79A0;
+			remoteInfo = "Unsync_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		FA9F6A8DD4FAAC274EF230CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3518E6F1EBAE9DCBD0F79A0 /* Unsync_Build */;
+			targetProxy = 6DEA002F774D5DEC0711ACFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		5D2BC0242DD654BC5831FB6B = {
+			isa = PBXGroup;
+			children = (
+				6B4DAB9AD23C71A9B6270868 /* Private */,
+				8EE7CD5212AF8478FCC0A55B /* ThirdParty */,
+				7C40A1FBD87F3AA096690F87 /* CMakeLists.txt */,
+				3FF141C17D9287AB98E6D3B1 /* README.md */,
+				27277DCE1EDEC31BB5C90213 /* Unsync.Build.cs */,
+				F2FEA1954DF5A91D60F7EAD8 /* Unsync.Target.cs */,
+				3C495BCE6FAF45AFB7BA8F2C /* vcpkg.json */,
+				9AAA5380A6D3D57BFD0F8433 /* vs-chromium-project.txt */,
+				22AF36FB40D5FF080AA9C30B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B4DAB9AD23C71A9B6270868 = {
+			isa = PBXGroup;
+			children = (
+				2887FC2BEE2C389A4A6E5DD8 /* UnsyncBuffer.cpp */,
+				6266FC4A3C8C67A3885E870D /* UnsyncBuffer.h */,
+				44CAD9E72BB047B486DD1DA0 /* UnsyncCmdDiff.cpp */,
+				F740E94CB8315D1DE03CA74D /* UnsyncCmdDiff.h */,
+				A3097FD33FD245D726507B43 /* UnsyncCmdHash.cpp */,
+				950D5693DDD6367B7E8B5430 /* UnsyncCmdHash.h */,
+				9414CD8A95C05165D24575AA /* UnsyncCmdPatch.cpp */,
+				CDBF1433AF5018C5838C0AEE /* UnsyncCmdPatch.h */,
+				D4B8FA7252A5244EE6D6E31E /* UnsyncCmdPush.cpp */,
+				6137BF0AF48BA188D5EC0D33 /* UnsyncCmdPush.h */,
+				7023A42B6CE2FE3D1A817735 /* UnsyncCmdQuery.cpp */,
+				8CD564D945F51FC318BF4EFF /* UnsyncCmdQuery.h */,
+				6F0B5EA6BFADEB783A7BBE1E /* UnsyncCmdSync.cpp */,
+				5AD186F13AE38758A3B80323 /* UnsyncCmdSync.h */,
+				4116274261B5B4DA98EF842D /* UnsyncCommon.h */,
+				77255947C7C337655B92AD9D /* UnsyncCompression.cpp */,
+				EECBE98429E92FC9B66DD236 /* UnsyncCompression.h */,
+				E8496018EFD06343098E3969 /* UnsyncCore.cpp */,
+				D21C301D4DDDB0EF6D052563 /* UnsyncCore.h */,
+				4EF3154742AA697141B4ECAC /* UnsyncError.h */,
+				9A149EA59D5380CE1DE19229 /* UnsyncFile.cpp */,
+				1B9199C8D29B55448FB02AF8 /* UnsyncFile.h */,
+				38BE0C07C199D3579702101B /* UnsyncHash.cpp */,
+				A39F71EB2A2A520DE21DC6A0 /* UnsyncHash.h */,
+				A2AA1BC80B3BBD4F0093E476 /* UnsyncHttp.cpp */,
+				48CFCFE1EC2364E0D99BD939 /* UnsyncHttp.h */,
+				63848A91F22C5D65549B4368 /* UnsyncJupiter.cpp */,
+				1C63F7283770A0BD36D41142 /* UnsyncJupiter.h */,
+				5495A6D73C1DD9104973CD3A /* UnsyncLog.cpp */,
+				7296DDC04A58413DE967B868 /* UnsyncLog.h */,
+				88EF549A0DD3160C1D68D841 /* UnsyncMain.cpp */,
+				79FF389541E2410BACBBE53B /* UnsyncMemory.cpp */,
+				48EA86560CCE8E994AC7F6D9 /* UnsyncMemory.h */,
+				EE55DEEDC7C07D996DF0C30D /* UnsyncMiniCb.cpp */,
+				56AE599548B9456F672A34C4 /* UnsyncMiniCb.h */,
+				48E7B002C10AD7A509E1812F /* UnsyncPool.h */,
+				DC6D5B788183AF21304EBCAC /* UnsyncProtocol.cpp */,
+				1B1661C7268E25ECC1D07AB7 /* UnsyncProtocol.h */,
+				2ECEB0B1E8492695D425FE24 /* UnsyncProxy.cpp */,
+				A1248BC50B492F9C51913C12 /* UnsyncProxy.h */,
+				DAE81F97A652AEB1FE0F33DA /* UnsyncRemote.cpp */,
+				CF321B01533F2C818BC1A818 /* UnsyncRemote.h */,
+				30F8036D4F1008BDC0F418F6 /* UnsyncScan.h */,
+				EB472CD77ABD844222ABB688 /* UnsyncSerialization.cpp */,
+				5788D7EC6C79627528EA74B8 /* UnsyncSerialization.h */,
+				79C85C9C883CB9CA5D44D26F /* UnsyncSocket.cpp */,
+				348ACDE55664D08C2744CC4D /* UnsyncSocket.h */,
+				D234215CD9C0E167C776EF9D /* UnsyncTest.cpp */,
+				E2EAC3689DDF04A303BDADBC /* UnsyncTest.h */,
+				7591E62DD0139EF0FE546D84 /* UnsyncThread.cpp */,
+				C4AB1E9E78CAE94D77FBAD5C /* UnsyncThread.h */,
+				74D38E2666A01270EA858A52 /* UnsyncUtil.cpp */,
+				C0DCB4F2CE478AC1518B8440 /* UnsyncUtil.h */,
+				BD5B8E98FDC97E64BF058939 /* UnsyncVarInt.h */,
+			);
+			name = "Private";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private";
+			sourceTree = "<absolute>";
+		};
+		8EE7CD5212AF8478FCC0A55B = {
+			isa = PBXGroup;
+			children = (
+				982C5331FAFB2C939154B532 /* Licenses */,
+				FE9ABB911E9EDFE3F70D7ACE /* ig-debugheap */,
+				86411D0B79349E45FD75274F /* flat_hash_map.hpp */,
+				09002C96AD010EEF9AEC3F2D /* json11.cpp */,
+				48B0C0535F011794F549C562 /* json11.hpp */,
+				4616D8C110BAB41128A86C8C /* md5-sse2.cpp */,
+				1432C5B6AD5F2771C1E07960 /* md5-sse2.h */,
+			);
+			name = "ThirdParty";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty";
+			sourceTree = "<absolute>";
+		};
+		982C5331FAFB2C939154B532 = {
+			isa = PBXGroup;
+			children = (
+				258B7A3943FD337860D67CB1 /* flat_hash_map.tps */,
+				F784507985D3E3E30275D78F /* flat_hash_map_License.txt */,
+				557AD70E7CD2F7F26E15EC3D /* ig-debugheap.tps */,
+				8EE1AAD9103B3EE1149121C1 /* ig-debugheap_License.txt */,
+				37EC987246A7499DF441E4C8 /* json11.tps */,
+				5D5F3811C9667CB69D2CD863 /* json11_License.txt */,
+				F000BE674443AB33B7CC31AE /* sse-hash.tps */,
+				65FFC211C234182F72B6ADAD /* sse-hash_License.txt */,
+			);
+			name = "Licenses";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty/Licenses";
+			sourceTree = "<absolute>";
+		};
+		FE9ABB911E9EDFE3F70D7ACE = {
+			isa = PBXGroup;
+			children = (
+				37274D5EE4C987F61F8BEEB4 /* DebugHeap.c */,
+				6273E4CB308B215C2AC67AC1 /* DebugHeap.h */,
+				DD7B21F19116734C0B7C1611 /* README.md */,
+			);
+			name = "ig-debugheap";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty/ig-debugheap";
+			sourceTree = "<absolute>";
+		};
+		22AF36FB40D5FF080AA9C30B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63FC6FB1F582CC9F23D7EBD9 /* Unsync */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		E3518E6F1EBAE9DCBD0F79A0 /* Unsync_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 0EF5B212302A78E8F36C2AD7 /* Build configuration list for PBXLegacyTarget "Unsync_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/meghasingh/Documents/GitHub/UnrealEngine";
+			dependencies = (
+			);
+			name = "Unsync_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Unsync_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		2D3957E5794EDE626ACBE237 /* Unsync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEEDDAE68A0E252A5F8E167F /* Build configuration list for PBXNativeTarget "Unsync" */;
+			buildPhases = (
+				43C149506227CB57214B0AB8 /* Embed App Extensions */, 
+				ADA6A6D48C4A38B368B40B1B /* Shell Script */, 
+			);
+			dependencies = (
+				FA9F6A8DD4FAAC274EF230CA /* PBXTargetDependency */,
+			);
+			name = "Unsync";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Unsync";
+			productReference = "63FC6FB1F582CC9F23D7EBD9";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		8BFB32CB2590A795FE264B26 /* Unsync_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFEECD4C28CF3F5483CEA300 /* Build configuration list for PBXNativeTarget "Unsync_Index" */;
+			buildPhases = (
+				1812EC9F2DBC5743672B9B33 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "Unsync_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Unsync_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFBA6EF85F03E67627B6E423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					2D3957E5794EDE626ACBE237 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 881DB62D67E4A1E7A98B5242 /* Build configuration list for PBXProject "Unsync" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 5D2BC0242DD654BC5831FB6B;
+			productRefGroup = 22AF36FB40D5FF080AA9C30B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			2D3957E5794EDE626ACBE237 /* Unsync */,
+			E3518E6F1EBAE9DCBD0F79A0 /* Unsync_Build */,
+			8BFB32CB2590A795FE264B26 /* Unsync_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		E9B58F9BDAB804F61302B87F /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/BLAKE3/1.3.1/c",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/CLI11/2.2.0/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/fmt/8.1.1/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/http_parser/2.9.4/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/vcpkg/Mac/x86_64-osx/libressl_x86_64-osx/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/vcpkg/Mac/x86_64-osx/zstd_x86_64-osx/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/unsync/Inc/Unsync/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/unsync/Inc/Unsync/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		A455D5FBCA3E14B4C3088557 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/BLAKE3/1.3.1/c",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/CLI11/2.2.0/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/fmt/8.1.1/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/http_parser/2.9.4/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/vcpkg/Mac/x86_64-osx/libressl_x86_64-osx/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/vcpkg/Mac/x86_64-osx/zstd_x86_64-osx/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/unsync/Inc/Unsync/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/unsync/Inc/Unsync/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		117975C35EEA96AA0A260B4A /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/BLAKE3/1.3.1/c",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/CLI11/2.2.0/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/fmt/8.1.1/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/http_parser/2.9.4/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/vcpkg/Mac/x86_64-osx/libressl_x86_64-osx/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/vcpkg/Mac/x86_64-osx/zstd_x86_64-osx/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/unsync/Inc/Unsync/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/unsync/Inc/Unsync/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		8E6B1F120741F2AC620E5C0D /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/BLAKE3/1.3.1/c",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/CLI11/2.2.0/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/fmt/8.1.1/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/http_parser/2.9.4/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/vcpkg/Mac/x86_64-osx/libressl_x86_64-osx/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/vcpkg/Mac/x86_64-osx/zstd_x86_64-osx/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/unsync/Inc/Unsync/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/unsync/Inc/Unsync/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		3245CA83462BB97FBE860B39 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/BLAKE3/1.3.1/c",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/CLI11/2.2.0/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/fmt/8.1.1/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/http_parser/2.9.4/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/vcpkg/Mac/x86_64-osx/libressl_x86_64-osx/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/vcpkg/Mac/x86_64-osx/zstd_x86_64-osx/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Unsync/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Unsync/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/unsync/Inc/Unsync/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/unsync/Inc/Unsync/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		8BAEA6E2DE6CE9CD0734F186 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "Unsync-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.Unsync;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/Unsync-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		00E7022A362AC85E47F94BAE /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "Unsync-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.Unsync;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/Unsync-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		B821247D6F971D276E641766 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "Unsync";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.Unsync;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/Unsync-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		A5029B4E224132933F0EAD99 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "Unsync-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.Unsync;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/Unsync-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		5C51DC366C6D7C59FCF7B22F /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "Unsync-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.Unsync;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/Unsync-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		1582B71CF3E8CB8EB62D67AD /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "Unsync";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		EF8085F38F4599EE3AD9789E /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "Unsync";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		675044940FBB04CA1725E115 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "Unsync";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		06CDE4A0D02BA1EE914C05A3 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "Unsync";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		7D5B5F0A5AEB1F8423A46D8A /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "Unsync";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		972F7C694714A4ABED2748DD /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "Unsync-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.Unsync;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/Unsync-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		13D0C37719B2E98FA9256860 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "Unsync-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.Unsync;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/Unsync-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		D0D5904F42CD94ECC478BFF8 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "Unsync";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.Unsync;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/Unsync-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		9BF2C3D63334B3C27982AA3F /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "Unsync-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.Unsync;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/Unsync-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		611EA7659386E515E68979E1 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "Unsync";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "Unsync-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.Unsync;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/Unsync-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/Unsync-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		881DB62D67E4A1E7A98B5242 /* Build configuration list for PBXProject "Unsync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B58F9BDAB804F61302B87F /* "Debug" */,
+				A455D5FBCA3E14B4C3088557 /* "DebugGame" */,
+				117975C35EEA96AA0A260B4A /* "Development" */,
+				8E6B1F120741F2AC620E5C0D /* "Test" */,
+				3245CA83462BB97FBE860B39 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		0EF5B212302A78E8F36C2AD7 /* Build configuration list for PBXLegacyTarget "Unsync_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1582B71CF3E8CB8EB62D67AD /* "Debug" */,
+				EF8085F38F4599EE3AD9789E /* "DebugGame" */,
+				675044940FBB04CA1725E115 /* "Development" */,
+				06CDE4A0D02BA1EE914C05A3 /* "Test" */,
+				7D5B5F0A5AEB1F8423A46D8A /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		CEEDDAE68A0E252A5F8E167F /* Build configuration list for PBXNativeTarget "Unsync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAEA6E2DE6CE9CD0734F186 /* "Debug" */,
+				00E7022A362AC85E47F94BAE /* "DebugGame" */,
+				B821247D6F971D276E641766 /* "Development" */,
+				A5029B4E224132933F0EAD99 /* "Test" */,
+				5C51DC366C6D7C59FCF7B22F /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		BFEECD4C28CF3F5483CEA300 /* Build configuration list for PBXNativeTarget "Unsync_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972F7C694714A4ABED2748DD /* "Debug" */,
+				13D0C37719B2E98FA9256860 /* "DebugGame" */,
+				D0D5904F42CD94ECC478BFF8 /* "Development" */,
+				9BF2C3D63334B3C27982AA3F /* "Test" */,
+				611EA7659386E515E68979E1 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFBA6EF85F03E67627B6E423 /* Project object */;
+}
