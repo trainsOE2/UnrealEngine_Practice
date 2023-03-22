@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C4E399CAD3837ECD0F8CBD6 /* CrashReportClientEditor.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 4E6FC01DBECF6EAFE3EBE34A /* CrashReportClientEditor.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E6FC01DBECF6EAFE3EBE34A /* CrashReportClientEditor.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CrashReportClientEditor.Target.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/CrashReportClient/CrashReportClientEditor.Target.cs"; sourceTree = SOURCE_ROOT; };
+		C3F3C482D40A70333E7116DD /* CrashReportClientEditor */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = CrashReportClientEditor; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB100D5212739573CCA44B67 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	243EA5F0B06C4D441363EC36 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		3315C8DB63978DD072A99F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70E9A46209F0254712CD00E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7C52DFF0BAD4FCF7432B158;
+			remoteInfo = "CrashReportClientEditor_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		D056F37652C4A3E2E01CC9EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7C52DFF0BAD4FCF7432B158 /* CrashReportClientEditor_Build */;
+			targetProxy = 3315C8DB63978DD072A99F63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		17A2CCE7A1221D939B5A65C1 = {
+			isa = PBXGroup;
+			children = (
+				4E6FC01DBECF6EAFE3EBE34A /* CrashReportClientEditor.Target.cs */,
+				F14DB80DC5BC8B9C8DDB25E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F14DB80DC5BC8B9C8DDB25E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3F3C482D40A70333E7116DD /* CrashReportClientEditor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		D7C52DFF0BAD4FCF7432B158 /* CrashReportClientEditor_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = FC219A878EDC6726B790B25F /* Build configuration list for PBXLegacyTarget "CrashReportClientEditor_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/meghasingh/Documents/GitHub/UnrealEngine";
+			dependencies = (
+			);
+			name = "CrashReportClientEditor_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "CrashReportClientEditor_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		4FEB4AE733CB3C80C3AE9030 /* CrashReportClientEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3E21E56DC5FCFE1E1CACD9 /* Build configuration list for PBXNativeTarget "CrashReportClientEditor" */;
+			buildPhases = (
+				243EA5F0B06C4D441363EC36 /* Embed App Extensions */, 
+				374C4C617181723C7DEA3C90 /* Shell Script */, 
+			);
+			dependencies = (
+				D056F37652C4A3E2E01CC9EE /* PBXTargetDependency */,
+			);
+			name = "CrashReportClientEditor";
+			passBuildSettingsInEnvironment = 1;
+			productName = "CrashReportClientEditor";
+			productReference = "C3F3C482D40A70333E7116DD";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		FF210ED5AB96AFC2FEEB039D /* CrashReportClientEditor_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A8EC5C45ACFEE90416C85B3 /* Build configuration list for PBXNativeTarget "CrashReportClientEditor_Index" */;
+			buildPhases = (
+				AB100D5212739573CCA44B67 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "CrashReportClientEditor_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "CrashReportClientEditor_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70E9A46209F0254712CD00E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					4FEB4AE733CB3C80C3AE9030 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 9F7924DD83EF5A111DFC1D00 /* Build configuration list for PBXProject "CrashReportClientEditor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 17A2CCE7A1221D939B5A65C1;
+			productRefGroup = F14DB80DC5BC8B9C8DDB25E1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			4FEB4AE733CB3C80C3AE9030 /* CrashReportClientEditor */,
+			D7C52DFF0BAD4FCF7432B158 /* CrashReportClientEditor_Build */,
+			FF210ED5AB96AFC2FEEB039D /* CrashReportClientEditor_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		14CB8128C4F2F44D0150E986 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		9551AF9D1CF46C3CB0BB0190 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		81417FB24048188D1A473D6E /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		169AEB218DE0CE4724D71BC6 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "CrashReportClientEditor";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "CrashReportClientEditor";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "CrashReportClientEditor-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.CrashReportClientEditor;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/CrashReportClientEditor-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/CrashReportClientEditor-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/CrashReportClientEditor-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		F1A91CF267B08401BE073667 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "CrashReportClientEditor";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "CrashReportClientEditor";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "CrashReportClientEditor-Mac-Development";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.CrashReportClientEditor;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/CrashReportClientEditor-Mac-Development-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/CrashReportClientEditor-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/CrashReportClientEditor-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		1BE5997B579FA6C6F23C921A /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "CrashReportClientEditor";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "CrashReportClientEditor";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "CrashReportClientEditor";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.CrashReportClientEditor;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/CrashReportClientEditor-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/CrashReportClientEditor-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/CrashReportClientEditor-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		2734014B310EE9390214DCE4 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "CrashReportClientEditor";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		60ADD986A3346361EA2AB6E0 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "CrashReportClientEditor";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		9277591FD306436F7E140461 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "CrashReportClientEditor";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		EB2580206E9E34E662C54AD6 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "CrashReportClientEditor";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "CrashReportClientEditor";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "CrashReportClientEditor-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.CrashReportClientEditor;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/CrashReportClientEditor-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/CrashReportClientEditor-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/CrashReportClientEditor-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		5F4C1D0DA89F342F23F02EC5 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "CrashReportClientEditor";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "CrashReportClientEditor";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "CrashReportClientEditor-Mac-Development";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.CrashReportClientEditor;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/CrashReportClientEditor-Mac-Development-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/CrashReportClientEditor-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/CrashReportClientEditor-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		B5B120A11228C5180FAEF2C2 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "CrashReportClientEditor";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "CrashReportClientEditor";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "CrashReportClientEditor";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.CrashReportClientEditor;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/CrashReportClientEditor-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/CrashReportClientEditor-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/CrashReportClientEditor-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F7924DD83EF5A111DFC1D00 /* Build configuration list for PBXProject "CrashReportClientEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CB8128C4F2F44D0150E986 /* "Debug" */,
+				9551AF9D1CF46C3CB0BB0190 /* "Development" */,
+				81417FB24048188D1A473D6E /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		FC219A878EDC6726B790B25F /* Build configuration list for PBXLegacyTarget "CrashReportClientEditor_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2734014B310EE9390214DCE4 /* "Debug" */,
+				60ADD986A3346361EA2AB6E0 /* "Development" */,
+				9277591FD306436F7E140461 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		EC3E21E56DC5FCFE1E1CACD9 /* Build configuration list for PBXNativeTarget "CrashReportClientEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169AEB218DE0CE4724D71BC6 /* "Debug" */,
+				F1A91CF267B08401BE073667 /* "Development" */,
+				1BE5997B579FA6C6F23C921A /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		6A8EC5C45ACFEE90416C85B3 /* Build configuration list for PBXNativeTarget "CrashReportClientEditor_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2580206E9E34E662C54AD6 /* "Debug" */,
+				5F4C1D0DA89F342F23F02EC5 /* "Development" */,
+				B5B120A11228C5180FAEF2C2 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70E9A46209F0254712CD00E9 /* Project object */;
+}

@@ -1,0 +1,1208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CB28322DB0005F16D702F02 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 3C6BE91A37F9FD5CFF7747B6 /* DefaultEngine.ini */; };
+		B1E524A5FD82D486FBCD78B9 /* LiveCodingConsole.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 49CCC2DF82A1ADF9C3505BB3 /* LiveCodingConsole.Build.cs */; };
+		5D415E6FA522A713491EE5F9 /* LiveCodingConsole.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 810287FAAA670940E6CE8EA2 /* LiveCodingConsole.Target.cs */; };
+		FED0E2978D64304CFC513B0D /* LiveCodingConsole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D96964CC0E0D5A10152732AF /* LiveCodingConsole.cpp */; };
+		39B06A2231D4A1D79E32C2BE /* LiveCodingConsole.h in Sources */ = {isa = PBXBuildFile; fileRef = 56C44B19BE4796452C466ADA /* LiveCodingConsole.h */; };
+		CA5813BB6924A55311D9A12E /* LiveCodingConsoleStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A3618D4B2BCA71E0A7E5BC2 /* LiveCodingConsoleStyle.cpp */; };
+		C956C3EB49B5BE51FCB5F18E /* LiveCodingConsoleStyle.h in Sources */ = {isa = PBXBuildFile; fileRef = 52D0BA7FED17A5945434833A /* LiveCodingConsoleStyle.h */; };
+		D5CF0E6C00E293F376943D1E /* LiveCodingManifest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6234066E59D4F450C7D9FEA6 /* LiveCodingManifest.cpp */; };
+		805C4A3CEE44CB94D38921F0 /* LiveCodingManifest.h in Sources */ = {isa = PBXBuildFile; fileRef = A102E7D80F9E7D792F8CE5B6 /* LiveCodingManifest.h */; };
+		E7EAF96A845D226189700EA3 /* SLogWidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3FB0CAE923ADB385394D920 /* SLogWidget.cpp */; };
+		9759AED8794C3B3EDD10782E /* SLogWidget.h in Sources */ = {isa = PBXBuildFile; fileRef = 0562D85635D707A6F5455DF9 /* SLogWidget.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C6BE91A37F9FD5CFF7747B6 /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../GitHub/UnrealEngine/Engine/Programs/LiveCodingConsole/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		49CCC2DF82A1ADF9C3505BB3 /* LiveCodingConsole.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "LiveCodingConsole.Build.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/LiveCodingConsole.Build.cs"; sourceTree = SOURCE_ROOT; };
+		810287FAAA670940E6CE8EA2 /* LiveCodingConsole.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "LiveCodingConsole.Target.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/LiveCodingConsole.Target.cs"; sourceTree = SOURCE_ROOT; };
+		D96964CC0E0D5A10152732AF /* LiveCodingConsole.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LiveCodingConsole.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsole.cpp"; sourceTree = SOURCE_ROOT; };
+		56C44B19BE4796452C466ADA /* LiveCodingConsole.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LiveCodingConsole.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsole.h"; sourceTree = SOURCE_ROOT; };
+		9A3618D4B2BCA71E0A7E5BC2 /* LiveCodingConsoleStyle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LiveCodingConsoleStyle.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsoleStyle.cpp"; sourceTree = SOURCE_ROOT; };
+		52D0BA7FED17A5945434833A /* LiveCodingConsoleStyle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LiveCodingConsoleStyle.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsoleStyle.h"; sourceTree = SOURCE_ROOT; };
+		6234066E59D4F450C7D9FEA6 /* LiveCodingManifest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LiveCodingManifest.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingManifest.cpp"; sourceTree = SOURCE_ROOT; };
+		A102E7D80F9E7D792F8CE5B6 /* LiveCodingManifest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "LiveCodingManifest.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingManifest.h"; sourceTree = SOURCE_ROOT; };
+		D3FB0CAE923ADB385394D920 /* SLogWidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SLogWidget.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/SLogWidget.cpp"; sourceTree = SOURCE_ROOT; };
+		0562D85635D707A6F5455DF9 /* SLogWidget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SLogWidget.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/SLogWidget.h"; sourceTree = SOURCE_ROOT; };
+		FBE22B8EA871CF264C7AF265 /* LiveCodingConsole */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = LiveCodingConsole; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C98BE0C11BF7D786F1860F8C = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED0E2978D64304CFC513B0D /* LiveCodingConsole.cpp in Sources */,
+				CA5813BB6924A55311D9A12E /* LiveCodingConsoleStyle.cpp in Sources */,
+				D5CF0E6C00E293F376943D1E /* LiveCodingManifest.cpp in Sources */,
+				E7EAF96A845D226189700EA3 /* SLogWidget.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	DEB9540B83BB9AC8AB1031CA /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		9D0CEBB84ABEF62C01B8E8BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16216FCB7ECFFE67A6C16500 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB7F402767F784C589BCA214;
+			remoteInfo = "LiveCodingConsole_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		DB4FFFD561ECF4DC6A3A0AAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB7F402767F784C589BCA214 /* LiveCodingConsole_Build */;
+			targetProxy = 9D0CEBB84ABEF62C01B8E8BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		BBF1F044139A3EAA66FAE149 = {
+			isa = PBXGroup;
+			children = (
+				22203154493AA9CBB219C42B /* Programs */,
+				755896C8B2869E8F0656D1BE /* Source */,
+				7493A54A87A524BB69C447A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22203154493AA9CBB219C42B = {
+			isa = PBXGroup;
+			children = (
+				3EC245C7F958A36033E80CFA /* LiveCodingConsole */,
+			);
+			name = "Programs";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Programs";
+			sourceTree = "<absolute>";
+		};
+		3EC245C7F958A36033E80CFA = {
+			isa = PBXGroup;
+			children = (
+				8AE44D13AD0CBC7C9EA1E65D /* Config */,
+			);
+			name = "LiveCodingConsole";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Programs/LiveCodingConsole";
+			sourceTree = "<absolute>";
+		};
+		8AE44D13AD0CBC7C9EA1E65D = {
+			isa = PBXGroup;
+			children = (
+				3C6BE91A37F9FD5CFF7747B6 /* DefaultEngine.ini */,
+			);
+			name = "Config";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Programs/LiveCodingConsole/Config";
+			sourceTree = "<absolute>";
+		};
+		755896C8B2869E8F0656D1BE = {
+			isa = PBXGroup;
+			children = (
+				3156C946F4BF94391336CA64 /* Programs */,
+			);
+			name = "Source";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source";
+			sourceTree = "<absolute>";
+		};
+		3156C946F4BF94391336CA64 = {
+			isa = PBXGroup;
+			children = (
+				ED961EA65D488D9DDBE752A1 /* LiveCodingConsole */,
+			);
+			name = "Programs";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs";
+			sourceTree = "<absolute>";
+		};
+		ED961EA65D488D9DDBE752A1 = {
+			isa = PBXGroup;
+			children = (
+				C2DAADAC4A7DF433128FE257 /* Private */,
+				49CCC2DF82A1ADF9C3505BB3 /* LiveCodingConsole.Build.cs */,
+				810287FAAA670940E6CE8EA2 /* LiveCodingConsole.Target.cs */,
+			);
+			name = "LiveCodingConsole";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/LiveCodingConsole";
+			sourceTree = "<absolute>";
+		};
+		C2DAADAC4A7DF433128FE257 = {
+			isa = PBXGroup;
+			children = (
+				D96964CC0E0D5A10152732AF /* LiveCodingConsole.cpp */,
+				56C44B19BE4796452C466ADA /* LiveCodingConsole.h */,
+				9A3618D4B2BCA71E0A7E5BC2 /* LiveCodingConsoleStyle.cpp */,
+				52D0BA7FED17A5945434833A /* LiveCodingConsoleStyle.h */,
+				6234066E59D4F450C7D9FEA6 /* LiveCodingManifest.cpp */,
+				A102E7D80F9E7D792F8CE5B6 /* LiveCodingManifest.h */,
+				D3FB0CAE923ADB385394D920 /* SLogWidget.cpp */,
+				0562D85635D707A6F5455DF9 /* SLogWidget.h */,
+			);
+			name = "Private";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private";
+			sourceTree = "<absolute>";
+		};
+		7493A54A87A524BB69C447A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBE22B8EA871CF264C7AF265 /* LiveCodingConsole */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		AB7F402767F784C589BCA214 /* LiveCodingConsole_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 8E6E5AADB780FC236744D97F /* Build configuration list for PBXLegacyTarget "LiveCodingConsole_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/meghasingh/Documents/GitHub/UnrealEngine";
+			dependencies = (
+			);
+			name = "LiveCodingConsole_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "LiveCodingConsole_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		D5F978CEB5AB55A2135CD3EF /* LiveCodingConsole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF946740207927A56BAEADFE /* Build configuration list for PBXNativeTarget "LiveCodingConsole" */;
+			buildPhases = (
+				DEB9540B83BB9AC8AB1031CA /* Embed App Extensions */, 
+				D9B081BD6B747EF6A9497B87 /* Shell Script */, 
+			);
+			dependencies = (
+				DB4FFFD561ECF4DC6A3A0AAA /* PBXTargetDependency */,
+			);
+			name = "LiveCodingConsole";
+			passBuildSettingsInEnvironment = 1;
+			productName = "LiveCodingConsole";
+			productReference = "FBE22B8EA871CF264C7AF265";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		C16633F86BE35E2319850CCA /* LiveCodingConsole_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DCFC50A3322313E40160039 /* Build configuration list for PBXNativeTarget "LiveCodingConsole_Index" */;
+			buildPhases = (
+				C98BE0C11BF7D786F1860F8C /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "LiveCodingConsole_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "LiveCodingConsole_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16216FCB7ECFFE67A6C16500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					D5F978CEB5AB55A2135CD3EF = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = C38C59A55E7EFB08629030E8 /* Build configuration list for PBXProject "LiveCodingConsole" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = BBF1F044139A3EAA66FAE149;
+			productRefGroup = 7493A54A87A524BB69C447A6;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			D5F978CEB5AB55A2135CD3EF /* LiveCodingConsole */,
+			AB7F402767F784C589BCA214 /* LiveCodingConsole_Build */,
+			C16633F86BE35E2319850CCA /* LiveCodingConsole_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		BA7D8F6E235A58ED83186BCD /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_macosarm64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Slate/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Slate/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/InputCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/InputCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SlateCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SlateCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageWrapper/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageWrapper/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/StandaloneRenderer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/StandaloneRenderer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/MessageLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/MessageLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/MessageLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingServer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingServer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Windows",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Windows/LiveCodingServer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SourceCodeAccess/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SourceCodeAccess/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Settings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Settings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/XCodeSCA/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/XCodeSCA/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingConsole/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingConsole/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		3CD0CB2A4EC22DA49524F709 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_macosarm64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Slate/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Slate/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/InputCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/InputCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SlateCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SlateCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageWrapper/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageWrapper/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/StandaloneRenderer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/StandaloneRenderer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/MessageLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/MessageLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/MessageLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingServer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingServer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Windows",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Windows/LiveCodingServer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SourceCodeAccess/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SourceCodeAccess/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Settings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Settings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/XCodeSCA/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/XCodeSCA/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingConsole/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingConsole/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		5DDD8C6E24E78A094ECC51A4 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_macosarm64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Slate/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Slate/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/InputCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/InputCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SlateCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SlateCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageWrapper/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageWrapper/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/StandaloneRenderer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/StandaloneRenderer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/MessageLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/MessageLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/MessageLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingServer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingServer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Windows",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Windows/LiveCodingServer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SourceCodeAccess/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SourceCodeAccess/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Settings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Settings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/XCodeSCA/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/XCodeSCA/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingConsole/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingConsole/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		D6FF07FE3F9A3FB0C00FDD12 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_macosarm64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Slate/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Slate/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/InputCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/InputCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SlateCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SlateCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageWrapper/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageWrapper/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/StandaloneRenderer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/StandaloneRenderer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/MessageLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/MessageLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/MessageLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingServer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingServer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Windows",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Windows/LiveCodingServer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SourceCodeAccess/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SourceCodeAccess/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Settings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Settings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/XCodeSCA/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/XCodeSCA/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingConsole/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingConsole/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		EF168051971F2BF229BD67A9 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_macosarm64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Slate/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Slate/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/InputCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/InputCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SlateCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SlateCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageWrapper/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageWrapper/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/ImageCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/StandaloneRenderer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/StandaloneRenderer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/MessageLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/MessageLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/MessageLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingServer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingServer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Windows",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Windows/LiveCodingServer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SourceCodeAccess/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/SourceCodeAccess/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Settings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/Settings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/XCodeSCA/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/XCodeSCA/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingConsole/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LiveCodingConsole/Inc/LiveCodingConsole/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		511938AE2A7EFBB85A15E76A /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LiveCodingConsole-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LiveCodingConsole;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LiveCodingConsole-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		3FDCE56A35D68E84C73282FF /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LiveCodingConsole-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LiveCodingConsole;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LiveCodingConsole-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		C116D570FF345C769CAD1C7C /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LiveCodingConsole";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LiveCodingConsole;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LiveCodingConsole-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		026F46D200140A9B5DE4D649 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LiveCodingConsole-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LiveCodingConsole;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LiveCodingConsole-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		61D8EB24F9EEBAA52A835E32 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LiveCodingConsole-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LiveCodingConsole;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LiveCodingConsole-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		76191B7C0819E3943ECC5105 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "LiveCodingConsole";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		D9AA0116CE2525C2ADC83F37 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "LiveCodingConsole";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		9012E51BC27BCC3D9925B8F1 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "LiveCodingConsole";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		96963866C49B16EE585C44C3 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "LiveCodingConsole";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		170BB554B34C700BD36A77AD /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "LiveCodingConsole";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		2B2BA550B74347C145B36C52 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LiveCodingConsole-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LiveCodingConsole;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LiveCodingConsole-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		4DB8467C9FAC6F06339C11DB /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LiveCodingConsole-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LiveCodingConsole;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LiveCodingConsole-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		99B69EC53E35E98066A2BA88 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LiveCodingConsole";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LiveCodingConsole;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LiveCodingConsole-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		74CDFDFFE6083089D98BC3CE /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LiveCodingConsole-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LiveCodingConsole;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LiveCodingConsole-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		1BC4573831529AB666539D0E /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LiveCodingConsole";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LiveCodingConsole-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LiveCodingConsole;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LiveCodingConsole-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LiveCodingConsole-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C38C59A55E7EFB08629030E8 /* Build configuration list for PBXProject "LiveCodingConsole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA7D8F6E235A58ED83186BCD /* "Debug" */,
+				3CD0CB2A4EC22DA49524F709 /* "DebugGame" */,
+				5DDD8C6E24E78A094ECC51A4 /* "Development" */,
+				D6FF07FE3F9A3FB0C00FDD12 /* "Test" */,
+				EF168051971F2BF229BD67A9 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		8E6E5AADB780FC236744D97F /* Build configuration list for PBXLegacyTarget "LiveCodingConsole_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76191B7C0819E3943ECC5105 /* "Debug" */,
+				D9AA0116CE2525C2ADC83F37 /* "DebugGame" */,
+				9012E51BC27BCC3D9925B8F1 /* "Development" */,
+				96963866C49B16EE585C44C3 /* "Test" */,
+				170BB554B34C700BD36A77AD /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		FF946740207927A56BAEADFE /* Build configuration list for PBXNativeTarget "LiveCodingConsole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				511938AE2A7EFBB85A15E76A /* "Debug" */,
+				3FDCE56A35D68E84C73282FF /* "DebugGame" */,
+				C116D570FF345C769CAD1C7C /* "Development" */,
+				026F46D200140A9B5DE4D649 /* "Test" */,
+				61D8EB24F9EEBAA52A835E32 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		7DCFC50A3322313E40160039 /* Build configuration list for PBXNativeTarget "LiveCodingConsole_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2BA550B74347C145B36C52 /* "Debug" */,
+				4DB8467C9FAC6F06339C11DB /* "DebugGame" */,
+				99B69EC53E35E98066A2BA88 /* "Development" */,
+				74CDFDFFE6083089D98BC3CE /* "Test" */,
+				1BC4573831529AB666539D0E /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16216FCB7ECFFE67A6C16500 /* Project object */;
+}

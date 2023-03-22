@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FF9A5786B933FEE38CB600D /* BootstrapPackagedGame.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 1B4F8C3D26BAABF3D34D5228 /* BootstrapPackagedGame.Build.cs */; };
+		33DEA1785810D03B7BF28208 /* BootstrapPackagedGame.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 8F18112D3AB18F47E7CD5C2B /* BootstrapPackagedGame.Target.cs */; };
+		023636CAA40BD7D1A67D1D2D /* BootstrapPackagedGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83557585302789FBC5E37648 /* BootstrapPackagedGame.cpp */; };
+		5A3E0FEA79B29A39832089A9 /* BootstrapPackagedGame.h in Sources */ = {isa = PBXBuildFile; fileRef = C7DE2B06BDB3E1ED6B045298 /* BootstrapPackagedGame.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B4F8C3D26BAABF3D34D5228 /* BootstrapPackagedGame.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BootstrapPackagedGame.Build.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame/BootstrapPackagedGame.Build.cs"; sourceTree = SOURCE_ROOT; };
+		8F18112D3AB18F47E7CD5C2B /* BootstrapPackagedGame.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BootstrapPackagedGame.Target.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame/BootstrapPackagedGame.Target.cs"; sourceTree = SOURCE_ROOT; };
+		83557585302789FBC5E37648 /* BootstrapPackagedGame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "BootstrapPackagedGame.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame/Private/BootstrapPackagedGame.cpp"; sourceTree = SOURCE_ROOT; };
+		C7DE2B06BDB3E1ED6B045298 /* BootstrapPackagedGame.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "BootstrapPackagedGame.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame/Private/BootstrapPackagedGame.h"; sourceTree = SOURCE_ROOT; };
+		616A563C13781205A76E4AC4 /* BootstrapPackagedGame */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = BootstrapPackagedGame; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51FECC95518274827289DE98 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	AF54E44B3756699BA5011724 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		F30E46D960553B8FDD1AFB14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 233BF67862A72619B561FEA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09AB4898FA9B6F2F58D4AD64;
+			remoteInfo = "BootstrapPackagedGame_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		BD99045850F094C0EFC7A2BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09AB4898FA9B6F2F58D4AD64 /* BootstrapPackagedGame_Build */;
+			targetProxy = F30E46D960553B8FDD1AFB14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		9AC9F7D2346929A739525378 = {
+			isa = PBXGroup;
+			children = (
+				89C5C6C7477A9DA7B7581834 /* Private */,
+				1B4F8C3D26BAABF3D34D5228 /* BootstrapPackagedGame.Build.cs */,
+				8F18112D3AB18F47E7CD5C2B /* BootstrapPackagedGame.Target.cs */,
+				A59B221C5BB7FEACA4F254B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89C5C6C7477A9DA7B7581834 = {
+			isa = PBXGroup;
+			children = (
+				83557585302789FBC5E37648 /* BootstrapPackagedGame.cpp */,
+				C7DE2B06BDB3E1ED6B045298 /* BootstrapPackagedGame.h */,
+			);
+			name = "Private";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame/Private";
+			sourceTree = "<absolute>";
+		};
+		A59B221C5BB7FEACA4F254B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				616A563C13781205A76E4AC4 /* BootstrapPackagedGame */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		09AB4898FA9B6F2F58D4AD64 /* BootstrapPackagedGame_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 1DB755D70F2F0BA29EF0F6E6 /* Build configuration list for PBXLegacyTarget "BootstrapPackagedGame_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/meghasingh/Documents/GitHub/UnrealEngine";
+			dependencies = (
+			);
+			name = "BootstrapPackagedGame_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "BootstrapPackagedGame_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		506656075E0D0399898E5C5F /* BootstrapPackagedGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7FA90A0736491B52C4ABEE8 /* Build configuration list for PBXNativeTarget "BootstrapPackagedGame" */;
+			buildPhases = (
+				AF54E44B3756699BA5011724 /* Embed App Extensions */, 
+				0583402FA21DC8A775458136 /* Shell Script */, 
+			);
+			dependencies = (
+				BD99045850F094C0EFC7A2BC /* PBXTargetDependency */,
+			);
+			name = "BootstrapPackagedGame";
+			passBuildSettingsInEnvironment = 1;
+			productName = "BootstrapPackagedGame";
+			productReference = "616A563C13781205A76E4AC4";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		9957AD76B49C1485C481D0B4 /* BootstrapPackagedGame_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DA29441AACCBB8CBCF21E5B /* Build configuration list for PBXNativeTarget "BootstrapPackagedGame_Index" */;
+			buildPhases = (
+				51FECC95518274827289DE98 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "BootstrapPackagedGame_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "BootstrapPackagedGame_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		233BF67862A72619B561FEA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					506656075E0D0399898E5C5F = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = EDF87ABCC027A09BE7A1C96C /* Build configuration list for PBXProject "BootstrapPackagedGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 9AC9F7D2346929A739525378;
+			productRefGroup = A59B221C5BB7FEACA4F254B2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			506656075E0D0399898E5C5F /* BootstrapPackagedGame */,
+			09AB4898FA9B6F2F58D4AD64 /* BootstrapPackagedGame_Build */,
+			9957AD76B49C1485C481D0B4 /* BootstrapPackagedGame_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		9D9456B6DDD0061CBD896D06 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BootstrapPackagedGame/Inc/BootstrapPackagedGame/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BootstrapPackagedGame/Inc/BootstrapPackagedGame/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Windows",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		A87B1FBC38314EF405887398 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BootstrapPackagedGame/Inc/BootstrapPackagedGame/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BootstrapPackagedGame/Inc/BootstrapPackagedGame/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Windows",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		9FDF15130536E8D52E49C2FF /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Windows/BootstrapPackagedGame/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BootstrapPackagedGame/Inc/BootstrapPackagedGame/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BootstrapPackagedGame/Inc/BootstrapPackagedGame/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Windows",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		D3B3744D88B80D4FE7A88FCD /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "BootstrapPackagedGame";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "BootstrapPackagedGame";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "BootstrapPackagedGame-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.BootstrapPackagedGame;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/BootstrapPackagedGame-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/BootstrapPackagedGame-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/BootstrapPackagedGame-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		F0B25B876602332505D24CD5 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "BootstrapPackagedGame";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "BootstrapPackagedGame";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "BootstrapPackagedGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.BootstrapPackagedGame;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/BootstrapPackagedGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/BootstrapPackagedGame-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/BootstrapPackagedGame-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		DD62B2F1D06AAFFE051670FF /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "BootstrapPackagedGame";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "BootstrapPackagedGame";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "BootstrapPackagedGame-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.BootstrapPackagedGame;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/BootstrapPackagedGame-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/BootstrapPackagedGame-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/BootstrapPackagedGame-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		4244E054C036236AD3AEADA2 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "BootstrapPackagedGame";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		FA3854EC4214B708E8F1AC45 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "BootstrapPackagedGame";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		D192C54C35D495D4550A4D62 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "BootstrapPackagedGame";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		00B3BED4FBFA667B16395CEE /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "BootstrapPackagedGame";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "BootstrapPackagedGame";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "BootstrapPackagedGame-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.BootstrapPackagedGame;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/BootstrapPackagedGame-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/BootstrapPackagedGame-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/BootstrapPackagedGame-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		176631A15FB99D783F25E349 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "BootstrapPackagedGame";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "BootstrapPackagedGame";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "BootstrapPackagedGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.BootstrapPackagedGame;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/BootstrapPackagedGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/BootstrapPackagedGame-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/BootstrapPackagedGame-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		FEA303B109D616CDA431C3FD /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "BootstrapPackagedGame";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "BootstrapPackagedGame";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "BootstrapPackagedGame-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.BootstrapPackagedGame;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/BootstrapPackagedGame-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/BootstrapPackagedGame-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/BootstrapPackagedGame-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF87ABCC027A09BE7A1C96C /* Build configuration list for PBXProject "BootstrapPackagedGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D9456B6DDD0061CBD896D06 /* "Debug" */,
+				A87B1FBC38314EF405887398 /* "Development" */,
+				9FDF15130536E8D52E49C2FF /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		1DB755D70F2F0BA29EF0F6E6 /* Build configuration list for PBXLegacyTarget "BootstrapPackagedGame_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4244E054C036236AD3AEADA2 /* "Debug" */,
+				FA3854EC4214B708E8F1AC45 /* "Development" */,
+				D192C54C35D495D4550A4D62 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		F7FA90A0736491B52C4ABEE8 /* Build configuration list for PBXNativeTarget "BootstrapPackagedGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B3744D88B80D4FE7A88FCD /* "Debug" */,
+				F0B25B876602332505D24CD5 /* "Development" */,
+				DD62B2F1D06AAFFE051670FF /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		0DA29441AACCBB8CBCF21E5B /* Build configuration list for PBXNativeTarget "BootstrapPackagedGame_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B3BED4FBFA667B16395CEE /* "Debug" */,
+				176631A15FB99D783F25E349 /* "Development" */,
+				FEA303B109D616CDA431C3FD /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 233BF67862A72619B561FEA2 /* Project object */;
+}

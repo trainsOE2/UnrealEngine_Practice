@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4637BA210DB97BC47BDD3ED9 /* DatasmithRhino7.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 96B65163C4997D9AE94A5642 /* DatasmithRhino7.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96B65163C4997D9AE94A5642 /* DatasmithRhino7.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhino7.Target.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/DatasmithRhino7.Target.cs"; sourceTree = SOURCE_ROOT; };
+		AA3AF3FA545E0AC53A8228A4 /* DatasmithRhino7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DatasmithRhino7; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FABBBF8F8A0DE24B709FAED7 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	692C66FCF42EAAD9803DDCAC /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		01CFBE6C18A3594CCAAD728B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E41C45DC6D5AD159F15861A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293861801C4BD045AD579508;
+			remoteInfo = "DatasmithRhino7_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		7A455CF244126E4A791C50FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 293861801C4BD045AD579508 /* DatasmithRhino7_Build */;
+			targetProxy = 01CFBE6C18A3594CCAAD728B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		2D96F0A5F2F46332FD7C35F5 = {
+			isa = PBXGroup;
+			children = (
+				96B65163C4997D9AE94A5642 /* DatasmithRhino7.Target.cs */,
+				45E7114B48E9EFE978882927 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45E7114B48E9EFE978882927 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA3AF3FA545E0AC53A8228A4 /* DatasmithRhino7 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		293861801C4BD045AD579508 /* DatasmithRhino7_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 83D979ED7F5D14CDD2D04709 /* Build configuration list for PBXLegacyTarget "DatasmithRhino7_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/meghasingh/Documents/GitHub/UnrealEngine";
+			dependencies = (
+			);
+			name = "DatasmithRhino7_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DatasmithRhino7_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		9EE461A3E9852AA6928A9649 /* DatasmithRhino7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62FE5596D741469290D9AADF /* Build configuration list for PBXNativeTarget "DatasmithRhino7" */;
+			buildPhases = (
+				692C66FCF42EAAD9803DDCAC /* Embed App Extensions */, 
+				041620ADAAC22DA56CC9AB37 /* Shell Script */, 
+			);
+			dependencies = (
+				7A455CF244126E4A791C50FD /* PBXTargetDependency */,
+			);
+			name = "DatasmithRhino7";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DatasmithRhino7";
+			productReference = "AA3AF3FA545E0AC53A8228A4";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		1E74F61A128BC37FA61A42E0 /* DatasmithRhino7_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D9307EDC2CDD53A5EB777A /* Build configuration list for PBXNativeTarget "DatasmithRhino7_Index" */;
+			buildPhases = (
+				FABBBF8F8A0DE24B709FAED7 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "DatasmithRhino7_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DatasmithRhino7_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E41C45DC6D5AD159F15861A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					9EE461A3E9852AA6928A9649 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 55B53222931661699799ACA6 /* Build configuration list for PBXProject "DatasmithRhino7" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 2D96F0A5F2F46332FD7C35F5;
+			productRefGroup = 45E7114B48E9EFE978882927;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			9EE461A3E9852AA6928A9649 /* DatasmithRhino7 */,
+			293861801C4BD045AD579508 /* DatasmithRhino7_Build */,
+			1E74F61A128BC37FA61A42E0 /* DatasmithRhino7_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		34D3A8EF99EA84A5383AE11C /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		CDE4C81C22EE582248340264 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		0444FAF268D68DF91FA60C11 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		21505B9F81EFEB5E55782E5F /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		EBC25D691CE319F78FB2055A /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		83F2F549DD50A6BDDE128B74 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino7-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino7;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino7-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		48D6332FCF419B532AD4C421 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino7-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino7;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino7-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		E9B08387F5195A5EF6A5EE82 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino7";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino7;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino7-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		5A07FCAB3DD74EC50D29C0A8 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino7-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino7;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino7-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		EDDC270137D5FE04A4509374 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino7-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino7;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino7-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		ED34A1AE72086AA0802FC720 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithRhino7";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		101004A79EC13FE80AEAE08D /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithRhino7";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		C4097C85FC736834C323A35A /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithRhino7";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		9926010E37544059605563AC /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithRhino7";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		237A8DC824718A794EAC2374 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithRhino7";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		85BB3F96B83774CA34042AB7 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino7-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino7;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino7-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		404D7D92D7A5D750B9DB4DE1 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino7-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino7;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino7-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		C64C7F335DE76E9A416BA826 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino7";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino7;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino7-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		18C9B3D33844044E1E20D855 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino7-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino7;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino7-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		F6D73C7D3C6C1C65C359E55B /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino7";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino7-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino7;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino7-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino7-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55B53222931661699799ACA6 /* Build configuration list for PBXProject "DatasmithRhino7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D3A8EF99EA84A5383AE11C /* "Debug" */,
+				CDE4C81C22EE582248340264 /* "DebugGame" */,
+				0444FAF268D68DF91FA60C11 /* "Development" */,
+				21505B9F81EFEB5E55782E5F /* "Test" */,
+				EBC25D691CE319F78FB2055A /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		83D979ED7F5D14CDD2D04709 /* Build configuration list for PBXLegacyTarget "DatasmithRhino7_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED34A1AE72086AA0802FC720 /* "Debug" */,
+				101004A79EC13FE80AEAE08D /* "DebugGame" */,
+				C4097C85FC736834C323A35A /* "Development" */,
+				9926010E37544059605563AC /* "Test" */,
+				237A8DC824718A794EAC2374 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		62FE5596D741469290D9AADF /* Build configuration list for PBXNativeTarget "DatasmithRhino7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F2F549DD50A6BDDE128B74 /* "Debug" */,
+				48D6332FCF419B532AD4C421 /* "DebugGame" */,
+				E9B08387F5195A5EF6A5EE82 /* "Development" */,
+				5A07FCAB3DD74EC50D29C0A8 /* "Test" */,
+				EDDC270137D5FE04A4509374 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		41D9307EDC2CDD53A5EB777A /* Build configuration list for PBXNativeTarget "DatasmithRhino7_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85BB3F96B83774CA34042AB7 /* "Debug" */,
+				404D7D92D7A5D750B9DB4DE1 /* "DebugGame" */,
+				C64C7F335DE76E9A416BA826 /* "Development" */,
+				18C9B3D33844044E1E20D855 /* "Test" */,
+				F6D73C7D3C6C1C65C359E55B /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E41C45DC6D5AD159F15861A7 /* Project object */;
+}

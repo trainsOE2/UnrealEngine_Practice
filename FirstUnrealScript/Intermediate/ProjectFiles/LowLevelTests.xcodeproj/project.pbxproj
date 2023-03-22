@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84F452C6C63A68BED422B859 /* LowLevelTests.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 4F67B817EE3E09E6557D8593 /* LowLevelTests.Build.cs */; };
+		C06FD615FA82FA5CAE40259F /* LowLevelTests.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = BAD4C0871947E7940A2A8C37 /* LowLevelTests.Target.cs */; };
+		88DA928043B979F346901B44 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1C60A3BC4AC6EEEE91FBA24D /* README.md */; };
+		C2C3E5AB5929038D3845FC4F /* LowLevelTestsModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67B32D0C285D70FAA7496DE3 /* LowLevelTestsModule.cpp */; };
+		06ECB74033E1E7FBD0683250 /* vstest.runsettings in Sources */ = {isa = PBXBuildFile; fileRef = 7770C2A2F3657F3071481895 /* vstest.runsettings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F67B817EE3E09E6557D8593 /* LowLevelTests.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "LowLevelTests.Build.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/LowLevelTests/LowLevelTests.Build.cs"; sourceTree = SOURCE_ROOT; };
+		BAD4C0871947E7940A2A8C37 /* LowLevelTests.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "LowLevelTests.Target.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/LowLevelTests/LowLevelTests.Target.cs"; sourceTree = SOURCE_ROOT; };
+		1C60A3BC4AC6EEEE91FBA24D /* README.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "README.md"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/LowLevelTests/README.md"; sourceTree = SOURCE_ROOT; };
+		67B32D0C285D70FAA7496DE3 /* LowLevelTestsModule.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LowLevelTestsModule.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/LowLevelTests/Tests/LowLevelTestsModule.cpp"; sourceTree = SOURCE_ROOT; };
+		7770C2A2F3657F3071481895 /* vstest.runsettings */ = {isa = PBXFileReference; explicitFileType = file.text; name = "vstest.runsettings"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/LowLevelTests/vstest.runsettings"; sourceTree = SOURCE_ROOT; };
+		4B366ADEAD99541BF26DCC23 /* LowLevelTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = LowLevelTests; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7070A88D1707B72B8B0EBFBA = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C3E5AB5929038D3845FC4F /* LowLevelTestsModule.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	F47A421D1CEF331323220C62 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		C0AE912E9D131391FF914352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE640700534C7E2169F0CB6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB4FCF7DE7C68A2944BFD1A;
+			remoteInfo = "LowLevelTests_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		11E8EF964296525EB3C663E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB4FCF7DE7C68A2944BFD1A /* LowLevelTests_Build */;
+			targetProxy = C0AE912E9D131391FF914352 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		40985704DE4BD3DB37B72B0E = {
+			isa = PBXGroup;
+			children = (
+				3D99DE5D518D776BF06FCBA9 /* Tests */,
+				4F67B817EE3E09E6557D8593 /* LowLevelTests.Build.cs */,
+				BAD4C0871947E7940A2A8C37 /* LowLevelTests.Target.cs */,
+				1C60A3BC4AC6EEEE91FBA24D /* README.md */,
+				7770C2A2F3657F3071481895 /* vstest.runsettings */,
+				40F4FF95EE5080265047B6D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D99DE5D518D776BF06FCBA9 = {
+			isa = PBXGroup;
+			children = (
+				67B32D0C285D70FAA7496DE3 /* LowLevelTestsModule.cpp */,
+			);
+			name = "Tests";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/LowLevelTests/Tests";
+			sourceTree = "<absolute>";
+		};
+		40F4FF95EE5080265047B6D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B366ADEAD99541BF26DCC23 /* LowLevelTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		BDB4FCF7DE7C68A2944BFD1A /* LowLevelTests_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = A2B3ABEF14F21A80A59C4B0C /* Build configuration list for PBXLegacyTarget "LowLevelTests_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/meghasingh/Documents/GitHub/UnrealEngine";
+			dependencies = (
+			);
+			name = "LowLevelTests_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "LowLevelTests_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		437687DE0CAC4A3E8E31DB1C /* LowLevelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F832BEC933E24903278319 /* Build configuration list for PBXNativeTarget "LowLevelTests" */;
+			buildPhases = (
+				F47A421D1CEF331323220C62 /* Embed App Extensions */, 
+				ABA245F142B2A8F8E17E936E /* Shell Script */, 
+			);
+			dependencies = (
+				11E8EF964296525EB3C663E6 /* PBXTargetDependency */,
+			);
+			name = "LowLevelTests";
+			passBuildSettingsInEnvironment = 1;
+			productName = "LowLevelTests";
+			productReference = "4B366ADEAD99541BF26DCC23";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		2B73B1197247F452E26D71E9 /* LowLevelTests_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 171BB28228A0BDFF38503CF9 /* Build configuration list for PBXNativeTarget "LowLevelTests_Index" */;
+			buildPhases = (
+				7070A88D1707B72B8B0EBFBA /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "LowLevelTests_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "LowLevelTests_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE640700534C7E2169F0CB6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					437687DE0CAC4A3E8E31DB1C = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = CB4F304D56AA383441C2D8F8 /* Build configuration list for PBXProject "LowLevelTests" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 40985704DE4BD3DB37B72B0E;
+			productRefGroup = 40F4FF95EE5080265047B6D9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			437687DE0CAC4A3E8E31DB1C /* LowLevelTests */,
+			BDB4FCF7DE7C68A2944BFD1A /* LowLevelTests_Build */,
+			2B73B1197247F452E26D71E9 /* LowLevelTests_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		A245C330FFFF83313445A174 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Cbor/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Cbor/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTestsRunner/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTestsRunner/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/Catch2/v3.0.1/src",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/LowLevelTestsRunner/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTests/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTests/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		A747E43EC8450A5C634E6E39 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Cbor/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Cbor/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTestsRunner/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTestsRunner/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/Catch2/v3.0.1/src",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/LowLevelTestsRunner/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTests/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTests/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		10C1F9D444A8F97413D2AF36 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Cbor/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Cbor/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTestsRunner/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTestsRunner/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/Catch2/v3.0.1/src",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/LowLevelTestsRunner/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTests/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTests/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		DA8D031483FF7C6436275557 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Cbor/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Cbor/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTestsRunner/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTestsRunner/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/Catch2/v3.0.1/src",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/LowLevelTestsRunner/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTests/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTests/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		064DBAF0C62F3BED29CA4165 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Cbor/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/Cbor/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTestsRunner/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTestsRunner/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/Catch2/v3.0.1/src",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/LowLevelTestsRunner/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTests/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/LowLevelTests/Inc/LowLevelTests/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		0E620A6014A3B54E6346E275 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LowLevelTests-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LowLevelTests;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LowLevelTests-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		16A9CA6D6C2C8D3AE6333411 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LowLevelTests-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LowLevelTests;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LowLevelTests-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		968244E6D97F570D78AB8AD2 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LowLevelTests";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LowLevelTests;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LowLevelTests-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		3631B5BD55FAB0DB0AED6339 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LowLevelTests-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LowLevelTests;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LowLevelTests-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		02C0C3BC404D760B44846BEC /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LowLevelTests-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LowLevelTests;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LowLevelTests-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		C1C6E9D966C7D875E6D37BD7 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "LowLevelTests";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		8F92AF88177C74EFE209311E /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "LowLevelTests";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		7FEC72C7BF567DB485BA7856 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "LowLevelTests";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		D31DFCBCA07AE608E12BED31 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "LowLevelTests";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		C82B9EF6CD08EF7F1A1EB552 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "LowLevelTests";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		2C0213239FDB2E6600D1E3E0 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LowLevelTests-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LowLevelTests;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LowLevelTests-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		E29AACA1C81F74DD93DA0CF5 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LowLevelTests-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LowLevelTests;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LowLevelTests-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		829FAB3910BC0B0FEB760A46 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LowLevelTests";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LowLevelTests;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LowLevelTests-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		526831853D13205B4A5302DE /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LowLevelTests-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LowLevelTests;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LowLevelTests-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		C0F542B2EFFF078827CB827D /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "LowLevelTests";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "LowLevelTests-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.LowLevelTests;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/LowLevelTests-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/LowLevelTests-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB4F304D56AA383441C2D8F8 /* Build configuration list for PBXProject "LowLevelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A245C330FFFF83313445A174 /* "Debug" */,
+				A747E43EC8450A5C634E6E39 /* "DebugGame" */,
+				10C1F9D444A8F97413D2AF36 /* "Development" */,
+				DA8D031483FF7C6436275557 /* "Test" */,
+				064DBAF0C62F3BED29CA4165 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		A2B3ABEF14F21A80A59C4B0C /* Build configuration list for PBXLegacyTarget "LowLevelTests_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C6E9D966C7D875E6D37BD7 /* "Debug" */,
+				8F92AF88177C74EFE209311E /* "DebugGame" */,
+				7FEC72C7BF567DB485BA7856 /* "Development" */,
+				D31DFCBCA07AE608E12BED31 /* "Test" */,
+				C82B9EF6CD08EF7F1A1EB552 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		68F832BEC933E24903278319 /* Build configuration list for PBXNativeTarget "LowLevelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E620A6014A3B54E6346E275 /* "Debug" */,
+				16A9CA6D6C2C8D3AE6333411 /* "DebugGame" */,
+				968244E6D97F570D78AB8AD2 /* "Development" */,
+				3631B5BD55FAB0DB0AED6339 /* "Test" */,
+				02C0C3BC404D760B44846BEC /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		171BB28228A0BDFF38503CF9 /* Build configuration list for PBXNativeTarget "LowLevelTests_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C0213239FDB2E6600D1E3E0 /* "Debug" */,
+				E29AACA1C81F74DD93DA0CF5 /* "DebugGame" */,
+				829FAB3910BC0B0FEB760A46 /* "Development" */,
+				526831853D13205B4A5302DE /* "Test" */,
+				C0F542B2EFFF078827CB827D /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE640700534C7E2169F0CB6A /* Project object */;
+}

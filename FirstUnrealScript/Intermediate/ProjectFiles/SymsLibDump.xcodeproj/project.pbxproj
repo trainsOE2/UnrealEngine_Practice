@@ -1,0 +1,925 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0D78DB4C07724274E439E7B /* SymsLibDump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1A93648B63F428A0327048A /* SymsLibDump.cpp */; };
+		DE68160F188B6B3DD859EA2B /* SymsLibDumpLog.h in Sources */ = {isa = PBXBuildFile; fileRef = 333E843DAC9BDB02EF3FBABD /* SymsLibDumpLog.h */; };
+		8435EEDA02C0F244B5D1C329 /* SymsLibDump.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 458EBB6C66B66DE1CD465C94 /* SymsLibDump.Build.cs */; };
+		6EFDCB77488E8264F4C508D7 /* SymsLibDump.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = B39EC8FFBF5D5CEB9677CAE7 /* SymsLibDump.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1A93648B63F428A0327048A /* SymsLibDump.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SymsLibDump.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SymsLibDump/Private/SymsLibDump.cpp"; sourceTree = SOURCE_ROOT; };
+		333E843DAC9BDB02EF3FBABD /* SymsLibDumpLog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SymsLibDumpLog.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SymsLibDump/Private/SymsLibDumpLog.h"; sourceTree = SOURCE_ROOT; };
+		458EBB6C66B66DE1CD465C94 /* SymsLibDump.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SymsLibDump.Build.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SymsLibDump/SymsLibDump.Build.cs"; sourceTree = SOURCE_ROOT; };
+		B39EC8FFBF5D5CEB9677CAE7 /* SymsLibDump.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SymsLibDump.Target.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SymsLibDump/SymsLibDump.Target.cs"; sourceTree = SOURCE_ROOT; };
+		DDECAE8F5CCFB8F1ED7D18A1 /* SymsLibDump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SymsLibDump; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39845A4B4FB4670312061746 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D78DB4C07724274E439E7B /* SymsLibDump.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	B75E57CE47EB7640248EC8A7 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		B0E64E4A91DF264FB128E5A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9CFDB133539A64768FBDCCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C110B3E57257CC331CD0EA96;
+			remoteInfo = "SymsLibDump_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		07E01F85A4B73277F772090B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C110B3E57257CC331CD0EA96 /* SymsLibDump_Build */;
+			targetProxy = B0E64E4A91DF264FB128E5A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		FCEE8248F09AB4F058FC7FEA = {
+			isa = PBXGroup;
+			children = (
+				40E6296F01618E0666817212 /* Private */,
+				458EBB6C66B66DE1CD465C94 /* SymsLibDump.Build.cs */,
+				B39EC8FFBF5D5CEB9677CAE7 /* SymsLibDump.Target.cs */,
+				3C0AFD9405401730650E1CB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40E6296F01618E0666817212 = {
+			isa = PBXGroup;
+			children = (
+				B1A93648B63F428A0327048A /* SymsLibDump.cpp */,
+				333E843DAC9BDB02EF3FBABD /* SymsLibDumpLog.h */,
+			);
+			name = "Private";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/SymsLibDump/Private";
+			sourceTree = "<absolute>";
+		};
+		3C0AFD9405401730650E1CB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDECAE8F5CCFB8F1ED7D18A1 /* SymsLibDump */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		C110B3E57257CC331CD0EA96 /* SymsLibDump_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 433F25E816D948DEFA79A7B7 /* Build configuration list for PBXLegacyTarget "SymsLibDump_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/meghasingh/Documents/GitHub/UnrealEngine";
+			dependencies = (
+			);
+			name = "SymsLibDump_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "SymsLibDump_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		2E15762082E096579CA5CEC3 /* SymsLibDump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A625DC9A7C9189B7C83D28F9 /* Build configuration list for PBXNativeTarget "SymsLibDump" */;
+			buildPhases = (
+				B75E57CE47EB7640248EC8A7 /* Embed App Extensions */, 
+				B93391758E8C6FEDD2C90E6B /* Shell Script */, 
+			);
+			dependencies = (
+				07E01F85A4B73277F772090B /* PBXTargetDependency */,
+			);
+			name = "SymsLibDump";
+			passBuildSettingsInEnvironment = 1;
+			productName = "SymsLibDump";
+			productReference = "DDECAE8F5CCFB8F1ED7D18A1";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		08A31A28BA171E32CDAC8880 /* SymsLibDump_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C41DD595CB2890C02174B1D /* Build configuration list for PBXNativeTarget "SymsLibDump_Index" */;
+			buildPhases = (
+				39845A4B4FB4670312061746 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "SymsLibDump_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "SymsLibDump_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9CFDB133539A64768FBDCCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					2E15762082E096579CA5CEC3 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 3DA37904B2B7C897B6A5BCD4 /* Build configuration list for PBXProject "SymsLibDump" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = FCEE8248F09AB4F058FC7FEA;
+			productRefGroup = 3C0AFD9405401730650E1CB8;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			2E15762082E096579CA5CEC3 /* SymsLibDump */,
+			C110B3E57257CC331CD0EA96 /* SymsLibDump_Build */,
+			08A31A28BA171E32CDAC8880 /* SymsLibDump_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		4069A1A4957BD736F3B6DDA7 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib/syms",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/SymsLibDump/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/SymsLibDump/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/SymsLibDump/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		A3F555F63564AE8CD88581A3 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib/syms",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/SymsLibDump/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/SymsLibDump/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/SymsLibDump/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		F2E9C066928F8997C68FC64B /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib/syms",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/SymsLibDump/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/SymsLibDump/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/SymsLibDump/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		74BA0407CACFF6F5F3FC2E27 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib/syms",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/SymsLibDump/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/SymsLibDump/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/SymsLibDump/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		B97F2B1866996CFD3EA36362 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib/syms",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/SymsLibDump/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/SymsLibDump/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SymsLibDump/Inc/SymsLibDump/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		E949E97998DB93AABCB3911B /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SymsLibDump-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SymsLibDump;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SymsLibDump-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		05519FCA42EF57FCBB0B2FC6 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SymsLibDump-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SymsLibDump;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SymsLibDump-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		70848C4ABF493DD46EFDF6C3 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SymsLibDump-Mac-Development";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SymsLibDump;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SymsLibDump-Mac-Development-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		D1CF915B199E05E14C777C60 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SymsLibDump-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SymsLibDump;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SymsLibDump-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		A2D3D241F06236CC8A45F5AA /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SymsLibDump";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SymsLibDump;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SymsLibDump-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		22F17586972974ED4FEC8EDD /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "SymsLibDump";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		30EAF32AFF8EC5386531E2A1 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "SymsLibDump";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		386BBEB9066A7527458E3715 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "SymsLibDump";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		A3672C2322B10CCBF005454C /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "SymsLibDump";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		418F4A0A54AC3025635569A2 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "SymsLibDump";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		4AD1ABA9B692B30256EA8C44 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SymsLibDump-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SymsLibDump;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SymsLibDump-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		D37EB7EB3D0104C45008A465 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SymsLibDump-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SymsLibDump;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SymsLibDump-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		CD5FA5D5A74ADB44B76C7BB9 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SymsLibDump-Mac-Development";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SymsLibDump;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SymsLibDump-Mac-Development-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		666E5D76974222D0307E04D7 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SymsLibDump-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SymsLibDump;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SymsLibDump-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		86F3655698470DC20BFAD3C4 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SymsLibDump";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SymsLibDump";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SymsLibDump;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SymsLibDump-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SymsLibDump-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DA37904B2B7C897B6A5BCD4 /* Build configuration list for PBXProject "SymsLibDump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4069A1A4957BD736F3B6DDA7 /* "Debug" */,
+				A3F555F63564AE8CD88581A3 /* "DebugGame" */,
+				F2E9C066928F8997C68FC64B /* "Development" */,
+				74BA0407CACFF6F5F3FC2E27 /* "Test" */,
+				B97F2B1866996CFD3EA36362 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		433F25E816D948DEFA79A7B7 /* Build configuration list for PBXLegacyTarget "SymsLibDump_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F17586972974ED4FEC8EDD /* "Debug" */,
+				30EAF32AFF8EC5386531E2A1 /* "DebugGame" */,
+				386BBEB9066A7527458E3715 /* "Development" */,
+				A3672C2322B10CCBF005454C /* "Test" */,
+				418F4A0A54AC3025635569A2 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		A625DC9A7C9189B7C83D28F9 /* Build configuration list for PBXNativeTarget "SymsLibDump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E949E97998DB93AABCB3911B /* "Debug" */,
+				05519FCA42EF57FCBB0B2FC6 /* "DebugGame" */,
+				70848C4ABF493DD46EFDF6C3 /* "Development" */,
+				D1CF915B199E05E14C777C60 /* "Test" */,
+				A2D3D241F06236CC8A45F5AA /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2C41DD595CB2890C02174B1D /* Build configuration list for PBXNativeTarget "SymsLibDump_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD1ABA9B692B30256EA8C44 /* "Debug" */,
+				D37EB7EB3D0104C45008A465 /* "DebugGame" */,
+				CD5FA5D5A74ADB44B76C7BB9 /* "Development" */,
+				666E5D76974222D0307E04D7 /* "Test" */,
+				86F3655698470DC20BFAD3C4 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9CFDB133539A64768FBDCCE /* Project object */;
+}

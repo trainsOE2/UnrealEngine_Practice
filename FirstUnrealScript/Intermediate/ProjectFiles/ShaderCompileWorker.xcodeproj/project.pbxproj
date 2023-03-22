@@ -1,0 +1,1165 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5480493A0654A01E71F4ADE8 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 601546E98164E78870787B0D /* DefaultEngine.ini */; };
+		C29C4169680FC6046BCCCD5A /* MacEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = B7CBEB18D0109147BD01B921 /* MacEngine.ini */; };
+		4D85734D45C37DCC832B124B /* ShaderCompileWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEFDEDB7D4C8F0887EE7D09A /* ShaderCompileWorker.cpp */; };
+		F5F77FCB14B6E10597BB08CD /* XGEControlWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12F2CC15020041C229B619D0 /* XGEControlWorker.cpp */; };
+		34EB5C5552863F12D980CDC5 /* ShaderCompileWorker.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = ED3C0107CE6F5B1A962F54A0 /* ShaderCompileWorker.Build.cs */; };
+		F032DA0A388F51F82BD257BA /* ShaderCompileWorker.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 1313D79329AF37C027E0300E /* ShaderCompileWorker.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		601546E98164E78870787B0D /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../GitHub/UnrealEngine/Engine/Programs/ShaderCompileWorker/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		B7CBEB18D0109147BD01B921 /* MacEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "MacEngine.ini"; path = "../../../../GitHub/UnrealEngine/Engine/Programs/ShaderCompileWorker/Config/Mac/MacEngine.ini"; sourceTree = SOURCE_ROOT; };
+		EEFDEDB7D4C8F0887EE7D09A /* ShaderCompileWorker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ShaderCompileWorker.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/Private/ShaderCompileWorker.cpp"; sourceTree = SOURCE_ROOT; };
+		12F2CC15020041C229B619D0 /* XGEControlWorker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "XGEControlWorker.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/Private/XGEControlWorker.cpp"; sourceTree = SOURCE_ROOT; };
+		ED3C0107CE6F5B1A962F54A0 /* ShaderCompileWorker.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ShaderCompileWorker.Build.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/ShaderCompileWorker.Build.cs"; sourceTree = SOURCE_ROOT; };
+		1313D79329AF37C027E0300E /* ShaderCompileWorker.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ShaderCompileWorker.Target.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/ShaderCompileWorker.Target.cs"; sourceTree = SOURCE_ROOT; };
+		31DFB67415BB67C475339260 /* ShaderCompileWorker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ShaderCompileWorker; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD430A2046DAA4994B735199 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D85734D45C37DCC832B124B /* ShaderCompileWorker.cpp in Sources */,
+				F5F77FCB14B6E10597BB08CD /* XGEControlWorker.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	5B52C731E0578AB1D1867CBD /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		19FAD304DD9EF60D6D582B78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C7C7B0564005155AF1C61B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E481E4B550696A1B78DC526B;
+			remoteInfo = "ShaderCompileWorker_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		EA3A0703A70A0F17C66F7F07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E481E4B550696A1B78DC526B /* ShaderCompileWorker_Build */;
+			targetProxy = 19FAD304DD9EF60D6D582B78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		B3CAA4FE8E7D3B0A2BB58E8B = {
+			isa = PBXGroup;
+			children = (
+				EB09F7D0BCFB8693B6EEFC16 /* Programs */,
+				B12DE136BA5FA219245EC963 /* Source */,
+				3F8C816821C9AB9DDF059D8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB09F7D0BCFB8693B6EEFC16 = {
+			isa = PBXGroup;
+			children = (
+				E2545F17910E470EDBD1E498 /* ShaderCompileWorker */,
+			);
+			name = "Programs";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Programs";
+			sourceTree = "<absolute>";
+		};
+		E2545F17910E470EDBD1E498 = {
+			isa = PBXGroup;
+			children = (
+				0659DA9FC0469EC9A9D7E5BA /* Config */,
+			);
+			name = "ShaderCompileWorker";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Programs/ShaderCompileWorker";
+			sourceTree = "<absolute>";
+		};
+		0659DA9FC0469EC9A9D7E5BA = {
+			isa = PBXGroup;
+			children = (
+				862E081A9CC9D73B110961C2 /* Mac */,
+				601546E98164E78870787B0D /* DefaultEngine.ini */,
+			);
+			name = "Config";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Programs/ShaderCompileWorker/Config";
+			sourceTree = "<absolute>";
+		};
+		862E081A9CC9D73B110961C2 = {
+			isa = PBXGroup;
+			children = (
+				B7CBEB18D0109147BD01B921 /* MacEngine.ini */,
+			);
+			name = "Mac";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Programs/ShaderCompileWorker/Config/Mac";
+			sourceTree = "<absolute>";
+		};
+		B12DE136BA5FA219245EC963 = {
+			isa = PBXGroup;
+			children = (
+				21E6D26F50336D0B6FA59162 /* Programs */,
+			);
+			name = "Source";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source";
+			sourceTree = "<absolute>";
+		};
+		21E6D26F50336D0B6FA59162 = {
+			isa = PBXGroup;
+			children = (
+				062C7112FAA987FCF717EE92 /* ShaderCompileWorker */,
+			);
+			name = "Programs";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs";
+			sourceTree = "<absolute>";
+		};
+		062C7112FAA987FCF717EE92 = {
+			isa = PBXGroup;
+			children = (
+				64680E4934CB952764A5F9B5 /* Private */,
+				ED3C0107CE6F5B1A962F54A0 /* ShaderCompileWorker.Build.cs */,
+				1313D79329AF37C027E0300E /* ShaderCompileWorker.Target.cs */,
+			);
+			name = "ShaderCompileWorker";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker";
+			sourceTree = "<absolute>";
+		};
+		64680E4934CB952764A5F9B5 = {
+			isa = PBXGroup;
+			children = (
+				EEFDEDB7D4C8F0887EE7D09A /* ShaderCompileWorker.cpp */,
+				12F2CC15020041C229B619D0 /* XGEControlWorker.cpp */,
+			);
+			name = "Private";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/Private";
+			sourceTree = "<absolute>";
+		};
+		3F8C816821C9AB9DDF059D8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31DFB67415BB67C475339260 /* ShaderCompileWorker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		E481E4B550696A1B78DC526B /* ShaderCompileWorker_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 06C83EEA486FCE920F8ED2C8 /* Build configuration list for PBXLegacyTarget "ShaderCompileWorker_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/meghasingh/Documents/GitHub/UnrealEngine";
+			dependencies = (
+			);
+			name = "ShaderCompileWorker_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ShaderCompileWorker_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		03F26F7D9BEC858BC0608131 /* ShaderCompileWorker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF8E46B66D9CC1B893E7D3C /* Build configuration list for PBXNativeTarget "ShaderCompileWorker" */;
+			buildPhases = (
+				5B52C731E0578AB1D1867CBD /* Embed App Extensions */, 
+				EA9A72DF369329AE2D16004A /* Shell Script */, 
+			);
+			dependencies = (
+				EA3A0703A70A0F17C66F7F07 /* PBXTargetDependency */,
+			);
+			name = "ShaderCompileWorker";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ShaderCompileWorker";
+			productReference = "31DFB67415BB67C475339260";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		549A020B08BB92E668721F5B /* ShaderCompileWorker_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B940BC04ED1000548C4A6E4D /* Build configuration list for PBXNativeTarget "ShaderCompileWorker_Index" */;
+			buildPhases = (
+				FD430A2046DAA4994B735199 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "ShaderCompileWorker_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "ShaderCompileWorker_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C7C7B0564005155AF1C61B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					03F26F7D9BEC858BC0608131 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 665F12BC4A6C0393A8E23108 /* Build configuration list for PBXProject "ShaderCompileWorker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = B3CAA4FE8E7D3B0A2BB58E8B;
+			productRefGroup = 3F8C816821C9AB9DDF059D8D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			03F26F7D9BEC858BC0608131 /* ShaderCompileWorker */,
+			E481E4B550696A1B78DC526B /* ShaderCompileWorker_Build */,
+			549A020B08BB92E668721F5B /* ShaderCompileWorker_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		731AC35010F440CC3BE80DCE /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/SPIRV-Reflect/SPIRV-Reflect",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Analytics/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Analytics/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics/Analytics/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TextureFormat/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		D7A133405A8A8326E417E84A /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/SPIRV-Reflect/SPIRV-Reflect",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Analytics/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Analytics/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics/Analytics/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TextureFormat/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		2EEA86C5275700E0ADF2F57A /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/SPIRV-Reflect/SPIRV-Reflect",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Analytics/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Analytics/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics/Analytics/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TextureFormat/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		3B30842DF45F1354C336E772 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/SPIRV-Reflect/SPIRV-Reflect",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Analytics/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Analytics/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics/Analytics/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TextureFormat/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		34C37B348B8807BE2CE5A723 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/hlslcc/hlslcc/src/hlslcc_lib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/SPIRV-Reflect/SPIRV-Reflect",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/ShaderCompileWorker/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RenderCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/SandboxFile/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TargetPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DeveloperSettings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/AudioPlatformConfiguration/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/DesktopPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Analytics/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Analytics/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics/Analytics/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/TextureFormat/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TextureFormat/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompilerCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ShaderCompilerCommon/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/Launch/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ProfilerService/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/ShaderCompileWorker/Inc/ShaderCompileWorker/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		027ABC877AECBC76C64C36AC /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "ShaderCompileWorker-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.ShaderCompileWorker;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/ShaderCompileWorker-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		918982977BC87C85BBF6F341 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "ShaderCompileWorker-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.ShaderCompileWorker;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/ShaderCompileWorker-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		596D5CB0F82362EBA8D9274F /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "ShaderCompileWorker";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.ShaderCompileWorker;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/ShaderCompileWorker-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		CBDCCB370201E5E5847C039F /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "ShaderCompileWorker-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.ShaderCompileWorker;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/ShaderCompileWorker-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		1A6A751A1C7B2CCAF2E64540 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "ShaderCompileWorker-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.ShaderCompileWorker;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/ShaderCompileWorker-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		68C563B74AA36C44527CBEC6 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ShaderCompileWorker";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		4BDF3016CA331EC4E8A6E0A8 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ShaderCompileWorker";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		DDB48C241576EFF49473E8DF /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ShaderCompileWorker";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		86D045A9DEA91A6C4600E9E4 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ShaderCompileWorker";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		00B085F05F8C2E5C0A7C741B /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "ShaderCompileWorker";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		9439A1DC46B082028DA3DCBC /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "ShaderCompileWorker-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.ShaderCompileWorker;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/ShaderCompileWorker-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		702BEAC7F997E17D51564BBC /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "ShaderCompileWorker-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.ShaderCompileWorker;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/ShaderCompileWorker-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		AD599D91A5FFFA7E35706E8B /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "ShaderCompileWorker";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.ShaderCompileWorker;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/ShaderCompileWorker-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		F1C2003560931C77712AC6C9 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "ShaderCompileWorker-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.ShaderCompileWorker;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/ShaderCompileWorker-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		2DE5E1BDF92AB80C1BDC1BF5 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "ShaderCompileWorker";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "ShaderCompileWorker-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.ShaderCompileWorker;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/ShaderCompileWorker-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/ShaderCompileWorker-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		665F12BC4A6C0393A8E23108 /* Build configuration list for PBXProject "ShaderCompileWorker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				731AC35010F440CC3BE80DCE /* "Debug" */,
+				D7A133405A8A8326E417E84A /* "DebugGame" */,
+				2EEA86C5275700E0ADF2F57A /* "Development" */,
+				3B30842DF45F1354C336E772 /* "Test" */,
+				34C37B348B8807BE2CE5A723 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		06C83EEA486FCE920F8ED2C8 /* Build configuration list for PBXLegacyTarget "ShaderCompileWorker_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C563B74AA36C44527CBEC6 /* "Debug" */,
+				4BDF3016CA331EC4E8A6E0A8 /* "DebugGame" */,
+				DDB48C241576EFF49473E8DF /* "Development" */,
+				86D045A9DEA91A6C4600E9E4 /* "Test" */,
+				00B085F05F8C2E5C0A7C741B /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		8BF8E46B66D9CC1B893E7D3C /* Build configuration list for PBXNativeTarget "ShaderCompileWorker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				027ABC877AECBC76C64C36AC /* "Debug" */,
+				918982977BC87C85BBF6F341 /* "DebugGame" */,
+				596D5CB0F82362EBA8D9274F /* "Development" */,
+				CBDCCB370201E5E5847C039F /* "Test" */,
+				1A6A751A1C7B2CCAF2E64540 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		B940BC04ED1000548C4A6E4D /* Build configuration list for PBXNativeTarget "ShaderCompileWorker_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9439A1DC46B082028DA3DCBC /* "Debug" */,
+				702BEAC7F997E17D51564BBC /* "DebugGame" */,
+				AD599D91A5FFFA7E35706E8B /* "Development" */,
+				F1C2003560931C77712AC6C9 /* "Test" */,
+				2DE5E1BDF92AB80C1BDC1BF5 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C7C7B0564005155AF1C61B6 /* Project object */;
+}

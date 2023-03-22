@@ -1,0 +1,1115 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B2D2DF3707C5211AA9ABFD1 /* CpuUtilizationMonitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 219BCAA821C56AA0D54C3A5A /* CpuUtilizationMonitor.cpp */; };
+		A96508EE55C01BBA4636E7D1 /* CpuUtilizationMonitor.h in Sources */ = {isa = PBXBuildFile; fileRef = 4D630C333A4B5BF0AC5C76B5 /* CpuUtilizationMonitor.h */; };
+		F45561560981394DEE534573 /* SwitchboardListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F26893C24512A7F250B3401E /* SwitchboardListener.cpp */; };
+		95344F305B7E0027A069E878 /* SwitchboardListener.h in Sources */ = {isa = PBXBuildFile; fileRef = 187F6AFF93E6DD47F4CA040B /* SwitchboardListener.h */; };
+		A8E2CDB32783F1D42A5A1259 /* SwitchboardListenerApp.h in Sources */ = {isa = PBXBuildFile; fileRef = F31BBF2DC2B9ECFA62973732 /* SwitchboardListenerApp.h */; };
+		6B65C81F6D8D1FCA30446049 /* SwitchboardListenerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF218FA7FF116663B4B01F92 /* SwitchboardListenerMain.cpp */; };
+		E7F7A0A184E3B264880B07F1 /* SwitchboardListenerVersion.h in Sources */ = {isa = PBXBuildFile; fileRef = 7356F775F98AE8817896ABFD /* SwitchboardListenerVersion.h */; };
+		D012AFDF98F969D612B5CBB9 /* SwitchboardMessageFuture.h in Sources */ = {isa = PBXBuildFile; fileRef = DF01AD4007380C0800BC24D0 /* SwitchboardMessageFuture.h */; };
+		389C40BBBEFC0A14EDDE7432 /* SwitchboardPacket.h in Sources */ = {isa = PBXBuildFile; fileRef = 304969849600899BA16471E5 /* SwitchboardPacket.h */; };
+		48FED18B489F493FF3D2CD46 /* SwitchboardProtocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6022166B87EBCDED0EF54DB /* SwitchboardProtocol.cpp */; };
+		21E7C860EE2F3209BE0760AC /* SwitchboardProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = 71E9343D50D5645C064AD513 /* SwitchboardProtocol.h */; };
+		13619E2905C1D958A9F5A451 /* SwitchboardTasks.h in Sources */ = {isa = PBXBuildFile; fileRef = FFA8BB0F2068BDBBFB2FF362 /* SwitchboardTasks.h */; };
+		2629B54FF044E2401543CADB /* SyncStatus.h in Sources */ = {isa = PBXBuildFile; fileRef = 5445DD720034C857A8C2A0AA /* SyncStatus.h */; };
+		0AF6894CE775B0E0D193772E /* Icon.ico in Sources */ = {isa = PBXBuildFile; fileRef = 7052785BA0A9B408E59EE99F /* Icon.ico */; };
+		ADBB7D23B0A0833809A984F7 /* Resource.h in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7514A1899D57CC5856D39 /* Resource.h */; };
+		DAA9BC70E4C3B16B0CEAEF77 /* Resource.rc in Sources */ = {isa = PBXBuildFile; fileRef = 8B513EB85B4121A64D96F4EA /* Resource.rc */; };
+		5C70EA5FA11837360DCA05E2 /* Resource.rc2 in Sources */ = {isa = PBXBuildFile; fileRef = 66B5FCF88BC2EE491B236640 /* Resource.rc2 */; };
+		CFD8610FD8F002E36E3CA2BF /* WindowsCpuUtilizationMonitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC9252D79352055D1A98CB97 /* WindowsCpuUtilizationMonitor.cpp */; };
+		8646E54606D262514BA28D22 /* WindowsCpuUtilizationMonitor.h in Sources */ = {isa = PBXBuildFile; fileRef = 44885EC632AE477DB2A67551 /* WindowsCpuUtilizationMonitor.h */; };
+		F0A22FA3D80DD918C1E89B6E /* ReadMe.md in Sources */ = {isa = PBXBuildFile; fileRef = 2FE28F7767080C316C987369 /* ReadMe.md */; };
+		02327D1E35519ABF3242246B /* SwitchboardListener.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 2CD118AC97B36C41126C134D /* SwitchboardListener.Build.cs */; };
+		A76EC5B0A13874A150484028 /* SwitchboardListener.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 9298C9897C3C45F4A424F81B /* SwitchboardListener.Target.cs */; };
+		24F5D90A60E1E0582EC6F09C /* listener_tests.py in Sources */ = {isa = PBXBuildFile; fileRef = 4F557675F4054FFFB4FC5570 /* listener_tests.py */; };
+		B33CBD84A14BF3951E302D92 /* transfer_test.cfg in Sources */ = {isa = PBXBuildFile; fileRef = 22F6E624680CAA4436AA7DB5 /* transfer_test.cfg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		219BCAA821C56AA0D54C3A5A /* CpuUtilizationMonitor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CpuUtilizationMonitor.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/CpuUtilizationMonitor.cpp"; sourceTree = SOURCE_ROOT; };
+		4D630C333A4B5BF0AC5C76B5 /* CpuUtilizationMonitor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CpuUtilizationMonitor.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/CpuUtilizationMonitor.h"; sourceTree = SOURCE_ROOT; };
+		F26893C24512A7F250B3401E /* SwitchboardListener.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SwitchboardListener.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardListener.cpp"; sourceTree = SOURCE_ROOT; };
+		187F6AFF93E6DD47F4CA040B /* SwitchboardListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SwitchboardListener.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardListener.h"; sourceTree = SOURCE_ROOT; };
+		F31BBF2DC2B9ECFA62973732 /* SwitchboardListenerApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SwitchboardListenerApp.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardListenerApp.h"; sourceTree = SOURCE_ROOT; };
+		CF218FA7FF116663B4B01F92 /* SwitchboardListenerMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SwitchboardListenerMain.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardListenerMain.cpp"; sourceTree = SOURCE_ROOT; };
+		7356F775F98AE8817896ABFD /* SwitchboardListenerVersion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SwitchboardListenerVersion.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardListenerVersion.h"; sourceTree = SOURCE_ROOT; };
+		DF01AD4007380C0800BC24D0 /* SwitchboardMessageFuture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SwitchboardMessageFuture.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardMessageFuture.h"; sourceTree = SOURCE_ROOT; };
+		304969849600899BA16471E5 /* SwitchboardPacket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SwitchboardPacket.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardPacket.h"; sourceTree = SOURCE_ROOT; };
+		C6022166B87EBCDED0EF54DB /* SwitchboardProtocol.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "SwitchboardProtocol.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardProtocol.cpp"; sourceTree = SOURCE_ROOT; };
+		71E9343D50D5645C064AD513 /* SwitchboardProtocol.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SwitchboardProtocol.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardProtocol.h"; sourceTree = SOURCE_ROOT; };
+		FFA8BB0F2068BDBBFB2FF362 /* SwitchboardTasks.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SwitchboardTasks.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SwitchboardTasks.h"; sourceTree = SOURCE_ROOT; };
+		5445DD720034C857A8C2A0AA /* SyncStatus.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "SyncStatus.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/SyncStatus.h"; sourceTree = SOURCE_ROOT; };
+		7052785BA0A9B408E59EE99F /* Icon.ico */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Icon.ico"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/Windows/Resources/Icon.ico"; sourceTree = SOURCE_ROOT; };
+		5BC7514A1899D57CC5856D39 /* Resource.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "Resource.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/Windows/Resources/Resource.h"; sourceTree = SOURCE_ROOT; };
+		8B513EB85B4121A64D96F4EA /* Resource.rc */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resource.rc"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/Windows/Resources/Resource.rc"; sourceTree = SOURCE_ROOT; };
+		66B5FCF88BC2EE491B236640 /* Resource.rc2 */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resource.rc2"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/Windows/Resources/Resource.rc2"; sourceTree = SOURCE_ROOT; };
+		DC9252D79352055D1A98CB97 /* WindowsCpuUtilizationMonitor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "WindowsCpuUtilizationMonitor.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/Windows/WindowsCpuUtilizationMonitor.cpp"; sourceTree = SOURCE_ROOT; };
+		44885EC632AE477DB2A67551 /* WindowsCpuUtilizationMonitor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "WindowsCpuUtilizationMonitor.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/Windows/WindowsCpuUtilizationMonitor.h"; sourceTree = SOURCE_ROOT; };
+		2FE28F7767080C316C987369 /* ReadMe.md */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ReadMe.md"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/ReadMe.md"; sourceTree = SOURCE_ROOT; };
+		2CD118AC97B36C41126C134D /* SwitchboardListener.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SwitchboardListener.Build.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/SwitchboardListener.Build.cs"; sourceTree = SOURCE_ROOT; };
+		9298C9897C3C45F4A424F81B /* SwitchboardListener.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "SwitchboardListener.Target.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/SwitchboardListener.Target.cs"; sourceTree = SOURCE_ROOT; };
+		4F557675F4054FFFB4FC5570 /* listener_tests.py */ = {isa = PBXFileReference; explicitFileType = file.text; name = "listener_tests.py"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Tests/listener_tests.py"; sourceTree = SOURCE_ROOT; };
+		22F6E624680CAA4436AA7DB5 /* transfer_test.cfg */ = {isa = PBXFileReference; explicitFileType = file.text; name = "transfer_test.cfg"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Tests/transfer_test.cfg"; sourceTree = SOURCE_ROOT; };
+		4F8742DED5F4F6EA0BC163C8 /* SwitchboardListener */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SwitchboardListener; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3701CD79D37C97FE8CCA0067 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2D2DF3707C5211AA9ABFD1 /* CpuUtilizationMonitor.cpp in Sources */,
+				F45561560981394DEE534573 /* SwitchboardListener.cpp in Sources */,
+				6B65C81F6D8D1FCA30446049 /* SwitchboardListenerMain.cpp in Sources */,
+				48FED18B489F493FF3D2CD46 /* SwitchboardProtocol.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	EBD047C987EE3226B973F7D4 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		118B88C5AF62F8784DBCBF70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9AAFBBBB5A6A38E81B159E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A690333AE48FBA6DA0F92FCB;
+			remoteInfo = "SwitchboardListener_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		79E4885D0A23DE5DE947BC7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A690333AE48FBA6DA0F92FCB /* SwitchboardListener_Build */;
+			targetProxy = 118B88C5AF62F8784DBCBF70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		BB4DBAD247B8296AB2E00BA7 = {
+			isa = PBXGroup;
+			children = (
+				837EF92C41995DFDC18262B4 /* Private */,
+				F480EC8CCBB9872A21E68680 /* Tests */,
+				2FE28F7767080C316C987369 /* ReadMe.md */,
+				2CD118AC97B36C41126C134D /* SwitchboardListener.Build.cs */,
+				9298C9897C3C45F4A424F81B /* SwitchboardListener.Target.cs */,
+				D7B49A811D8F9D7D65AFB73D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		837EF92C41995DFDC18262B4 = {
+			isa = PBXGroup;
+			children = (
+				DEFF001D79F46CEA3E2CE153 /* Windows */,
+				219BCAA821C56AA0D54C3A5A /* CpuUtilizationMonitor.cpp */,
+				4D630C333A4B5BF0AC5C76B5 /* CpuUtilizationMonitor.h */,
+				F26893C24512A7F250B3401E /* SwitchboardListener.cpp */,
+				187F6AFF93E6DD47F4CA040B /* SwitchboardListener.h */,
+				F31BBF2DC2B9ECFA62973732 /* SwitchboardListenerApp.h */,
+				CF218FA7FF116663B4B01F92 /* SwitchboardListenerMain.cpp */,
+				7356F775F98AE8817896ABFD /* SwitchboardListenerVersion.h */,
+				DF01AD4007380C0800BC24D0 /* SwitchboardMessageFuture.h */,
+				304969849600899BA16471E5 /* SwitchboardPacket.h */,
+				C6022166B87EBCDED0EF54DB /* SwitchboardProtocol.cpp */,
+				71E9343D50D5645C064AD513 /* SwitchboardProtocol.h */,
+				FFA8BB0F2068BDBBFB2FF362 /* SwitchboardTasks.h */,
+				5445DD720034C857A8C2A0AA /* SyncStatus.h */,
+			);
+			name = "Private";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private";
+			sourceTree = "<absolute>";
+		};
+		DEFF001D79F46CEA3E2CE153 = {
+			isa = PBXGroup;
+			children = (
+				5D7EF337212706D02B2736C3 /* Resources */,
+				DC9252D79352055D1A98CB97 /* WindowsCpuUtilizationMonitor.cpp */,
+				44885EC632AE477DB2A67551 /* WindowsCpuUtilizationMonitor.h */,
+			);
+			name = "Windows";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/Windows";
+			sourceTree = "<absolute>";
+		};
+		5D7EF337212706D02B2736C3 = {
+			isa = PBXGroup;
+			children = (
+				7052785BA0A9B408E59EE99F /* Icon.ico */,
+				5BC7514A1899D57CC5856D39 /* Resource.h */,
+				8B513EB85B4121A64D96F4EA /* Resource.rc */,
+				66B5FCF88BC2EE491B236640 /* Resource.rc2 */,
+			);
+			name = "Resources";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private/Windows/Resources";
+			sourceTree = "<absolute>";
+		};
+		F480EC8CCBB9872A21E68680 = {
+			isa = PBXGroup;
+			children = (
+				4F557675F4054FFFB4FC5570 /* listener_tests.py */,
+				22F6E624680CAA4436AA7DB5 /* transfer_test.cfg */,
+			);
+			name = "Tests";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Tests";
+			sourceTree = "<absolute>";
+		};
+		D7B49A811D8F9D7D65AFB73D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F8742DED5F4F6EA0BC163C8 /* SwitchboardListener */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A690333AE48FBA6DA0F92FCB /* SwitchboardListener_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 912E0A4CEF4F0CBD24180E82 /* Build configuration list for PBXLegacyTarget "SwitchboardListener_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/meghasingh/Documents/GitHub/UnrealEngine";
+			dependencies = (
+			);
+			name = "SwitchboardListener_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "SwitchboardListener_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		D1D21CDDAC2FED3D5DC2EDA3 /* SwitchboardListener */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B45D74405719F3BAAEE7C75A /* Build configuration list for PBXNativeTarget "SwitchboardListener" */;
+			buildPhases = (
+				EBD047C987EE3226B973F7D4 /* Embed App Extensions */, 
+				4521B3804D9FCC0B967C9A45 /* Shell Script */, 
+			);
+			dependencies = (
+				79E4885D0A23DE5DE947BC7B /* PBXTargetDependency */,
+			);
+			name = "SwitchboardListener";
+			passBuildSettingsInEnvironment = 1;
+			productName = "SwitchboardListener";
+			productReference = "4F8742DED5F4F6EA0BC163C8";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		E1FF88F551D2704F28C01E1F /* SwitchboardListener_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EBE93BE0252D05558764DA7 /* Build configuration list for PBXNativeTarget "SwitchboardListener_Index" */;
+			buildPhases = (
+				3701CD79D37C97FE8CCA0067 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "SwitchboardListener_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "SwitchboardListener_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9AAFBBBB5A6A38E81B159E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					D1D21CDDAC2FED3D5DC2EDA3 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 07C41BCE88DFA3D010EB1D31 /* Build configuration list for PBXProject "SwitchboardListener" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = BB4DBAD247B8296AB2E00BA7;
+			productRefGroup = D7B49A811D8F9D7D65AFB73D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			D1D21CDDAC2FED3D5DC2EDA3 /* SwitchboardListener */,
+			A690333AE48FBA6DA0F92FCB /* SwitchboardListener_Build */,
+			E1FF88F551D2704F28C01E1F /* SwitchboardListener_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		EBB09735490C1A0CB332964C /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Networking/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Networking/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/JsonUtilities/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/JsonUtilities/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/JsonUtilities/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Launch/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Launch/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ProfilerService/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ProfilerService/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/SwitchboardListener/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/SwitchboardListener/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		A9558E05F9D73BF27CE56C33 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Networking/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Networking/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/JsonUtilities/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/JsonUtilities/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/JsonUtilities/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Launch/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Launch/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ProfilerService/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ProfilerService/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/SwitchboardListener/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/SwitchboardListener/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		DB61B26452F1818A350E5122 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Networking/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Networking/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/JsonUtilities/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/JsonUtilities/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/JsonUtilities/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Launch/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Launch/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ProfilerService/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ProfilerService/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/SwitchboardListener/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/SwitchboardListener/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		D100B185542E4375091EB29B /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Networking/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Networking/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/JsonUtilities/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/JsonUtilities/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/JsonUtilities/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Launch/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Launch/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ProfilerService/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ProfilerService/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/SwitchboardListener/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/SwitchboardListener/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		F3EC3834B5C3D12D13B489EB /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/SwitchboardListener/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Networking/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Networking/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/JsonUtilities/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/JsonUtilities/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/JsonUtilities/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Launch/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/Launch/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ProfilerService/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/ProfilerService/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/ProfilerService/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/SwitchboardListener/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/SwitchboardListener/Inc/SwitchboardListener/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		48D4F6767D9183C30AF834B1 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SwitchboardListener-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SwitchboardListener;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SwitchboardListener-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		5B2D0EBE60271547F71E1F7F /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SwitchboardListener-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SwitchboardListener;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SwitchboardListener-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		6C1B1A5ABF0B5522E8665893 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SwitchboardListener";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SwitchboardListener;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SwitchboardListener-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		7075C6861F479D2ED7A3ECFD /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SwitchboardListener-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SwitchboardListener;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SwitchboardListener-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		C31482080655D7983A0289B6 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SwitchboardListener-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SwitchboardListener;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SwitchboardListener-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		C816B1EDFEF4D16E3601DDD7 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "SwitchboardListener";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		B3D66A1FD8212661DD3844A8 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "SwitchboardListener";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		B1B6810BC3AEEF0A843E4476 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "SwitchboardListener";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		FC696B2EF300175DC3D73AC3 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "SwitchboardListener";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		91473409369CED88EC2A3B06 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "SwitchboardListener";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		56FDDDAD59EA20128B673878 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SwitchboardListener-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SwitchboardListener;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SwitchboardListener-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		66CC755FC5EB5B7190A9512C /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SwitchboardListener-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SwitchboardListener;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SwitchboardListener-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		6EC20FECB7BA73577B53F2A9 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SwitchboardListener";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SwitchboardListener;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SwitchboardListener-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		FD69B556FACE6D4F0F737C41 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SwitchboardListener-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SwitchboardListener;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SwitchboardListener-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		C8E3A800060DAF48DFC992E6 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "SwitchboardListener";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "SwitchboardListener-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.SwitchboardListener;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/SwitchboardListener-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/SwitchboardListener-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C41BCE88DFA3D010EB1D31 /* Build configuration list for PBXProject "SwitchboardListener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB09735490C1A0CB332964C /* "Debug" */,
+				A9558E05F9D73BF27CE56C33 /* "DebugGame" */,
+				DB61B26452F1818A350E5122 /* "Development" */,
+				D100B185542E4375091EB29B /* "Test" */,
+				F3EC3834B5C3D12D13B489EB /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		912E0A4CEF4F0CBD24180E82 /* Build configuration list for PBXLegacyTarget "SwitchboardListener_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C816B1EDFEF4D16E3601DDD7 /* "Debug" */,
+				B3D66A1FD8212661DD3844A8 /* "DebugGame" */,
+				B1B6810BC3AEEF0A843E4476 /* "Development" */,
+				FC696B2EF300175DC3D73AC3 /* "Test" */,
+				91473409369CED88EC2A3B06 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		B45D74405719F3BAAEE7C75A /* Build configuration list for PBXNativeTarget "SwitchboardListener" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D4F6767D9183C30AF834B1 /* "Debug" */,
+				5B2D0EBE60271547F71E1F7F /* "DebugGame" */,
+				6C1B1A5ABF0B5522E8665893 /* "Development" */,
+				7075C6861F479D2ED7A3ECFD /* "Test" */,
+				C31482080655D7983A0289B6 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2EBE93BE0252D05558764DA7 /* Build configuration list for PBXNativeTarget "SwitchboardListener_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56FDDDAD59EA20128B673878 /* "Debug" */,
+				66CC755FC5EB5B7190A9512C /* "DebugGame" */,
+				6EC20FECB7BA73577B53F2A9 /* "Development" */,
+				FD69B556FACE6D4F0F737C41 /* "Test" */,
+				C8E3A800060DAF48DFC992E6 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9AAFBBBB5A6A38E81B159E4 /* Project object */;
+}

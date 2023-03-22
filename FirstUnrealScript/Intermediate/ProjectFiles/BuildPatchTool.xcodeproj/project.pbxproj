@@ -1,0 +1,942 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF3A73B3DFF69484FE6F1BE7 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = E255CC4056CF39C1E6BDCD03 /* DefaultEngine.ini */; };
+		1AD976A571C40103637E3CFC /* BuildPatchTool.Automation.cs in Sources */ = {isa = PBXBuildFile; fileRef = DDDBA410F1EE403258C50CC6 /* BuildPatchTool.Automation.cs */; };
+		C61C3C5B8A90D0F99B799EFB /* BuildPatchTool.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 4BB47BADF98C042E34D27CF0 /* BuildPatchTool.Build.cs */; };
+		102446793638E1E773194BBB /* BuildPatchTool.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 940AC694D607EE88F16DFF10 /* BuildPatchTool.Target.cs */; };
+		EB7F6688A6620BBE8AB04C62 /* BuildPatchTool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D94A34DEF7D170ED7728891A /* BuildPatchTool.cpp */; };
+		11B7F9F9CE7BA700B4D2E60C /* ToolMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6B367CBFB3DCF610764051B /* ToolMode.cpp */; };
+		E616C3F08DFF51CD0941638A /* AutomationMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4EC950CFFFD692713E3A7E4 /* AutomationMode.cpp */; };
+		16A1C9C44087BF036FDFC1D8 /* ChunkDeltaOptimiseMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC77D3BC1E211D080C57DA7A /* ChunkDeltaOptimiseMode.cpp */; };
+		1E0F92CF73D69EBEC74E5BFE /* CompactifyMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F9DEC79EC230244B47A39BF /* CompactifyMode.cpp */; };
+		F0F52629822209ADB1DD0D4E /* DiffManifestMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 151E5A51C72882356605F2B1 /* DiffManifestMode.cpp */; };
+		2FB532DAFA4C22416CBBE03E /* EnumerationMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 328495283FF1CCB0F191DEAA /* EnumerationMode.cpp */; };
+		EC1B8FC755F675222791BFD5 /* MergeManifestMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2541CA397ACAEC8C1AAAED3 /* MergeManifestMode.cpp */; };
+		6841E72216F6F29DD688C358 /* PackageChunksMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 835E00E5FCDDCE53C2BC5BC7 /* PackageChunksMode.cpp */; };
+		761E264FA653B4EB02742091 /* PatchGenerationMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B8D3B899384B58C986A815E4 /* PatchGenerationMode.cpp */; };
+		08F06A36F418A4C2F64B97B1 /* VerifyChunksMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CE23C67A69FB0FC3CE6C9D8 /* VerifyChunksMode.cpp */; };
+		0EF12EB06EA70A55CDB0DE54 /* BuildPatchTool.h in Sources */ = {isa = PBXBuildFile; fileRef = 88A578D2AE4360633CA8C53D /* BuildPatchTool.h */; };
+		100EC15E19D243035A9ED225 /* ToolMode.h in Sources */ = {isa = PBXBuildFile; fileRef = BF5E356FCD58C02166518411 /* ToolMode.h */; };
+		683944F61AA711819E3F412A /* AutomationMode.h in Sources */ = {isa = PBXBuildFile; fileRef = FFD989C47A21EE34E1678472 /* AutomationMode.h */; };
+		739339CCC1DD92F4A04B4D99 /* ChunkDeltaOptimiseMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 621F8AF46E492D9BD5262453 /* ChunkDeltaOptimiseMode.h */; };
+		133180F17118B3652BF03DDB /* CompactifyMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 6D3E94F01EEAB43D57DF6F8E /* CompactifyMode.h */; };
+		B53D7DEA72E7FB34C1F13804 /* DiffManifestMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 23C0EA0188F16B878604927D /* DiffManifestMode.h */; };
+		672CA56F71FDAC09E5C43D3D /* EnumerationMode.h in Sources */ = {isa = PBXBuildFile; fileRef = AC7DDA87EA83CE6B687E63D7 /* EnumerationMode.h */; };
+		FD6BEAF043FFAAB1AAFF8345 /* MergeManifestMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 418CC3C3442E1F5F82AD540A /* MergeManifestMode.h */; };
+		C00A273A5E04545016DFDA5F /* PackageChunksMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 61A87C84EB9B7B731ABDB088 /* PackageChunksMode.h */; };
+		16E49D02352614E8C9CE7105 /* PatchGenerationMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 13BBC6E61A8C92ADF995455E /* PatchGenerationMode.h */; };
+		B96CF4F37A29684C6FE5B890 /* VerifyChunksMode.h in Sources */ = {isa = PBXBuildFile; fileRef = 5DA0838797E86D72E2AF8730 /* VerifyChunksMode.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E255CC4056CF39C1E6BDCD03 /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../GitHub/UnrealEngine/Engine/Programs/BuildPatchTool/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		DDDBA410F1EE403258C50CC6 /* BuildPatchTool.Automation.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BuildPatchTool.Automation.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/BuildPatchTool.Automation.cs"; sourceTree = SOURCE_ROOT; };
+		4BB47BADF98C042E34D27CF0 /* BuildPatchTool.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BuildPatchTool.Build.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/BuildPatchTool.Build.cs"; sourceTree = SOURCE_ROOT; };
+		940AC694D607EE88F16DFF10 /* BuildPatchTool.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "BuildPatchTool.Target.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/BuildPatchTool.Target.cs"; sourceTree = SOURCE_ROOT; };
+		D94A34DEF7D170ED7728891A /* BuildPatchTool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "BuildPatchTool.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/BuildPatchTool.cpp"; sourceTree = SOURCE_ROOT; };
+		E6B367CBFB3DCF610764051B /* ToolMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ToolMode.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolMode.cpp"; sourceTree = SOURCE_ROOT; };
+		C4EC950CFFFD692713E3A7E4 /* AutomationMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "AutomationMode.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/AutomationMode.cpp"; sourceTree = SOURCE_ROOT; };
+		CC77D3BC1E211D080C57DA7A /* ChunkDeltaOptimiseMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "ChunkDeltaOptimiseMode.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/ChunkDeltaOptimiseMode.cpp"; sourceTree = SOURCE_ROOT; };
+		9F9DEC79EC230244B47A39BF /* CompactifyMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "CompactifyMode.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/CompactifyMode.cpp"; sourceTree = SOURCE_ROOT; };
+		151E5A51C72882356605F2B1 /* DiffManifestMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DiffManifestMode.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/DiffManifestMode.cpp"; sourceTree = SOURCE_ROOT; };
+		328495283FF1CCB0F191DEAA /* EnumerationMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EnumerationMode.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/EnumerationMode.cpp"; sourceTree = SOURCE_ROOT; };
+		F2541CA397ACAEC8C1AAAED3 /* MergeManifestMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MergeManifestMode.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/MergeManifestMode.cpp"; sourceTree = SOURCE_ROOT; };
+		835E00E5FCDDCE53C2BC5BC7 /* PackageChunksMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PackageChunksMode.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/PackageChunksMode.cpp"; sourceTree = SOURCE_ROOT; };
+		B8D3B899384B58C986A815E4 /* PatchGenerationMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "PatchGenerationMode.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/PatchGenerationMode.cpp"; sourceTree = SOURCE_ROOT; };
+		3CE23C67A69FB0FC3CE6C9D8 /* VerifyChunksMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "VerifyChunksMode.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes/VerifyChunksMode.cpp"; sourceTree = SOURCE_ROOT; };
+		88A578D2AE4360633CA8C53D /* BuildPatchTool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "BuildPatchTool.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/BuildPatchTool.h"; sourceTree = SOURCE_ROOT; };
+		BF5E356FCD58C02166518411 /* ToolMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ToolMode.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/Interfaces/ToolMode.h"; sourceTree = SOURCE_ROOT; };
+		FFD989C47A21EE34E1678472 /* AutomationMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "AutomationMode.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/AutomationMode.h"; sourceTree = SOURCE_ROOT; };
+		621F8AF46E492D9BD5262453 /* ChunkDeltaOptimiseMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "ChunkDeltaOptimiseMode.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/ChunkDeltaOptimiseMode.h"; sourceTree = SOURCE_ROOT; };
+		6D3E94F01EEAB43D57DF6F8E /* CompactifyMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "CompactifyMode.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/CompactifyMode.h"; sourceTree = SOURCE_ROOT; };
+		23C0EA0188F16B878604927D /* DiffManifestMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DiffManifestMode.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/DiffManifestMode.h"; sourceTree = SOURCE_ROOT; };
+		AC7DDA87EA83CE6B687E63D7 /* EnumerationMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EnumerationMode.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/EnumerationMode.h"; sourceTree = SOURCE_ROOT; };
+		418CC3C3442E1F5F82AD540A /* MergeManifestMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "MergeManifestMode.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/MergeManifestMode.h"; sourceTree = SOURCE_ROOT; };
+		61A87C84EB9B7B731ABDB088 /* PackageChunksMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PackageChunksMode.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/PackageChunksMode.h"; sourceTree = SOURCE_ROOT; };
+		13BBC6E61A8C92ADF995455E /* PatchGenerationMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "PatchGenerationMode.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/PatchGenerationMode.h"; sourceTree = SOURCE_ROOT; };
+		5DA0838797E86D72E2AF8730 /* VerifyChunksMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "VerifyChunksMode.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/VerifyChunksMode.h"; sourceTree = SOURCE_ROOT; };
+		545B07D156CC01971A315343 /* BuildPatchTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = BuildPatchTool; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E33E610A2A9C16B02483E1F1 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7F6688A6620BBE8AB04C62 /* BuildPatchTool.cpp in Sources */,
+				11B7F9F9CE7BA700B4D2E60C /* ToolMode.cpp in Sources */,
+				E616C3F08DFF51CD0941638A /* AutomationMode.cpp in Sources */,
+				16A1C9C44087BF036FDFC1D8 /* ChunkDeltaOptimiseMode.cpp in Sources */,
+				1E0F92CF73D69EBEC74E5BFE /* CompactifyMode.cpp in Sources */,
+				F0F52629822209ADB1DD0D4E /* DiffManifestMode.cpp in Sources */,
+				2FB532DAFA4C22416CBBE03E /* EnumerationMode.cpp in Sources */,
+				EC1B8FC755F675222791BFD5 /* MergeManifestMode.cpp in Sources */,
+				6841E72216F6F29DD688C358 /* PackageChunksMode.cpp in Sources */,
+				761E264FA653B4EB02742091 /* PatchGenerationMode.cpp in Sources */,
+				08F06A36F418A4C2F64B97B1 /* VerifyChunksMode.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	32368A1129D61E77EC224A06 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		8E7655E87D5B34C74D9AF0F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48C1A7D53C678ECD702E1CF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B92B76875A2E4939791D600;
+			remoteInfo = "BuildPatchTool_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		86A59176E5545427EC1A114A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B92B76875A2E4939791D600 /* BuildPatchTool_Build */;
+			targetProxy = 8E7655E87D5B34C74D9AF0F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		F34A3558435F0445D459D757 = {
+			isa = PBXGroup;
+			children = (
+				864B678730FCCC78E347D4F6 /* Programs */,
+				EDF6FC6A12905AE928167982 /* Source */,
+				D25B20BB82AF7975AF5FDAF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		864B678730FCCC78E347D4F6 = {
+			isa = PBXGroup;
+			children = (
+				871D6301551EA98A3C456E6D /* BuildPatchTool */,
+			);
+			name = "Programs";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Programs";
+			sourceTree = "<absolute>";
+		};
+		871D6301551EA98A3C456E6D = {
+			isa = PBXGroup;
+			children = (
+				473A2179F548CB5F45950182 /* Config */,
+			);
+			name = "BuildPatchTool";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Programs/BuildPatchTool";
+			sourceTree = "<absolute>";
+		};
+		473A2179F548CB5F45950182 = {
+			isa = PBXGroup;
+			children = (
+				E255CC4056CF39C1E6BDCD03 /* DefaultEngine.ini */,
+			);
+			name = "Config";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Programs/BuildPatchTool/Config";
+			sourceTree = "<absolute>";
+		};
+		EDF6FC6A12905AE928167982 = {
+			isa = PBXGroup;
+			children = (
+				82E09311D017D541DCFA3FF6 /* Programs */,
+			);
+			name = "Source";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source";
+			sourceTree = "<absolute>";
+		};
+		82E09311D017D541DCFA3FF6 = {
+			isa = PBXGroup;
+			children = (
+				DB53839B7C74B1F11BE1135E /* BuildPatchTool */,
+			);
+			name = "Programs";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs";
+			sourceTree = "<absolute>";
+		};
+		DB53839B7C74B1F11BE1135E = {
+			isa = PBXGroup;
+			children = (
+				223E77ACEB854531C19FF614 /* Private */,
+				0DBF6CB4658766A1CD35EF91 /* Public */,
+				DDDBA410F1EE403258C50CC6 /* BuildPatchTool.Automation.cs */,
+				4BB47BADF98C042E34D27CF0 /* BuildPatchTool.Build.cs */,
+				940AC694D607EE88F16DFF10 /* BuildPatchTool.Target.cs */,
+			);
+			name = "BuildPatchTool";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool";
+			sourceTree = "<absolute>";
+		};
+		223E77ACEB854531C19FF614 = {
+			isa = PBXGroup;
+			children = (
+				B4B98F2DBFC0A5F3B7068FBF /* ToolModes */,
+				D94A34DEF7D170ED7728891A /* BuildPatchTool.cpp */,
+				E6B367CBFB3DCF610764051B /* ToolMode.cpp */,
+			);
+			name = "Private";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private";
+			sourceTree = "<absolute>";
+		};
+		B4B98F2DBFC0A5F3B7068FBF = {
+			isa = PBXGroup;
+			children = (
+				C4EC950CFFFD692713E3A7E4 /* AutomationMode.cpp */,
+				CC77D3BC1E211D080C57DA7A /* ChunkDeltaOptimiseMode.cpp */,
+				9F9DEC79EC230244B47A39BF /* CompactifyMode.cpp */,
+				151E5A51C72882356605F2B1 /* DiffManifestMode.cpp */,
+				328495283FF1CCB0F191DEAA /* EnumerationMode.cpp */,
+				F2541CA397ACAEC8C1AAAED3 /* MergeManifestMode.cpp */,
+				835E00E5FCDDCE53C2BC5BC7 /* PackageChunksMode.cpp */,
+				B8D3B899384B58C986A815E4 /* PatchGenerationMode.cpp */,
+				3CE23C67A69FB0FC3CE6C9D8 /* VerifyChunksMode.cpp */,
+			);
+			name = "ToolModes";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private/ToolModes";
+			sourceTree = "<absolute>";
+		};
+		0DBF6CB4658766A1CD35EF91 = {
+			isa = PBXGroup;
+			children = (
+				A0295657B50E353C5C6FE6C2 /* Interfaces */,
+				E483325B3B20A71BAEB89E2B /* ToolModes */,
+				88A578D2AE4360633CA8C53D /* BuildPatchTool.h */,
+			);
+			name = "Public";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public";
+			sourceTree = "<absolute>";
+		};
+		A0295657B50E353C5C6FE6C2 = {
+			isa = PBXGroup;
+			children = (
+				BF5E356FCD58C02166518411 /* ToolMode.h */,
+			);
+			name = "Interfaces";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/Interfaces";
+			sourceTree = "<absolute>";
+		};
+		E483325B3B20A71BAEB89E2B = {
+			isa = PBXGroup;
+			children = (
+				FFD989C47A21EE34E1678472 /* AutomationMode.h */,
+				621F8AF46E492D9BD5262453 /* ChunkDeltaOptimiseMode.h */,
+				6D3E94F01EEAB43D57DF6F8E /* CompactifyMode.h */,
+				23C0EA0188F16B878604927D /* DiffManifestMode.h */,
+				AC7DDA87EA83CE6B687E63D7 /* EnumerationMode.h */,
+				418CC3C3442E1F5F82AD540A /* MergeManifestMode.h */,
+				61A87C84EB9B7B731ABDB088 /* PackageChunksMode.h */,
+				13BBC6E61A8C92ADF995455E /* PatchGenerationMode.h */,
+				5DA0838797E86D72E2AF8730 /* VerifyChunksMode.h */,
+			);
+			name = "ToolModes";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public/ToolModes";
+			sourceTree = "<absolute>";
+		};
+		D25B20BB82AF7975AF5FDAF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				545B07D156CC01971A315343 /* BuildPatchTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		6B92B76875A2E4939791D600 /* BuildPatchTool_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 23DE8340EF44F5EBB59E2289 /* Build configuration list for PBXLegacyTarget "BuildPatchTool_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/meghasingh/Documents/GitHub/UnrealEngine";
+			dependencies = (
+			);
+			name = "BuildPatchTool_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "BuildPatchTool_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		BB2674D9E9FD099CBDCAC9D0 /* BuildPatchTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA9DC657678C6009B230C42 /* Build configuration list for PBXNativeTarget "BuildPatchTool" */;
+			buildPhases = (
+				32368A1129D61E77EC224A06 /* Embed App Extensions */, 
+				59218FB11E26759470427504 /* Shell Script */, 
+			);
+			dependencies = (
+				86A59176E5545427EC1A114A /* PBXTargetDependency */,
+			);
+			name = "BuildPatchTool";
+			passBuildSettingsInEnvironment = 1;
+			productName = "BuildPatchTool";
+			productReference = "545B07D156CC01971A315343";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		4C82D120187A305C23117DEA /* BuildPatchTool_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CB51ABB65D5BC28507AE77 /* Build configuration list for PBXNativeTarget "BuildPatchTool_Index" */;
+			buildPhases = (
+				E33E610A2A9C16B02483E1F1 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "BuildPatchTool_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "BuildPatchTool_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48C1A7D53C678ECD702E1CF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					BB2674D9E9FD099CBDCAC9D0 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = D0C37A1D617ADC1261989C24 /* Build configuration list for PBXProject "BuildPatchTool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = F34A3558435F0445D459D757;
+			productRefGroup = D25B20BB82AF7975AF5FDAF2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			BB2674D9E9FD099CBDCAC9D0 /* BuildPatchTool */,
+			6B92B76875A2E4939791D600 /* BuildPatchTool_Build */,
+			4C82D120187A305C23117DEA /* BuildPatchTool_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		FEF91B384227324F792E894C /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchServices/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchServices/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Online",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/HTTP/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/HTTP/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/PakFile/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/PakFile/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/PakFile/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RSA/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RSA/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RSA/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/SandboxFile/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/SandboxFile/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetworkFile/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetworkFile/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/NetworkFile/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/StreamingFile/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/StreamingFile/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/StreamingFile/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Messaging/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Messaging/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationWorker/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationWorker/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AutomationWorker/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationController/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationController/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/AutomationController/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationTest/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationTest/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AutomationTest/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchTool/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchTool/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		DA9C530E3CB411A348112BDD /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchServices/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchServices/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Online",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/HTTP/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/HTTP/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/PakFile/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/PakFile/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/PakFile/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RSA/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RSA/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RSA/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/SandboxFile/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/SandboxFile/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetworkFile/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetworkFile/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/NetworkFile/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/StreamingFile/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/StreamingFile/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/StreamingFile/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Messaging/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Messaging/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationWorker/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationWorker/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AutomationWorker/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationController/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationController/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/AutomationController/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationTest/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationTest/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AutomationTest/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchTool/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchTool/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		B9617EFDB8EA62BE7EF8E0FB /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchServices/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchServices/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Online",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Online/BuildPatchServices/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/HTTP/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/HTTP/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Online/HTTP/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/PakFile/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/PakFile/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/PakFile/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RSA/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RSA/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RSA/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/SandboxFile/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/SandboxFile/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SandboxFile/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetworkFile/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetworkFile/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public/UObject",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/NetworkFile/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/StreamingFile/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/StreamingFile/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/StreamingFile/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Messaging/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/Messaging/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationWorker/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationWorker/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AutomationWorker/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationController/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationController/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/AutomationController/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationTest/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/AutomationTest/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AutomationTest/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchTool/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/BuildPatchTool/Inc/BuildPatchTool/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/BuildPatchTool/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		25684BD8406206C0F35AB009 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "BuildPatchTool";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "BuildPatchTool";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "BuildPatchTool-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.BuildPatchTool;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/BuildPatchTool-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/BuildPatchTool-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/BuildPatchTool-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		9634412BAC9A8AA0541C1D5A /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "BuildPatchTool";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "BuildPatchTool";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "BuildPatchTool-Mac-Development";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.BuildPatchTool;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/BuildPatchTool-Mac-Development-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/BuildPatchTool-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/BuildPatchTool-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		E519D6C39F6104BB11CF3139 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "BuildPatchTool";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "BuildPatchTool";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "BuildPatchTool";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.BuildPatchTool;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/BuildPatchTool-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/BuildPatchTool-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/BuildPatchTool-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		0C6591FD0D4D81EFC185132F /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "BuildPatchTool";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		2D41CFF8CD8571C9D9DA2271 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "BuildPatchTool";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		E77E2DE534739FD612133E6B /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "BuildPatchTool";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		BBE634C5F0FB8D2B97438BB6 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "BuildPatchTool";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "BuildPatchTool";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "BuildPatchTool-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.BuildPatchTool;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/BuildPatchTool-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/BuildPatchTool-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/BuildPatchTool-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		FA73B20C736FE7A9BA572FBB /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "BuildPatchTool";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "BuildPatchTool";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "BuildPatchTool-Mac-Development";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.BuildPatchTool;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/BuildPatchTool-Mac-Development-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/BuildPatchTool-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/BuildPatchTool-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		067411EE7863F20192B62759 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "BuildPatchTool";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "BuildPatchTool";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "BuildPatchTool";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.BuildPatchTool;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/BuildPatchTool-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/BuildPatchTool-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/BuildPatchTool-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0C37A1D617ADC1261989C24 /* Build configuration list for PBXProject "BuildPatchTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF91B384227324F792E894C /* "Debug" */,
+				DA9C530E3CB411A348112BDD /* "Development" */,
+				B9617EFDB8EA62BE7EF8E0FB /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		23DE8340EF44F5EBB59E2289 /* Build configuration list for PBXLegacyTarget "BuildPatchTool_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C6591FD0D4D81EFC185132F /* "Debug" */,
+				2D41CFF8CD8571C9D9DA2271 /* "Development" */,
+				E77E2DE534739FD612133E6B /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		ADA9DC657678C6009B230C42 /* Build configuration list for PBXNativeTarget "BuildPatchTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25684BD8406206C0F35AB009 /* "Debug" */,
+				9634412BAC9A8AA0541C1D5A /* "Development" */,
+				E519D6C39F6104BB11CF3139 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		A3CB51ABB65D5BC28507AE77 /* Build configuration list for PBXNativeTarget "BuildPatchTool_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE634C5F0FB8D2B97438BB6 /* "Debug" */,
+				FA73B20C736FE7A9BA572FBB /* "Development" */,
+				067411EE7863F20192B62759 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48C1A7D53C678ECD702E1CF2 /* Project object */;
+}

@@ -1,0 +1,1684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36D00D5796B661F8C91E05B6 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 1A3B3BBC47EE730F0BB1A49F /* DefaultEngine.ini */; };
+		592F19148426D8C7E02520C2 /* DefaultUnrealInsightsSettings.ini in Sources */ = {isa = PBXBuildFile; fileRef = 07E6F6D1EBB688F380622D01 /* DefaultUnrealInsightsSettings.ini */; };
+		B4D70ADD8767D2481344CB0A /* IOSUnrealInsightsMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF3BA71A6EC90EC21E15FB /* IOSUnrealInsightsMain.cpp */; };
+		89F9E18428911496C20EBC76 /* LinuxUnrealInsightsMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C827D75DF2D8BD7420DCCB04 /* LinuxUnrealInsightsMain.cpp */; };
+		20119EAA71B651F24C29BF5E /* MacUnrealInsightsMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1563C0F1CC1AD9D9ED1A7C /* MacUnrealInsightsMain.cpp */; };
+		E4EB007336E6F2EB27C3152D /* UnrealInsightsMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DA5F7B85BC4A0FBF3F29FD6 /* UnrealInsightsMain.cpp */; };
+		3C880570F2A755ED56AE372E /* UnrealInsightsMain.h in Sources */ = {isa = PBXBuildFile; fileRef = 084DE371AE000BABF4516141 /* UnrealInsightsMain.h */; };
+		5AC589B0F69D52728E0C5AF1 /* UserInterfaceCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D74B33A017C9FA6F12B245 /* UserInterfaceCommand.cpp */; };
+		B420F4967AD7473EDAF6041F /* UserInterfaceCommand.h in Sources */ = {isa = PBXBuildFile; fileRef = A8A741BA92C85DAE744192E7 /* UserInterfaceCommand.h */; };
+		0B091CF5043C2233F6212178 /* WindowsUnrealInsightsMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4CDCABB14289CCD58ECF7CA /* WindowsUnrealInsightsMain.cpp */; };
+		D896593C86FA0B5DCEE0B294 /* UTrace.png in Sources */ = {isa = PBXBuildFile; fileRef = 063C1DFCAEAE75131F382262 /* UTrace.png */; };
+		E148B2620A8F2CA4FB4AFE12 /* UnrealInsights.png in Sources */ = {isa = PBXBuildFile; fileRef = 78292E88B92795CDB95815C2 /* UnrealInsights.png */; };
+		17CD6A5406CA2E77BBAA5D73 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 19D8580EA10A32630C56C375 /* Info.plist */; };
+		36ECE14A31F64519041E495C /* UTrace.icns in Sources */ = {isa = PBXBuildFile; fileRef = 81C87B6FFD3F35E2E9BF3036 /* UTrace.icns */; };
+		D0D374C7EDC24B11B9ED49F2 /* icon_128x128.png in Sources */ = {isa = PBXBuildFile; fileRef = 62F72BBD4294EA96C31D102D /* icon_128x128.png */; };
+		1F1DFF1C895B14E987BFACF6 /* icon_128x128@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 40DB0175A375A1318C84E6CD /* icon_128x128@2x.png */; };
+		B84A81EF1D1BF307C68B2BD6 /* icon_16x16.png in Sources */ = {isa = PBXBuildFile; fileRef = 0044F61492BB821109CFC2C1 /* icon_16x16.png */; };
+		4326DB170651E8B635CEB871 /* icon_16x16@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5CE2AD47A06C8F36FEEA4 /* icon_16x16@2x.png */; };
+		7991257DCDBC189B36312E31 /* icon_256x256.png in Sources */ = {isa = PBXBuildFile; fileRef = 1E85208EF1D7BE09E31823D7 /* icon_256x256.png */; };
+		1F26E8C076A20CBFDC9DC9F4 /* icon_256x256@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = D980D347A95361617833E021 /* icon_256x256@2x.png */; };
+		3EA94DED79EDB4B2C247A7C7 /* icon_32x32.png in Sources */ = {isa = PBXBuildFile; fileRef = D98B9B17E08915C42E37E3C1 /* icon_32x32.png */; };
+		235F169AC74E47C109F4651B /* icon_32x32@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 4EC12542186A678F82648378 /* icon_32x32@2x.png */; };
+		C1A2EC70BCAEB4EB45C781CC /* icon_512x512.png in Sources */ = {isa = PBXBuildFile; fileRef = 541E45EEE9163192D80B6D1E /* icon_512x512.png */; };
+		ED573D8FC8F9CED43836F7E8 /* icon_512x512@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 51CC2DD9BACEEA6D19D7E9F9 /* icon_512x512@2x.png */; };
+		EEEB7B6C517891F30C8955F4 /* UnrealInsights.icns in Sources */ = {isa = PBXBuildFile; fileRef = 8B28395FEF4568012ADD318E /* UnrealInsights.icns */; };
+		AE5C7C4119E015616D4E3504 /* icon_128x128.png in Sources */ = {isa = PBXBuildFile; fileRef = 445A00BE7D18C3DA6FE8B9A0 /* icon_128x128.png */; };
+		A02DC86259CB3D3259115B43 /* icon_128x128@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = AE73738F917467280AEAAB03 /* icon_128x128@2x.png */; };
+		BA6071310B34779931986903 /* icon_16x16.png in Sources */ = {isa = PBXBuildFile; fileRef = 340BA86E56A1CCCD6387075F /* icon_16x16.png */; };
+		D5C8860326A206F59C0B00BD /* icon_16x16@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = C253C3D6B09141C94B0FFA71 /* icon_16x16@2x.png */; };
+		1EB137D7A8D166B582C58463 /* icon_256x256.png in Sources */ = {isa = PBXBuildFile; fileRef = AE6CEC1BFE957599107AB5ED /* icon_256x256.png */; };
+		D141EB876604394C0E420E3E /* icon_256x256@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = FC73FD8D2EB4CA851B0237C3 /* icon_256x256@2x.png */; };
+		5BF3A28438DFC5C6A2DC70D7 /* icon_32x32.png in Sources */ = {isa = PBXBuildFile; fileRef = F48EFA6914E9F6024CC2C209 /* icon_32x32.png */; };
+		48C877BD9A78B4166E441537 /* icon_32x32@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = D450067C1E5CB11F9DFBBA35 /* icon_32x32@2x.png */; };
+		1B35ABBA1E3485CF0A272B72 /* icon_512x512.png in Sources */ = {isa = PBXBuildFile; fileRef = 61B5132E7C489C1F032598A0 /* icon_512x512.png */; };
+		DDF61DD1463D13C6CD1563F8 /* icon_512x512@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = D9A49BD0CECD63B0F780283C /* icon_512x512@2x.png */; };
+		EDBEDD6DC1F57D3F2A1DBC24 /* make_icns.sh in Sources */ = {isa = PBXBuildFile; fileRef = AC87504A677C6DB7A4FAB253 /* make_icns.sh */; };
+		6E3E40DE6D02B68FAC49224C /* UTrace.ico in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCC9D96B7D9C3FE88711A5 /* UTrace.ico */; };
+		B09DC345C21E9290B77625A6 /* icon_16x16.png in Sources */ = {isa = PBXBuildFile; fileRef = A5B22734E0AE93EE0C72C2CD /* icon_16x16.png */; };
+		35899F90B6EFA1A99A20E1BC /* icon_24x24.png in Sources */ = {isa = PBXBuildFile; fileRef = 6A38A9556C3B94F0C7A4D129 /* icon_24x24.png */; };
+		40A276EB4FFCE45D49F63EE5 /* icon_256x256.png in Sources */ = {isa = PBXBuildFile; fileRef = A1F9710AE89B7F1B78534CC7 /* icon_256x256.png */; };
+		8938D661C1322FB1E11B85EF /* icon_32x32.png in Sources */ = {isa = PBXBuildFile; fileRef = F526CA308C5AF23080560F5A /* icon_32x32.png */; };
+		6A0F4AEE82653F33297B2C37 /* icon_48x48.png in Sources */ = {isa = PBXBuildFile; fileRef = 929EFAF17ADB55D5440DC653 /* icon_48x48.png */; };
+		7FED59F7A355A88932F0E991 /* UnrealInsights.ico in Sources */ = {isa = PBXBuildFile; fileRef = A4CA9F597B5F9E80CEF04010 /* UnrealInsights.ico */; };
+		D55618ABBF59846CF565E217 /* UnrealInsights.rc in Sources */ = {isa = PBXBuildFile; fileRef = 48D6FC1E4ED10B57BFC09AEA /* UnrealInsights.rc */; };
+		A8A706A41ED591BF7226C57A /* icon_16x16.png in Sources */ = {isa = PBXBuildFile; fileRef = CB6CCB1BA8C950EFC5F7C6EA /* icon_16x16.png */; };
+		0832EB42245B01E72D9A7BED /* icon_24x24.png in Sources */ = {isa = PBXBuildFile; fileRef = D0BAAAC3F80E900DC048C0C5 /* icon_24x24.png */; };
+		1E2FE06BF5419A6B879BEC75 /* icon_256x256.png in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D93C74F3540D6487595C0 /* icon_256x256.png */; };
+		627F32FCE4E95014BC2E3C81 /* icon_32x32.png in Sources */ = {isa = PBXBuildFile; fileRef = 19A6FFF2AF536AFFB3AFE251 /* icon_32x32.png */; };
+		7DA990941C12F2B29CE0F4B2 /* icon_48x48.png in Sources */ = {isa = PBXBuildFile; fileRef = FD0EEF602D55537E2A1221F4 /* icon_48x48.png */; };
+		7879EA6105A2CE9F73F75B3E /* make_ico.py in Sources */ = {isa = PBXBuildFile; fileRef = 47A9523EB40E98BB3D0B8384 /* make_ico.py */; };
+		7BD735F3118DD18241AC9572 /* UnrealInsights.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = D6ED56331C933D68933CAD17 /* UnrealInsights.Build.cs */; };
+		98D80F0990CB8150B472422D /* UnrealInsights.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = E6CAB3358B70A22D6F68F7FB /* UnrealInsights.Target.cs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A3B3BBC47EE730F0BB1A49F /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../../../GitHub/UnrealEngine/Engine/Programs/UnrealInsights/Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		07E6F6D1EBB688F380622D01 /* DefaultUnrealInsightsSettings.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultUnrealInsightsSettings.ini"; path = "../../../../GitHub/UnrealEngine/Engine/Programs/UnrealInsights/Config/DefaultUnrealInsightsSettings.ini"; sourceTree = SOURCE_ROOT; };
+		9DDF3BA71A6EC90EC21E15FB /* IOSUnrealInsightsMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "IOSUnrealInsightsMain.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/IOS/IOSUnrealInsightsMain.cpp"; sourceTree = SOURCE_ROOT; };
+		C827D75DF2D8BD7420DCCB04 /* LinuxUnrealInsightsMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "LinuxUnrealInsightsMain.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/Linux/LinuxUnrealInsightsMain.cpp"; sourceTree = SOURCE_ROOT; };
+		DC1563C0F1CC1AD9D9ED1A7C /* MacUnrealInsightsMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "MacUnrealInsightsMain.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/Mac/MacUnrealInsightsMain.cpp"; sourceTree = SOURCE_ROOT; };
+		1DA5F7B85BC4A0FBF3F29FD6 /* UnrealInsightsMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UnrealInsightsMain.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/UnrealInsightsMain.cpp"; sourceTree = SOURCE_ROOT; };
+		084DE371AE000BABF4516141 /* UnrealInsightsMain.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UnrealInsightsMain.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/UnrealInsightsMain.h"; sourceTree = SOURCE_ROOT; };
+		D2D74B33A017C9FA6F12B245 /* UserInterfaceCommand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "UserInterfaceCommand.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/UserInterfaceCommand.cpp"; sourceTree = SOURCE_ROOT; };
+		A8A741BA92C85DAE744192E7 /* UserInterfaceCommand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "UserInterfaceCommand.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/UserInterfaceCommand.h"; sourceTree = SOURCE_ROOT; };
+		D4CDCABB14289CCD58ECF7CA /* WindowsUnrealInsightsMain.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "WindowsUnrealInsightsMain.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/Windows/WindowsUnrealInsightsMain.cpp"; sourceTree = SOURCE_ROOT; };
+		063C1DFCAEAE75131F382262 /* UTrace.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "UTrace.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Linux/UTrace.png"; sourceTree = SOURCE_ROOT; };
+		78292E88B92795CDB95815C2 /* UnrealInsights.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "UnrealInsights.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Linux/UnrealInsights.png"; sourceTree = SOURCE_ROOT; };
+		19D8580EA10A32630C56C375 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; name = "Info.plist"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/Info.plist"; sourceTree = SOURCE_ROOT; };
+		81C87B6FFD3F35E2E9BF3036 /* UTrace.icns */ = {isa = PBXFileReference; explicitFileType = image.icns; name = "UTrace.icns"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UTrace.icns"; sourceTree = SOURCE_ROOT; };
+		62F72BBD4294EA96C31D102D /* icon_128x128.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_128x128.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UTrace.iconset/icon_128x128.png"; sourceTree = SOURCE_ROOT; };
+		40DB0175A375A1318C84E6CD /* icon_128x128@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_128x128@2x.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UTrace.iconset/icon_128x128@2x.png"; sourceTree = SOURCE_ROOT; };
+		0044F61492BB821109CFC2C1 /* icon_16x16.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_16x16.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UTrace.iconset/icon_16x16.png"; sourceTree = SOURCE_ROOT; };
+		2DC5CE2AD47A06C8F36FEEA4 /* icon_16x16@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_16x16@2x.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UTrace.iconset/icon_16x16@2x.png"; sourceTree = SOURCE_ROOT; };
+		1E85208EF1D7BE09E31823D7 /* icon_256x256.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_256x256.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UTrace.iconset/icon_256x256.png"; sourceTree = SOURCE_ROOT; };
+		D980D347A95361617833E021 /* icon_256x256@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_256x256@2x.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UTrace.iconset/icon_256x256@2x.png"; sourceTree = SOURCE_ROOT; };
+		D98B9B17E08915C42E37E3C1 /* icon_32x32.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_32x32.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UTrace.iconset/icon_32x32.png"; sourceTree = SOURCE_ROOT; };
+		4EC12542186A678F82648378 /* icon_32x32@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_32x32@2x.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UTrace.iconset/icon_32x32@2x.png"; sourceTree = SOURCE_ROOT; };
+		541E45EEE9163192D80B6D1E /* icon_512x512.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_512x512.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UTrace.iconset/icon_512x512.png"; sourceTree = SOURCE_ROOT; };
+		51CC2DD9BACEEA6D19D7E9F9 /* icon_512x512@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_512x512@2x.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UTrace.iconset/icon_512x512@2x.png"; sourceTree = SOURCE_ROOT; };
+		8B28395FEF4568012ADD318E /* UnrealInsights.icns */ = {isa = PBXFileReference; explicitFileType = image.icns; name = "UnrealInsights.icns"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UnrealInsights.icns"; sourceTree = SOURCE_ROOT; };
+		445A00BE7D18C3DA6FE8B9A0 /* icon_128x128.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_128x128.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UnrealInsights.iconset/icon_128x128.png"; sourceTree = SOURCE_ROOT; };
+		AE73738F917467280AEAAB03 /* icon_128x128@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_128x128@2x.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UnrealInsights.iconset/icon_128x128@2x.png"; sourceTree = SOURCE_ROOT; };
+		340BA86E56A1CCCD6387075F /* icon_16x16.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_16x16.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UnrealInsights.iconset/icon_16x16.png"; sourceTree = SOURCE_ROOT; };
+		C253C3D6B09141C94B0FFA71 /* icon_16x16@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_16x16@2x.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UnrealInsights.iconset/icon_16x16@2x.png"; sourceTree = SOURCE_ROOT; };
+		AE6CEC1BFE957599107AB5ED /* icon_256x256.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_256x256.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UnrealInsights.iconset/icon_256x256.png"; sourceTree = SOURCE_ROOT; };
+		FC73FD8D2EB4CA851B0237C3 /* icon_256x256@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_256x256@2x.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UnrealInsights.iconset/icon_256x256@2x.png"; sourceTree = SOURCE_ROOT; };
+		F48EFA6914E9F6024CC2C209 /* icon_32x32.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_32x32.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UnrealInsights.iconset/icon_32x32.png"; sourceTree = SOURCE_ROOT; };
+		D450067C1E5CB11F9DFBBA35 /* icon_32x32@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_32x32@2x.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UnrealInsights.iconset/icon_32x32@2x.png"; sourceTree = SOURCE_ROOT; };
+		61B5132E7C489C1F032598A0 /* icon_512x512.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_512x512.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UnrealInsights.iconset/icon_512x512.png"; sourceTree = SOURCE_ROOT; };
+		D9A49BD0CECD63B0F780283C /* icon_512x512@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_512x512@2x.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UnrealInsights.iconset/icon_512x512@2x.png"; sourceTree = SOURCE_ROOT; };
+		AC87504A677C6DB7A4FAB253 /* make_icns.sh */ = {isa = PBXFileReference; explicitFileType = file.text; name = "make_icns.sh"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/make_icns.sh"; sourceTree = SOURCE_ROOT; };
+		3CFCC9D96B7D9C3FE88711A5 /* UTrace.ico */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UTrace.ico"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Windows/UTrace.ico"; sourceTree = SOURCE_ROOT; };
+		A5B22734E0AE93EE0C72C2CD /* icon_16x16.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_16x16.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Windows/UTrace/icon_16x16.png"; sourceTree = SOURCE_ROOT; };
+		6A38A9556C3B94F0C7A4D129 /* icon_24x24.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_24x24.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Windows/UTrace/icon_24x24.png"; sourceTree = SOURCE_ROOT; };
+		A1F9710AE89B7F1B78534CC7 /* icon_256x256.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_256x256.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Windows/UTrace/icon_256x256.png"; sourceTree = SOURCE_ROOT; };
+		F526CA308C5AF23080560F5A /* icon_32x32.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_32x32.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Windows/UTrace/icon_32x32.png"; sourceTree = SOURCE_ROOT; };
+		929EFAF17ADB55D5440DC653 /* icon_48x48.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_48x48.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Windows/UTrace/icon_48x48.png"; sourceTree = SOURCE_ROOT; };
+		A4CA9F597B5F9E80CEF04010 /* UnrealInsights.ico */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealInsights.ico"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Windows/UnrealInsights.ico"; sourceTree = SOURCE_ROOT; };
+		48D6FC1E4ED10B57BFC09AEA /* UnrealInsights.rc */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealInsights.rc"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Windows/UnrealInsights.rc"; sourceTree = SOURCE_ROOT; };
+		CB6CCB1BA8C950EFC5F7C6EA /* icon_16x16.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_16x16.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Windows/UnrealInsights/icon_16x16.png"; sourceTree = SOURCE_ROOT; };
+		D0BAAAC3F80E900DC048C0C5 /* icon_24x24.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_24x24.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Windows/UnrealInsights/icon_24x24.png"; sourceTree = SOURCE_ROOT; };
+		0B4D93C74F3540D6487595C0 /* icon_256x256.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_256x256.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Windows/UnrealInsights/icon_256x256.png"; sourceTree = SOURCE_ROOT; };
+		19A6FFF2AF536AFFB3AFE251 /* icon_32x32.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_32x32.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Windows/UnrealInsights/icon_32x32.png"; sourceTree = SOURCE_ROOT; };
+		FD0EEF602D55537E2A1221F4 /* icon_48x48.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "icon_48x48.png"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Windows/UnrealInsights/icon_48x48.png"; sourceTree = SOURCE_ROOT; };
+		47A9523EB40E98BB3D0B8384 /* make_ico.py */ = {isa = PBXFileReference; explicitFileType = file.text; name = "make_ico.py"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Windows/make_ico.py"; sourceTree = SOURCE_ROOT; };
+		D6ED56331C933D68933CAD17 /* UnrealInsights.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealInsights.Build.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/UnrealInsights.Build.cs"; sourceTree = SOURCE_ROOT; };
+		E6CAB3358B70A22D6F68F7FB /* UnrealInsights.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealInsights.Target.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/UnrealInsights.Target.cs"; sourceTree = SOURCE_ROOT; };
+		2E50278F9AE9CC4B921AF6B5 /* UnrealInsights */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = UnrealInsights; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CD97D5F0FBF09B376709628 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D70ADD8767D2481344CB0A /* IOSUnrealInsightsMain.cpp in Sources */,
+				20119EAA71B651F24C29BF5E /* MacUnrealInsightsMain.cpp in Sources */,
+				E4EB007336E6F2EB27C3152D /* UnrealInsightsMain.cpp in Sources */,
+				5AC589B0F69D52728E0C5AF1 /* UserInterfaceCommand.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	E909A7B942332F9927784D49 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		FA149FB27CF0656A84459D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6D5FA7DA95C2B29A4D8E2DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 868C569D3B931E34B131681B;
+			remoteInfo = "UnrealInsights_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		DF27EA16CEE2EEF5D015FA45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 868C569D3B931E34B131681B /* UnrealInsights_Build */;
+			targetProxy = FA149FB27CF0656A84459D8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		E681732181EB96AEAC9F1073 = {
+			isa = PBXGroup;
+			children = (
+				D4613580245139149F2AFB9C /* Programs */,
+				351A399BEDEF2E5CA2D29DF2 /* Source */,
+				B53537C1BD024CC0E552B7EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4613580245139149F2AFB9C = {
+			isa = PBXGroup;
+			children = (
+				0BD6643B55A0766F4E11D5E6 /* UnrealInsights */,
+			);
+			name = "Programs";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Programs";
+			sourceTree = "<absolute>";
+		};
+		0BD6643B55A0766F4E11D5E6 = {
+			isa = PBXGroup;
+			children = (
+				2B7A5E29ABD592538372EF47 /* Config */,
+			);
+			name = "UnrealInsights";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Programs/UnrealInsights";
+			sourceTree = "<absolute>";
+		};
+		2B7A5E29ABD592538372EF47 = {
+			isa = PBXGroup;
+			children = (
+				1A3B3BBC47EE730F0BB1A49F /* DefaultEngine.ini */,
+				07E6F6D1EBB688F380622D01 /* DefaultUnrealInsightsSettings.ini */,
+			);
+			name = "Config";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Programs/UnrealInsights/Config";
+			sourceTree = "<absolute>";
+		};
+		351A399BEDEF2E5CA2D29DF2 = {
+			isa = PBXGroup;
+			children = (
+				FA26D75E83D878C28C4F55A9 /* Programs */,
+			);
+			name = "Source";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source";
+			sourceTree = "<absolute>";
+		};
+		FA26D75E83D878C28C4F55A9 = {
+			isa = PBXGroup;
+			children = (
+				F21068C998A81999E71C063B /* UnrealInsights */,
+			);
+			name = "Programs";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs";
+			sourceTree = "<absolute>";
+		};
+		F21068C998A81999E71C063B = {
+			isa = PBXGroup;
+			children = (
+				67DB825FE3784358DC6C2E85 /* Private */,
+				B4499FD8615066613C2754E0 /* Resources */,
+				D6ED56331C933D68933CAD17 /* UnrealInsights.Build.cs */,
+				E6CAB3358B70A22D6F68F7FB /* UnrealInsights.Target.cs */,
+			);
+			name = "UnrealInsights";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights";
+			sourceTree = "<absolute>";
+		};
+		67DB825FE3784358DC6C2E85 = {
+			isa = PBXGroup;
+			children = (
+				FE33D0AAFA2CBBE5C48FA8DC /* IOS */,
+				8765C4FAB9040BDE1F9CF7A8 /* Linux */,
+				5619DF130BFCCC86E1E2CB64 /* Mac */,
+				D86E9FBA612076D732A5D87E /* Windows */,
+				1DA5F7B85BC4A0FBF3F29FD6 /* UnrealInsightsMain.cpp */,
+				084DE371AE000BABF4516141 /* UnrealInsightsMain.h */,
+				D2D74B33A017C9FA6F12B245 /* UserInterfaceCommand.cpp */,
+				A8A741BA92C85DAE744192E7 /* UserInterfaceCommand.h */,
+			);
+			name = "Private";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private";
+			sourceTree = "<absolute>";
+		};
+		FE33D0AAFA2CBBE5C48FA8DC = {
+			isa = PBXGroup;
+			children = (
+				9DDF3BA71A6EC90EC21E15FB /* IOSUnrealInsightsMain.cpp */,
+			);
+			name = "IOS";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/IOS";
+			sourceTree = "<absolute>";
+		};
+		8765C4FAB9040BDE1F9CF7A8 = {
+			isa = PBXGroup;
+			children = (
+				C827D75DF2D8BD7420DCCB04 /* LinuxUnrealInsightsMain.cpp */,
+			);
+			name = "Linux";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/Linux";
+			sourceTree = "<absolute>";
+		};
+		5619DF130BFCCC86E1E2CB64 = {
+			isa = PBXGroup;
+			children = (
+				DC1563C0F1CC1AD9D9ED1A7C /* MacUnrealInsightsMain.cpp */,
+			);
+			name = "Mac";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/Mac";
+			sourceTree = "<absolute>";
+		};
+		D86E9FBA612076D732A5D87E = {
+			isa = PBXGroup;
+			children = (
+				D4CDCABB14289CCD58ECF7CA /* WindowsUnrealInsightsMain.cpp */,
+			);
+			name = "Windows";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private/Windows";
+			sourceTree = "<absolute>";
+		};
+		B4499FD8615066613C2754E0 = {
+			isa = PBXGroup;
+			children = (
+				4DA8DAC8C221FBA49960214B /* Linux */,
+				65507DFE251F75B141615FC1 /* Mac */,
+				D3673B1DB2A29FEC49196BCD /* Windows */,
+			);
+			name = "Resources";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources";
+			sourceTree = "<absolute>";
+		};
+		4DA8DAC8C221FBA49960214B = {
+			isa = PBXGroup;
+			children = (
+				063C1DFCAEAE75131F382262 /* UTrace.png */,
+				78292E88B92795CDB95815C2 /* UnrealInsights.png */,
+			);
+			name = "Linux";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Linux";
+			sourceTree = "<absolute>";
+		};
+		65507DFE251F75B141615FC1 = {
+			isa = PBXGroup;
+			children = (
+				5CF425917C6927B019BE6CB8 /* UTrace.iconset */,
+				46AD1510AA34E45328547210 /* UnrealInsights.iconset */,
+				19D8580EA10A32630C56C375 /* Info.plist */,
+				81C87B6FFD3F35E2E9BF3036 /* UTrace.icns */,
+				8B28395FEF4568012ADD318E /* UnrealInsights.icns */,
+				AC87504A677C6DB7A4FAB253 /* make_icns.sh */,
+			);
+			name = "Mac";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac";
+			sourceTree = "<absolute>";
+		};
+		5CF425917C6927B019BE6CB8 = {
+			isa = PBXGroup;
+			children = (
+				62F72BBD4294EA96C31D102D /* icon_128x128.png */,
+				40DB0175A375A1318C84E6CD /* icon_128x128@2x.png */,
+				0044F61492BB821109CFC2C1 /* icon_16x16.png */,
+				2DC5CE2AD47A06C8F36FEEA4 /* icon_16x16@2x.png */,
+				1E85208EF1D7BE09E31823D7 /* icon_256x256.png */,
+				D980D347A95361617833E021 /* icon_256x256@2x.png */,
+				D98B9B17E08915C42E37E3C1 /* icon_32x32.png */,
+				4EC12542186A678F82648378 /* icon_32x32@2x.png */,
+				541E45EEE9163192D80B6D1E /* icon_512x512.png */,
+				51CC2DD9BACEEA6D19D7E9F9 /* icon_512x512@2x.png */,
+			);
+			name = "UTrace.iconset";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UTrace.iconset";
+			sourceTree = "<absolute>";
+		};
+		46AD1510AA34E45328547210 = {
+			isa = PBXGroup;
+			children = (
+				445A00BE7D18C3DA6FE8B9A0 /* icon_128x128.png */,
+				AE73738F917467280AEAAB03 /* icon_128x128@2x.png */,
+				340BA86E56A1CCCD6387075F /* icon_16x16.png */,
+				C253C3D6B09141C94B0FFA71 /* icon_16x16@2x.png */,
+				AE6CEC1BFE957599107AB5ED /* icon_256x256.png */,
+				FC73FD8D2EB4CA851B0237C3 /* icon_256x256@2x.png */,
+				F48EFA6914E9F6024CC2C209 /* icon_32x32.png */,
+				D450067C1E5CB11F9DFBBA35 /* icon_32x32@2x.png */,
+				61B5132E7C489C1F032598A0 /* icon_512x512.png */,
+				D9A49BD0CECD63B0F780283C /* icon_512x512@2x.png */,
+			);
+			name = "UnrealInsights.iconset";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Mac/UnrealInsights.iconset";
+			sourceTree = "<absolute>";
+		};
+		D3673B1DB2A29FEC49196BCD = {
+			isa = PBXGroup;
+			children = (
+				FC6A2730387131A7E3C4B877 /* UTrace */,
+				0A64070D7C0B99088114BD14 /* UnrealInsights */,
+				3CFCC9D96B7D9C3FE88711A5 /* UTrace.ico */,
+				A4CA9F597B5F9E80CEF04010 /* UnrealInsights.ico */,
+				48D6FC1E4ED10B57BFC09AEA /* UnrealInsights.rc */,
+				47A9523EB40E98BB3D0B8384 /* make_ico.py */,
+			);
+			name = "Windows";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Windows";
+			sourceTree = "<absolute>";
+		};
+		FC6A2730387131A7E3C4B877 = {
+			isa = PBXGroup;
+			children = (
+				A5B22734E0AE93EE0C72C2CD /* icon_16x16.png */,
+				6A38A9556C3B94F0C7A4D129 /* icon_24x24.png */,
+				A1F9710AE89B7F1B78534CC7 /* icon_256x256.png */,
+				F526CA308C5AF23080560F5A /* icon_32x32.png */,
+				929EFAF17ADB55D5440DC653 /* icon_48x48.png */,
+			);
+			name = "UTrace";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Windows/UTrace";
+			sourceTree = "<absolute>";
+		};
+		0A64070D7C0B99088114BD14 = {
+			isa = PBXGroup;
+			children = (
+				CB6CCB1BA8C950EFC5F7C6EA /* icon_16x16.png */,
+				D0BAAAC3F80E900DC048C0C5 /* icon_24x24.png */,
+				0B4D93C74F3540D6487595C0 /* icon_256x256.png */,
+				19A6FFF2AF536AFFB3AFE251 /* icon_32x32.png */,
+				FD0EEF602D55537E2A1221F4 /* icon_48x48.png */,
+			);
+			name = "UnrealInsights";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Resources/Windows/UnrealInsights";
+			sourceTree = "<absolute>";
+		};
+		B53537C1BD024CC0E552B7EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E50278F9AE9CC4B921AF6B5 /* UnrealInsights */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		868C569D3B931E34B131681B /* UnrealInsights_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = DCDE13F75115719A8A5DE77D /* Build configuration list for PBXLegacyTarget "UnrealInsights_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/meghasingh/Documents/GitHub/UnrealEngine";
+			dependencies = (
+			);
+			name = "UnrealInsights_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealInsights_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		021310D6DD70A2257F2A89EF /* UnrealInsights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AAC7663307B908FE7B680F5 /* Build configuration list for PBXNativeTarget "UnrealInsights" */;
+			buildPhases = (
+				E909A7B942332F9927784D49 /* Embed App Extensions */, 
+				513B35B0D69DA493C984A5A8 /* Shell Script */, 
+			);
+			dependencies = (
+				DF27EA16CEE2EEF5D015FA45 /* PBXTargetDependency */,
+			);
+			name = "UnrealInsights";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealInsights";
+			productReference = "2E50278F9AE9CC4B921AF6B5";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		BA5F5BE648AFB2E01EE92BF0 /* UnrealInsights_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C72FF02668DBFCE70CB2BC /* Build configuration list for PBXNativeTarget "UnrealInsights_Index" */;
+			buildPhases = (
+				7CD97D5F0FBF09B376709628 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "UnrealInsights_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "UnrealInsights_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6D5FA7DA95C2B29A4D8E2DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					021310D6DD70A2257F2A89EF = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 3838EB027F88FDF3B3225E89 /* Build configuration list for PBXProject "UnrealInsights" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = E681732181EB96AEAC9F1073;
+			productRefGroup = B53537C1BD024CC0E552B7EE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			021310D6DD70A2257F2A89EF /* UnrealInsights */,
+			868C569D3B931E34B131681B /* UnrealInsights_Build */,
+			BA5F5BE648AFB2E01EE92BF0 /* UnrealInsights_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		6D369FED955CFC449E0FD8B4 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib/syms",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_macosarm64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AppFramework/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AppFramework/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Slate/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Slate/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/InputCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/InputCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageWrapper/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageWrapper/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SourceCodeAccess/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SourceCodeAccess/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Settings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Settings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/StandaloneRenderer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/StandaloneRenderer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TargetPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TargetPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DeveloperSettings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DeveloperSettings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AudioPlatformConfiguration/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AudioPlatformConfiguration/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DesktopPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DesktopPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Analytics/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Analytics/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics/Analytics/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TextureFormat/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TextureFormat/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TextureFormat/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceInsights/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceInsights/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Cbor/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Cbor/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RenderCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RenderCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceAnalysis/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceAnalysis/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceServices/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceServices/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/WorkspaceMenuStructure/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/WorkspaceMenuStructure/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XmlParser/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XmlParser/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XCodeSCA/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XCodeSCA/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateReflector/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateReflector/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SlateReflector/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/UnrealInsights/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/UnrealInsights/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		20F270ABBDA11C3929CB623D /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib/syms",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_macosarm64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AppFramework/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AppFramework/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Slate/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Slate/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/InputCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/InputCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageWrapper/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageWrapper/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SourceCodeAccess/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SourceCodeAccess/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Settings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Settings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/StandaloneRenderer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/StandaloneRenderer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TargetPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TargetPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DeveloperSettings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DeveloperSettings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AudioPlatformConfiguration/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AudioPlatformConfiguration/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DesktopPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DesktopPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Analytics/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Analytics/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics/Analytics/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TextureFormat/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TextureFormat/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TextureFormat/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceInsights/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceInsights/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Cbor/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Cbor/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RenderCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RenderCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceAnalysis/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceAnalysis/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceServices/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceServices/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/WorkspaceMenuStructure/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/WorkspaceMenuStructure/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XmlParser/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XmlParser/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XCodeSCA/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XCodeSCA/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateReflector/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateReflector/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SlateReflector/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/UnrealInsights/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/UnrealInsights/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		901092EF31F8FBAED48F91C1 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib/syms",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_macosarm64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AppFramework/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AppFramework/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Slate/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Slate/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/InputCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/InputCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageWrapper/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageWrapper/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SourceCodeAccess/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SourceCodeAccess/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Settings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Settings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/StandaloneRenderer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/StandaloneRenderer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TargetPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TargetPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DeveloperSettings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DeveloperSettings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AudioPlatformConfiguration/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AudioPlatformConfiguration/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DesktopPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DesktopPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Analytics/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Analytics/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics/Analytics/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TextureFormat/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TextureFormat/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TextureFormat/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceInsights/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceInsights/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Cbor/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Cbor/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RenderCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RenderCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceAnalysis/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceAnalysis/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceServices/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceServices/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/WorkspaceMenuStructure/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/WorkspaceMenuStructure/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XmlParser/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XmlParser/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XCodeSCA/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XCodeSCA/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateReflector/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateReflector/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SlateReflector/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/UnrealInsights/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/UnrealInsights/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		61846D858C68EDF2099521A4 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib/syms",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_macosarm64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AppFramework/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AppFramework/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Slate/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Slate/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/InputCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/InputCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageWrapper/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageWrapper/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SourceCodeAccess/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SourceCodeAccess/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Settings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Settings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/StandaloneRenderer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/StandaloneRenderer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TargetPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TargetPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DeveloperSettings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DeveloperSettings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AudioPlatformConfiguration/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AudioPlatformConfiguration/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DesktopPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DesktopPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Analytics/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Analytics/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics/Analytics/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TextureFormat/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TextureFormat/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TextureFormat/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceInsights/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceInsights/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Cbor/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Cbor/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RenderCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RenderCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceAnalysis/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceAnalysis/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceServices/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceServices/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/WorkspaceMenuStructure/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/WorkspaceMenuStructure/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XmlParser/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XmlParser/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XCodeSCA/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XCodeSCA/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateReflector/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateReflector/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SlateReflector/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/UnrealInsights/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/UnrealInsights/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		EC8676E4D2C2A2285F93035E /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source/Mac",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/LibTiff/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SymsLib/syms",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_macosarm64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/UnrealInsights/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AppFramework/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AppFramework/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AppFramework/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Slate/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Slate/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Slate/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/InputCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/InputCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Classes",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/InputCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/SlateCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageWrapper/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageWrapper/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageWrapper/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/ImageCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ImageCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SourceCodeAccess/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SourceCodeAccess/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SourceCodeAccess/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Settings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Settings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Settings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/StandaloneRenderer/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/StandaloneRenderer/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/StandaloneRenderer/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TargetPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TargetPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TargetPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DeveloperSettings/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DeveloperSettings/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/DeveloperSettings/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AudioPlatformConfiguration/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/AudioPlatformConfiguration/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/AudioPlatformConfiguration/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DesktopPlatform/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/DesktopPlatform/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/DesktopPlatform/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Analytics/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Analytics/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Analytics/Analytics/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TextureFormat/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TextureFormat/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TextureFormat/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceInsights/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceInsights/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceInsights/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Cbor/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Cbor/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Cbor/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RenderCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/RenderCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RenderCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceAnalysis/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceAnalysis/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceAnalysis/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceServices/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/TraceServices/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/TraceServices/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/WorkspaceMenuStructure/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/WorkspaceMenuStructure/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/WorkspaceMenuStructure/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XmlParser/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XmlParser/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/XmlParser/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XCodeSCA/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/XCodeSCA/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Developer/XCodeSourceCodeAccess/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateReflector/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/SlateReflector/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/SlateReflector/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/UnrealInsights/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/UnrealInsights/Inc/UnrealInsights/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		5B937DB1231DC6048C340DD3 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealInsights-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealInsights;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealInsights-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		7E23789AB0734F5C47711DE0 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealInsights-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealInsights;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealInsights-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		1899B05D5B5939E36A9D07FD /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealInsights";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealInsights;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealInsights-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		7DC61E7F8D3D11E8A53924D9 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealInsights-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealInsights;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealInsights-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		238D5A06B938C24BF3139812 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealInsights-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealInsights;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealInsights-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		8A58DDD9CC035E6464FE4B0B /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealInsights";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		1AFB888388CB7009039AB9DA /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealInsights";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		CD8C7A348F540153AF30F377 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealInsights";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		822E445F9802DBE8E232D30A /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealInsights";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		76CAA5A5CB80794F9F6A7311 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "UnrealInsights";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		944203CA7B08AB4263815542 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealInsights-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealInsights;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealInsights-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		93B3A6C3E112E2C8DFC64C57 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealInsights-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealInsights;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealInsights-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		3981D70B9F0B050421E4AA48 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealInsights";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealInsights;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealInsights-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		E77BC64743006EA45F328ED9 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealInsights-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealInsights;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealInsights-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		8CF616208FAAAA53776823B5 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "UnrealInsights";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "UnrealInsights-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.UnrealInsights;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/UnrealInsights-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/UnrealInsights-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3838EB027F88FDF3B3225E89 /* Build configuration list for PBXProject "UnrealInsights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D369FED955CFC449E0FD8B4 /* "Debug" */,
+				20F270ABBDA11C3929CB623D /* "DebugGame" */,
+				901092EF31F8FBAED48F91C1 /* "Development" */,
+				61846D858C68EDF2099521A4 /* "Test" */,
+				EC8676E4D2C2A2285F93035E /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		DCDE13F75115719A8A5DE77D /* Build configuration list for PBXLegacyTarget "UnrealInsights_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A58DDD9CC035E6464FE4B0B /* "Debug" */,
+				1AFB888388CB7009039AB9DA /* "DebugGame" */,
+				CD8C7A348F540153AF30F377 /* "Development" */,
+				822E445F9802DBE8E232D30A /* "Test" */,
+				76CAA5A5CB80794F9F6A7311 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		4AAC7663307B908FE7B680F5 /* Build configuration list for PBXNativeTarget "UnrealInsights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B937DB1231DC6048C340DD3 /* "Debug" */,
+				7E23789AB0734F5C47711DE0 /* "DebugGame" */,
+				1899B05D5B5939E36A9D07FD /* "Development" */,
+				7DC61E7F8D3D11E8A53924D9 /* "Test" */,
+				238D5A06B938C24BF3139812 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		99C72FF02668DBFCE70CB2BC /* Build configuration list for PBXNativeTarget "UnrealInsights_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944203CA7B08AB4263815542 /* "Debug" */,
+				93B3A6C3E112E2C8DFC64C57 /* "DebugGame" */,
+				3981D70B9F0B050421E4AA48 /* "Development" */,
+				E77BC64743006EA45F328ED9 /* "Test" */,
+				8CF616208FAAAA53776823B5 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6D5FA7DA95C2B29A4D8E2DC /* Project object */;
+}

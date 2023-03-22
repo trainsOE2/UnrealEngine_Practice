@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+FirstUnrealScript_Build in FirstUnrealScript, no dependencies
+FirstUnrealScript in FirstUnrealScript, depends on:
+FirstUnrealScript_Build in FirstUnrealScript (explicit)

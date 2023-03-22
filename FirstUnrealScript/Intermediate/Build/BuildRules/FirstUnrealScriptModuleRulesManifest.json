@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/meghasingh/Documents/Unreal Projects/FirstUnrealScript/Source/FirstUnrealScript/FirstUnrealScript.Build.cs",
+		"/Users/meghasingh/Documents/Unreal Projects/FirstUnrealScript/Source/FirstUnrealScript.Target.cs",
+		"/Users/meghasingh/Documents/Unreal Projects/FirstUnrealScript/Source/FirstUnrealScriptEditor.Target.cs"
+	],
+	"EngineVersion": "5.1.1"
+}
