@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{62C7C5A5-1740-1076-5B7D-CDB1B5163ECC}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MeshesAndActors",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}

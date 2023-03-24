@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C68AA24B7E591AFFE0EC30F /* EpicWebHelper.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = C6C92AEFE17B7C7708228531 /* EpicWebHelper.Build.cs */; };
+		4890237942D0004D8B1AB56C /* EpicWebHelper.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = BCCC8F03014E537067B3A164 /* EpicWebHelper.Target.cs */; };
+		AABEC012FC7371897FBE844E /* EpicWebHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AC98087E66851C98C2CBA51 /* EpicWebHelper.cpp */; };
+		A95C7F6BA9DCDD089DB5554F /* EpicWebHelper.h in Sources */ = {isa = PBXBuildFile; fileRef = 89FCBA1B597902F91020DDC0 /* EpicWebHelper.h */; };
+		98C2AA397B19327E046F9C0A /* EpicWebHelperApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC79B133A16AD79860B7312A /* EpicWebHelperApp.cpp */; };
+		77C67BA51D17CDC23B1D5E14 /* EpicWebHelperApp.h in Sources */ = {isa = PBXBuildFile; fileRef = A1E39D5D90EAC5E61FE5BED4 /* EpicWebHelperApp.h */; };
+		CC7A0875F24B0B9108A67042 /* EpicWebHelperCallbackRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16B4E61DF47C842121E8BE03 /* EpicWebHelperCallbackRegistry.cpp */; };
+		76F1A6F7D74B1D1977C269C9 /* EpicWebHelperCallbackRegistry.h in Sources */ = {isa = PBXBuildFile; fileRef = 55BBF08A4EE60EA283B4B589 /* EpicWebHelperCallbackRegistry.h */; };
+		34DA0118DC1D29E1907FC2B5 /* EpicWebHelperLibCEFIncludes.h in Sources */ = {isa = PBXBuildFile; fileRef = 9E8C60ECA1DACFAF1A9D92BD /* EpicWebHelperLibCEFIncludes.h */; };
+		EC6A4119EAE074ACEC3022E6 /* EpicWebHelperRemoteMethodHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46F81C6CBA65D9198CFE6C82 /* EpicWebHelperRemoteMethodHandler.cpp */; };
+		8AD84445160FB99748444B61 /* EpicWebHelperRemoteMethodHandler.h in Sources */ = {isa = PBXBuildFile; fileRef = 15B3EF457330ACF81C1DD6ED /* EpicWebHelperRemoteMethodHandler.h */; };
+		6ACC0F42BACB15A5FBCD25EE /* EpicWebHelperRemoteScripting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A330723B803C73C79622F5A /* EpicWebHelperRemoteScripting.cpp */; };
+		E75A81138816CEEDFDBF6F8E /* EpicWebHelperRemoteScripting.h in Sources */ = {isa = PBXBuildFile; fileRef = 6108021053194991A2CDE3BE /* EpicWebHelperRemoteScripting.h */; };
+		8C3EADF03BC5E66C02575165 /* EpicWebHelperLinux.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 541B7ED7A867A410C8D63EAD /* EpicWebHelperLinux.cpp */; };
+		F3B1BA9E18709BE4BC05EA19 /* EpicWebHelperMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 06C67BF8ECD9FAD269840840 /* EpicWebHelperMac.cpp */; };
+		B5B30C432303846EA87A11DA /* EpicWebHelperWindows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3AAA8F61E7E17AF7415A4D0 /* EpicWebHelperWindows.cpp */; };
+		6125C7BAA8D0F64CB8E7F80C /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = DBF229902D9A28C8914077C6 /* Info.plist */; };
+		1013B143F3B1BFBB7AF3DAFF /* Debug-EpicWebHelper-Win32.manifest in Sources */ = {isa = PBXBuildFile; fileRef = 0C8337160CD902F7CA6B18E3 /* Debug-EpicWebHelper-Win32.manifest */; };
+		52EC496EF9BD9F20AE01BB4B /* Debug-EpicWebHelper-Win64.manifest in Sources */ = {isa = PBXBuildFile; fileRef = 6C3765432E8D2A612F977256 /* Debug-EpicWebHelper-Win64.manifest */; };
+		93FAB01BE997F5E149756CFA /* EpicWebHelper-Win32.manifest in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A7025DAA2E31C1CBCC2E0 /* EpicWebHelper-Win32.manifest */; };
+		FF5D64BFE774B86AE279C391 /* EpicWebHelper-Win64.manifest in Sources */ = {isa = PBXBuildFile; fileRef = 1DD7072E177657DFD11D13EF /* EpicWebHelper-Win64.manifest */; };
+		1D04878CB3563AD638D00AD5 /* EpicWebHelper.rc in Sources */ = {isa = PBXBuildFile; fileRef = E6B1ED97B5B180376F701856 /* EpicWebHelper.rc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C6C92AEFE17B7C7708228531 /* EpicWebHelper.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EpicWebHelper.Build.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/EpicWebHelper.Build.cs"; sourceTree = SOURCE_ROOT; };
+		BCCC8F03014E537067B3A164 /* EpicWebHelper.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EpicWebHelper.Target.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/EpicWebHelper.Target.cs"; sourceTree = SOURCE_ROOT; };
+		5AC98087E66851C98C2CBA51 /* EpicWebHelper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EpicWebHelper.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private/EpicWebHelper.cpp"; sourceTree = SOURCE_ROOT; };
+		89FCBA1B597902F91020DDC0 /* EpicWebHelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EpicWebHelper.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private/EpicWebHelper.h"; sourceTree = SOURCE_ROOT; };
+		CC79B133A16AD79860B7312A /* EpicWebHelperApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EpicWebHelperApp.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private/EpicWebHelperApp.cpp"; sourceTree = SOURCE_ROOT; };
+		A1E39D5D90EAC5E61FE5BED4 /* EpicWebHelperApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EpicWebHelperApp.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private/EpicWebHelperApp.h"; sourceTree = SOURCE_ROOT; };
+		16B4E61DF47C842121E8BE03 /* EpicWebHelperCallbackRegistry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EpicWebHelperCallbackRegistry.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private/EpicWebHelperCallbackRegistry.cpp"; sourceTree = SOURCE_ROOT; };
+		55BBF08A4EE60EA283B4B589 /* EpicWebHelperCallbackRegistry.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EpicWebHelperCallbackRegistry.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private/EpicWebHelperCallbackRegistry.h"; sourceTree = SOURCE_ROOT; };
+		9E8C60ECA1DACFAF1A9D92BD /* EpicWebHelperLibCEFIncludes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EpicWebHelperLibCEFIncludes.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private/EpicWebHelperLibCEFIncludes.h"; sourceTree = SOURCE_ROOT; };
+		46F81C6CBA65D9198CFE6C82 /* EpicWebHelperRemoteMethodHandler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EpicWebHelperRemoteMethodHandler.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private/EpicWebHelperRemoteMethodHandler.cpp"; sourceTree = SOURCE_ROOT; };
+		15B3EF457330ACF81C1DD6ED /* EpicWebHelperRemoteMethodHandler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EpicWebHelperRemoteMethodHandler.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private/EpicWebHelperRemoteMethodHandler.h"; sourceTree = SOURCE_ROOT; };
+		2A330723B803C73C79622F5A /* EpicWebHelperRemoteScripting.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EpicWebHelperRemoteScripting.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private/EpicWebHelperRemoteScripting.cpp"; sourceTree = SOURCE_ROOT; };
+		6108021053194991A2CDE3BE /* EpicWebHelperRemoteScripting.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "EpicWebHelperRemoteScripting.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private/EpicWebHelperRemoteScripting.h"; sourceTree = SOURCE_ROOT; };
+		541B7ED7A867A410C8D63EAD /* EpicWebHelperLinux.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EpicWebHelperLinux.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private/Linux/EpicWebHelperLinux.cpp"; sourceTree = SOURCE_ROOT; };
+		06C67BF8ECD9FAD269840840 /* EpicWebHelperMac.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EpicWebHelperMac.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private/Mac/EpicWebHelperMac.cpp"; sourceTree = SOURCE_ROOT; };
+		C3AAA8F61E7E17AF7415A4D0 /* EpicWebHelperWindows.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "EpicWebHelperWindows.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private/Windows/EpicWebHelperWindows.cpp"; sourceTree = SOURCE_ROOT; };
+		DBF229902D9A28C8914077C6 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; name = "Info.plist"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Resources/Mac/Info.plist"; sourceTree = SOURCE_ROOT; };
+		0C8337160CD902F7CA6B18E3 /* Debug-EpicWebHelper-Win32.manifest */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Debug-EpicWebHelper-Win32.manifest"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Resources/Windows/Debug-EpicWebHelper-Win32.manifest"; sourceTree = SOURCE_ROOT; };
+		6C3765432E8D2A612F977256 /* Debug-EpicWebHelper-Win64.manifest */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Debug-EpicWebHelper-Win64.manifest"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Resources/Windows/Debug-EpicWebHelper-Win64.manifest"; sourceTree = SOURCE_ROOT; };
+		2B4A7025DAA2E31C1CBCC2E0 /* EpicWebHelper-Win32.manifest */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EpicWebHelper-Win32.manifest"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Resources/Windows/EpicWebHelper-Win32.manifest"; sourceTree = SOURCE_ROOT; };
+		1DD7072E177657DFD11D13EF /* EpicWebHelper-Win64.manifest */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EpicWebHelper-Win64.manifest"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Resources/Windows/EpicWebHelper-Win64.manifest"; sourceTree = SOURCE_ROOT; };
+		E6B1ED97B5B180376F701856 /* EpicWebHelper.rc */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EpicWebHelper.rc"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Resources/Windows/EpicWebHelper.rc"; sourceTree = SOURCE_ROOT; };
+		777E1AF1581A253E10F75E78 /* EpicWebHelper */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = EpicWebHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36728CB35F6F6A20A422E117 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABEC012FC7371897FBE844E /* EpicWebHelper.cpp in Sources */,
+				98C2AA397B19327E046F9C0A /* EpicWebHelperApp.cpp in Sources */,
+				CC7A0875F24B0B9108A67042 /* EpicWebHelperCallbackRegistry.cpp in Sources */,
+				EC6A4119EAE074ACEC3022E6 /* EpicWebHelperRemoteMethodHandler.cpp in Sources */,
+				6ACC0F42BACB15A5FBCD25EE /* EpicWebHelperRemoteScripting.cpp in Sources */,
+				F3B1BA9E18709BE4BC05EA19 /* EpicWebHelperMac.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	7D1AA97793CA1036FD49C6DD /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		593FBD73B0D8976397A67A05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C980426D5EA081FE159D9DE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD080FBC4C450CEA8B2216CE;
+			remoteInfo = "EpicWebHelper_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		6371D56BF139562786B5C269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD080FBC4C450CEA8B2216CE /* EpicWebHelper_Build */;
+			targetProxy = 593FBD73B0D8976397A67A05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		8C462367559D0AD2D640A210 = {
+			isa = PBXGroup;
+			children = (
+				4600FB874CF2DD928F3F7CF1 /* Private */,
+				903CDCE9EAEFA64CF198F552 /* Resources */,
+				C6C92AEFE17B7C7708228531 /* EpicWebHelper.Build.cs */,
+				BCCC8F03014E537067B3A164 /* EpicWebHelper.Target.cs */,
+				41EB0340C3A7922A3D2FDBF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4600FB874CF2DD928F3F7CF1 = {
+			isa = PBXGroup;
+			children = (
+				F6728F9F5AE10BD061FA0F62 /* Linux */,
+				92F98BB18C781AE5877179D2 /* Mac */,
+				BFBBB3E93E55181FA35AADEF /* Windows */,
+				5AC98087E66851C98C2CBA51 /* EpicWebHelper.cpp */,
+				89FCBA1B597902F91020DDC0 /* EpicWebHelper.h */,
+				CC79B133A16AD79860B7312A /* EpicWebHelperApp.cpp */,
+				A1E39D5D90EAC5E61FE5BED4 /* EpicWebHelperApp.h */,
+				16B4E61DF47C842121E8BE03 /* EpicWebHelperCallbackRegistry.cpp */,
+				55BBF08A4EE60EA283B4B589 /* EpicWebHelperCallbackRegistry.h */,
+				9E8C60ECA1DACFAF1A9D92BD /* EpicWebHelperLibCEFIncludes.h */,
+				46F81C6CBA65D9198CFE6C82 /* EpicWebHelperRemoteMethodHandler.cpp */,
+				15B3EF457330ACF81C1DD6ED /* EpicWebHelperRemoteMethodHandler.h */,
+				2A330723B803C73C79622F5A /* EpicWebHelperRemoteScripting.cpp */,
+				6108021053194991A2CDE3BE /* EpicWebHelperRemoteScripting.h */,
+			);
+			name = "Private";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private";
+			sourceTree = "<absolute>";
+		};
+		F6728F9F5AE10BD061FA0F62 = {
+			isa = PBXGroup;
+			children = (
+				541B7ED7A867A410C8D63EAD /* EpicWebHelperLinux.cpp */,
+			);
+			name = "Linux";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private/Linux";
+			sourceTree = "<absolute>";
+		};
+		92F98BB18C781AE5877179D2 = {
+			isa = PBXGroup;
+			children = (
+				06C67BF8ECD9FAD269840840 /* EpicWebHelperMac.cpp */,
+			);
+			name = "Mac";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private/Mac";
+			sourceTree = "<absolute>";
+		};
+		BFBBB3E93E55181FA35AADEF = {
+			isa = PBXGroup;
+			children = (
+				C3AAA8F61E7E17AF7415A4D0 /* EpicWebHelperWindows.cpp */,
+			);
+			name = "Windows";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private/Windows";
+			sourceTree = "<absolute>";
+		};
+		903CDCE9EAEFA64CF198F552 = {
+			isa = PBXGroup;
+			children = (
+				672B061624976A85F9BCE09F /* Mac */,
+				2D22910BE2EFBE374C9B2050 /* Windows */,
+			);
+			name = "Resources";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Resources";
+			sourceTree = "<absolute>";
+		};
+		672B061624976A85F9BCE09F = {
+			isa = PBXGroup;
+			children = (
+				DBF229902D9A28C8914077C6 /* Info.plist */,
+			);
+			name = "Mac";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Resources/Mac";
+			sourceTree = "<absolute>";
+		};
+		2D22910BE2EFBE374C9B2050 = {
+			isa = PBXGroup;
+			children = (
+				0C8337160CD902F7CA6B18E3 /* Debug-EpicWebHelper-Win32.manifest */,
+				6C3765432E8D2A612F977256 /* Debug-EpicWebHelper-Win64.manifest */,
+				2B4A7025DAA2E31C1CBCC2E0 /* EpicWebHelper-Win32.manifest */,
+				1DD7072E177657DFD11D13EF /* EpicWebHelper-Win64.manifest */,
+				E6B1ED97B5B180376F701856 /* EpicWebHelper.rc */,
+			);
+			name = "Windows";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Resources/Windows";
+			sourceTree = "<absolute>";
+		};
+		41EB0340C3A7922A3D2FDBF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				777E1AF1581A253E10F75E78 /* EpicWebHelper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		CD080FBC4C450CEA8B2216CE /* EpicWebHelper_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 63C950A4FBA398BDF7CFF372 /* Build configuration list for PBXLegacyTarget "EpicWebHelper_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/meghasingh/Documents/GitHub/UnrealEngine";
+			dependencies = (
+			);
+			name = "EpicWebHelper_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "EpicWebHelper_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		D21727C1EAA27401F5A26D92 /* EpicWebHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A04E8B6F0D203D017D930630 /* Build configuration list for PBXNativeTarget "EpicWebHelper" */;
+			buildPhases = (
+				7D1AA97793CA1036FD49C6DD /* Embed App Extensions */, 
+				B1AD5B7C16B1E25C6B2930E2 /* Shell Script */, 
+			);
+			dependencies = (
+				6371D56BF139562786B5C269 /* PBXTargetDependency */,
+			);
+			name = "EpicWebHelper";
+			passBuildSettingsInEnvironment = 1;
+			productName = "EpicWebHelper";
+			productReference = "777E1AF1581A253E10F75E78";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		1E65CF6C90845861E044A5A7 /* EpicWebHelper_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8DB17519A907A55684C8E8E /* Build configuration list for PBXNativeTarget "EpicWebHelper_Index" */;
+			buildPhases = (
+				36728CB35F6F6A20A422E117 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "EpicWebHelper_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "EpicWebHelper_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C980426D5EA081FE159D9DE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					D21727C1EAA27401F5A26D92 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 76A05907C9B4ED1E24A8DC20 /* Build configuration list for PBXProject "EpicWebHelper" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 8C462367559D0AD2D640A210;
+			productRefGroup = 41EB0340C3A7922A3D2FDBF9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			D21727C1EAA27401F5A26D92 /* EpicWebHelper */,
+			CD080FBC4C450CEA8B2216CE /* EpicWebHelper_Build */,
+			1E65CF6C90845861E044A5A7 /* EpicWebHelper_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		11577367D5826C1E0AEBC2A8 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_macosarm64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/CEF3Utils/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/CEF3Utils/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CEF3Utils/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/EpicWebHelper/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/EpicWebHelper/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		196F3CC62C43356355C153E7 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_macosarm64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/CEF3Utils/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/CEF3Utils/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CEF3Utils/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/EpicWebHelper/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/EpicWebHelper/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		C84E877DF34845BD54C582AA /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/CEF3/cef_binary_90.6.7+g19ba721+chromium-90.0.4430.212_macosarm64",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/EpicWebHelper/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/ApplicationCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/ApplicationCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/ApplicationCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/RHI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/RHI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RHI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/Projects/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/Projects/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Projects/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/Json/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/Json/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Json/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/CEF3Utils/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/CEF3Utils/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CEF3Utils/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/EpicWebHelper/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/EpicWebHelper/Inc/EpicWebHelper/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Launch/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		FD1B97721FA5FCECACAE01B1 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "EpicWebHelper";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "EpicWebHelper";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "EpicWebHelper-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.EpicWebHelper;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/EpicWebHelper-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/EpicWebHelper-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/EpicWebHelper-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		7779DF843E6DBF36B55C1B76 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "EpicWebHelper";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "EpicWebHelper";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "EpicWebHelper-Mac-Development";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.EpicWebHelper;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/EpicWebHelper-Mac-Development-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/EpicWebHelper-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/EpicWebHelper-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		342F8819FAF17868A00F3C58 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "EpicWebHelper";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "EpicWebHelper";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "EpicWebHelper";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.EpicWebHelper;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/EpicWebHelper-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/EpicWebHelper-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/EpicWebHelper-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		14EE0AF23F85AC54E9C7653B /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "EpicWebHelper";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		44810F05DA3BC7616E0FD9CF /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "EpicWebHelper";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		4519A4B2768621CA7EAB3D8B /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "EpicWebHelper";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		57A8607BDDA7D3C6EAB27FFB /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "EpicWebHelper";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "EpicWebHelper";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "EpicWebHelper-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.EpicWebHelper;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/EpicWebHelper-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/EpicWebHelper-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/EpicWebHelper-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		48E628A59202E69555790364 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "EpicWebHelper";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "EpicWebHelper";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "EpicWebHelper-Mac-Development";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.EpicWebHelper;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/EpicWebHelper-Mac-Development-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/EpicWebHelper-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/EpicWebHelper-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		B44A6E26C91B7B82647D7162 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "EpicWebHelper";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "EpicWebHelper";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "EpicWebHelper";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.EpicWebHelper;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/EpicWebHelper-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/EpicWebHelper-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/EpicWebHelper-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76A05907C9B4ED1E24A8DC20 /* Build configuration list for PBXProject "EpicWebHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11577367D5826C1E0AEBC2A8 /* "Debug" */,
+				196F3CC62C43356355C153E7 /* "Development" */,
+				C84E877DF34845BD54C582AA /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		63C950A4FBA398BDF7CFF372 /* Build configuration list for PBXLegacyTarget "EpicWebHelper_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14EE0AF23F85AC54E9C7653B /* "Debug" */,
+				44810F05DA3BC7616E0FD9CF /* "Development" */,
+				4519A4B2768621CA7EAB3D8B /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		A04E8B6F0D203D017D930630 /* Build configuration list for PBXNativeTarget "EpicWebHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD1B97721FA5FCECACAE01B1 /* "Debug" */,
+				7779DF843E6DBF36B55C1B76 /* "Development" */,
+				342F8819FAF17868A00F3C58 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		C8DB17519A907A55684C8E8E /* Build configuration list for PBXNativeTarget "EpicWebHelper_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A8607BDDA7D3C6EAB27FFB /* "Debug" */,
+				48E628A59202E69555790364 /* "Development" */,
+				B44A6E26C91B7B82647D7162 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C980426D5EA081FE159D9DE7 /* Project object */;
+}

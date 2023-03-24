@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MeshesAndActors",
+			"Path": "/Users/meghasingh/Documents/Unreal Projects/MeshesAndActors/Source/MeshesAndActors.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MeshesAndActorsEditor",
+			"Path": "/Users/meghasingh/Documents/Unreal Projects/MeshesAndActors/Source/MeshesAndActorsEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

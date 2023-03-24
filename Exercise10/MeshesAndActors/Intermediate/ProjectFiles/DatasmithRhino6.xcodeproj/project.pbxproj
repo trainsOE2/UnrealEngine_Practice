@@ -1,0 +1,1266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE48F5E62A9D41FCF446394C /* DatasmithRhino.rhp.config in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3D99ADF93E5BCC2342D6F /* DatasmithRhino.rhp.config */; };
+		8989B198F9398530BF5EFDB3 /* Notarization.entitlements in Sources */ = {isa = PBXBuildFile; fileRef = 3F59E92E35260B5624AD4125 /* Notarization.entitlements */; };
+		291F84803B338FD6D01FA7B1 /* DatasmithRhino6.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 33E534CBCD8254A9BC2D2A3D /* DatasmithRhino6.Build.cs */; };
+		8CF7BA411B14CE122F0455C4 /* DatasmithRhino6.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 577D7EB4C1FB5CCFD45DE9CC /* DatasmithRhino6.Target.cs */; };
+		C305C08693357BF71A136637 /* DatasmithRhino6.cs in Sources */ = {isa = PBXBuildFile; fileRef = 22A8AE27CD45981B32AEAE49 /* DatasmithRhino6.cs */; };
+		47EEA9BCFC353F14CC7722FF /* DatasmithRhino7.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 9D5EF9CBF82334F0B8162F4A /* DatasmithRhino7.Build.cs */; };
+		97F07E46518753DA22902120 /* DatasmithRhino7.cs in Sources */ = {isa = PBXBuildFile; fileRef = 73995A1549D0217109FC44DA /* DatasmithRhino7.cs */; };
+		FF63F3894BBA7B949F343B60 /* CreateMacPackages.sh in Sources */ = {isa = PBXBuildFile; fileRef = 02FDA73A19C6316797B5A649 /* CreateMacPackages.sh */; };
+		FF21B096590774F840BD4949 /* CreateMultilanguageInstaller.bat in Sources */ = {isa = PBXBuildFile; fileRef = 0F63CE8F7214DBCEA56A827C /* CreateMultilanguageInstaller.bat */; };
+		A500A988EFD7F86B881DD71A /* CreateMultilanguageInstaller.py in Sources */ = {isa = PBXBuildFile; fileRef = 9655084914AE7B317102FBB8 /* CreateMultilanguageInstaller.py */; };
+		5AF905765005A48317A8CB19 /* CustomActions.wxs in Sources */ = {isa = PBXBuildFile; fileRef = E82848FD7D550319BB379E8B /* CustomActions.wxs */; };
+		E03E33733B9B4DAF392880EE /* CustomExitDialog.wxs in Sources */ = {isa = PBXBuildFile; fileRef = 07264451DFB66833BA7543E9 /* CustomExitDialog.wxs */; };
+		3AA0188873D6B36BFA4A9B9F /* CustomInstallDirDlg.wxs in Sources */ = {isa = PBXBuildFile; fileRef = 6EC66275E8D90C7E219C6F9E /* CustomInstallDirDlg.wxs */; };
+		EEF4A703DAFE0A2B6794672B /* CustomLicenseAgreementDlg.wxs in Sources */ = {isa = PBXBuildFile; fileRef = F08B16B7A0B48DF0073EBB7F /* CustomLicenseAgreementDlg.wxs */; };
+		BFF2615DE1697B9E30794631 /* CustomWelcomeDialog.wxs in Sources */ = {isa = PBXBuildFile; fileRef = 101C5D0197B2EBDE79B6CA30 /* CustomWelcomeDialog.wxs */; };
+		3BAB00F3EADA2E092831B7E0 /* CustomWixUI_InstallDir.wxs in Sources */ = {isa = PBXBuildFile; fileRef = C0F2AE5981DBA8F344436B42 /* CustomWixUI_InstallDir.wxs */; };
+		83EBF6E4E615B5B0C2BCD1A1 /* GenericUiBrandDialog.wxs in Sources */ = {isa = PBXBuildFile; fileRef = 73B7DCF0C37FF2F83EDC096D /* GenericUiBrandDialog.wxs */; };
+		D79C2D874CC340A7E28804A8 /* Installer.wixproj in Sources */ = {isa = PBXBuildFile; fileRef = E24175276E22674A36EEE89D /* Installer.wixproj */; };
+		EB6ACB69CB997D0A6173C61C /* UtilExtension_es-es.wxl in Sources */ = {isa = PBXBuildFile; fileRef = 6E67EC39B09FB12CC96CFA79 /* UtilExtension_es-es.wxl */; };
+		D6815D13C08AA7F5FD27E726 /* UtilExtension_fr-fr.wxl in Sources */ = {isa = PBXBuildFile; fileRef = E72EFB1D85BE7D525CD2F518 /* UtilExtension_fr-fr.wxl */; };
+		D4224137FBF4B8038B45C966 /* UtilExtension_ja-jp.wxl in Sources */ = {isa = PBXBuildFile; fileRef = 180DB74E88FFF87F8CBFACF3 /* UtilExtension_ja-jp.wxl */; };
+		4A59729A3EAF9FE82E68A23C /* UtilExtension_ko-kr.wxl in Sources */ = {isa = PBXBuildFile; fileRef = 7192D21287F2075C9B3FF8FF /* UtilExtension_ko-kr.wxl */; };
+		67BE640A675532A0D9B28988 /* UtilExtension_pt-br.wxl in Sources */ = {isa = PBXBuildFile; fileRef = AA8506F424CC20D721252CE6 /* UtilExtension_pt-br.wxl */; };
+		3BB9D39B47797214754E4C90 /* UtilExtension_zh-cn.wxl in Sources */ = {isa = PBXBuildFile; fileRef = 294E37F2C8BE05A5479BDF21 /* UtilExtension_zh-cn.wxl */; };
+		58620FBDF939F4E59E36B3CD /* de-de.wxl in Sources */ = {isa = PBXBuildFile; fileRef = B10B61DFAFF768CC1C46F881 /* de-de.wxl */; };
+		FC1DA496F4BF06B6AF6D854F /* en-us.wxl in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E18191E8D381357393D7A /* en-us.wxl */; };
+		B407B993EC198FC2DF2AEB42 /* es-es.wxl in Sources */ = {isa = PBXBuildFile; fileRef = C3B77A772D43BD9F10CE6882 /* es-es.wxl */; };
+		E98AD7B8018AD7116A8ED0B5 /* fr-fr.wxl in Sources */ = {isa = PBXBuildFile; fileRef = 872F81BC643C063EE064EDF2 /* fr-fr.wxl */; };
+		E01E678360007AF3D9F69A34 /* ja-jp.wxl in Sources */ = {isa = PBXBuildFile; fileRef = 7EAC5678ED4B6A86B06A57F4 /* ja-jp.wxl */; };
+		EC44B1C464E1D176C6732BFD /* ko-kr.wxl in Sources */ = {isa = PBXBuildFile; fileRef = F1BDF9A001B49548F988C7E2 /* ko-kr.wxl */; };
+		12BFCFED0E80297F6F512D12 /* pt-br.wxl in Sources */ = {isa = PBXBuildFile; fileRef = C5E1C2E700B1A6201B5C0F61 /* pt-br.wxl */; };
+		AAB2FB4E3B374042927D0E49 /* zh-cn.wxl in Sources */ = {isa = PBXBuildFile; fileRef = B19CAC1AABD3D93C00B7D805 /* zh-cn.wxl */; };
+		AAA1CACB3B98BFA205F14D43 /* ReadMe.txt in Sources */ = {isa = PBXBuildFile; fileRef = D70580AEEECEF2659D278921 /* ReadMe.txt */; };
+		1D641983405D797B7698D601 /* Banner.bmp in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F67DE60A253C43C161AC5 /* Banner.bmp */; };
+		ADC8FFF50637F34ABDAABD6D /* Dialog.bmp in Sources */ = {isa = PBXBuildFile; fileRef = 692B2D367319058886BA29FE /* Dialog.bmp */; };
+		FDE202598BC1A0C4DF3856F8 /* Exporter Plugin End User License Agreement.docx in Sources */ = {isa = PBXBuildFile; fileRef = B088FF70D8B0FF6863E926F2 /* Exporter Plugin End User License Agreement.docx */; };
+		492007C19562B6074953A826 /* Exporter Plugin End User License Agreement.rtf in Sources */ = {isa = PBXBuildFile; fileRef = 9FA2EC1153C2455F63403643 /* Exporter Plugin End User License Agreement.rtf */; };
+		60757C78BDCEA5929D2FE805 /* banner.bmp in Sources */ = {isa = PBXBuildFile; fileRef = 848266DF2ECF40C6F6784714 /* banner.bmp */; };
+		7374BD489C63A7B9EC2B511A /* unreal-logo.jpg in Sources */ = {isa = PBXBuildFile; fileRef = 8144D77A9AB039A06A7E7695 /* unreal-logo.jpg */; };
+		A8976B90F91AEF8BEF016BCB /* 28190.bmp in Sources */ = {isa = PBXBuildFile; fileRef = CE267024E00369477A56DB06 /* 28190.bmp */; };
+		EE6FC5EFB8A1D609EAC3A3C5 /* 28402.bmp in Sources */ = {isa = PBXBuildFile; fileRef = 5D5471463FCC0E1A157DB4CF /* 28402.bmp */; };
+		44EB062E62E2CEC0EDE87325 /* 28674.bmp in Sources */ = {isa = PBXBuildFile; fileRef = 3C242376AE848499DFB8FC05 /* 28674.bmp */; };
+		DD7CA4FCE08624768CF9FFB7 /* 30668.bmp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7676A1051EDD993CDB39CE /* 30668.bmp */; };
+		C39614A84FC90770BBF5AACC /* 30725.bmp in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7A607F5E3D875E04C0A1A /* 30725.bmp */; };
+		1DD00462950214DC18848D6E /* Epic_Games_logo.bmp in Sources */ = {isa = PBXBuildFile; fileRef = 5D837E595934DD53745DE31C /* Epic_Games_logo.bmp */; };
+		8CC8415B7941CA0243D5892C /* banner.bmp in Sources */ = {isa = PBXBuildFile; fileRef = F24793C958AEFBF8C3F92A12 /* banner.bmp */; };
+		72B394DDE3C3A051BC65B37D /* unreal-logo.jpg in Sources */ = {isa = PBXBuildFile; fileRef = 76F3AB68DCF43FD526B9C769 /* unreal-logo.jpg */; };
+		0A4341D3E372F9F29F016632 /* Microsoft_VC140_CRT_x64.msm in Sources */ = {isa = PBXBuildFile; fileRef = FD930ECB4EDA8A96878ECCA8 /* Microsoft_VC140_CRT_x64.msm */; };
+		8ED33A603BF15CE3E3D2A39E /* Microsoft_VC140_OpenMP_x64.msm in Sources */ = {isa = PBXBuildFile; fileRef = 69CA1C23862C2F675DCAF401 /* Microsoft_VC140_OpenMP_x64.msm */; };
+		CBDE51506769C0225A7976EC /* UnrealEngine.ico in Sources */ = {isa = PBXBuildFile; fileRef = 111B375D2C3779B4EDE8FB7F /* UnrealEngine.ico */; };
+		DA19BED78F644414BB0F3B27 /* default_small_banner.bmp in Sources */ = {isa = PBXBuildFile; fileRef = A71D8482BFDA8118B1FE0139 /* default_small_banner.bmp */; };
+		4141C5970DF8B2E9B38F4CAC /* RhinoExporter.wxs in Sources */ = {isa = PBXBuildFile; fileRef = ABB8340CD599AD97A5D6B8A8 /* RhinoExporter.wxs */; };
+		47C19C9DAA20641450DBDCCE /* DatasmithDirectLinkConnectionsCommand.cs in Sources */ = {isa = PBXBuildFile; fileRef = B7B09AA6F4CBCFFDB0AD8C99 /* DatasmithDirectLinkConnectionsCommand.cs */; };
+		A924035CC9D6AC955DC3E698 /* DatasmithDirectLinkSyncCommand.cs in Sources */ = {isa = PBXBuildFile; fileRef = 8ACEB3E56F39697C0094D327 /* DatasmithDirectLinkSyncCommand.cs */; };
+		80FB1FFBFBB7CF1BC88D1E06 /* DatasmithExportCommand.cs in Sources */ = {isa = PBXBuildFile; fileRef = 59D66F19239DF021F07B4AF4 /* DatasmithExportCommand.cs */; };
+		2F66F3C72A5C3238EFD0334E /* DatasmithMessagesCommand.cs in Sources */ = {isa = PBXBuildFile; fileRef = E5D614D5C3FBA60CD7149D65 /* DatasmithMessagesCommand.cs */; };
+		C9505963A4B23704B02AB439 /* DatasmithToggleAutoSyncCommand.cs in Sources */ = {isa = PBXBuildFile; fileRef = 1A3170A72809B57DF9A16172 /* DatasmithToggleAutoSyncCommand.cs */; };
+		940882B86C123561A0D89B4A /* DatasmithRhinoExportOptions.cs in Sources */ = {isa = PBXBuildFile; fileRef = 5BADC88537B3A92E217E5F5D /* DatasmithRhinoExportOptions.cs */; };
+		FFAB0609A94F1660F8B27241 /* DatasmithRhinoPlugin.cs in Sources */ = {isa = PBXBuildFile; fileRef = D0E53682FC6DF54FCA9D0B2D /* DatasmithRhinoPlugin.cs */; };
+		6D5EF46898737BBF98A2C3B8 /* DatasmithRhinoSceneExporter.cs in Sources */ = {isa = PBXBuildFile; fileRef = 229E6C0661A1AF2F747AD685 /* DatasmithRhinoSceneExporter.cs */; };
+		01EEED29EEDCB9F2886ED48F /* DatasmithRhinoChangeListener.cs in Sources */ = {isa = PBXBuildFile; fileRef = F1C352856C62184A0321ABB3 /* DatasmithRhinoChangeListener.cs */; };
+		D82AF7C1D1A76416A824B67D /* DatasmithRhinoDirectLinkManager.cs in Sources */ = {isa = PBXBuildFile; fileRef = 240C73C41FA8C2EDD9399373 /* DatasmithRhinoDirectLinkManager.cs */; };
+		6023C1BF65155ADF433A50C3 /* DatasmithRhinoActorExporter.cs in Sources */ = {isa = PBXBuildFile; fileRef = E4F821E009BEE7CC0CD5615F /* DatasmithRhinoActorExporter.cs */; };
+		86E2E31A51C7678AC261D011 /* DatasmithRhinoMaterialExporter.cs in Sources */ = {isa = PBXBuildFile; fileRef = EAFF80855FB02D609674F964 /* DatasmithRhinoMaterialExporter.cs */; };
+		EE542A5A5EBEDA9F968461AD /* DatasmithRhinoMeshExporter.cs in Sources */ = {isa = PBXBuildFile; fileRef = E6A5B092CAD739EABBAFDF27 /* DatasmithRhinoMeshExporter.cs */; };
+		56B48A0A817F9012E87F0CFD /* DatasmithRhinoTextureExporter.cs in Sources */ = {isa = PBXBuildFile; fileRef = C432EF4BBD909DE72B04AB9F /* DatasmithRhinoTextureExporter.cs */; };
+		0E5402359B77A43F7403D37C /* IDatasmithRhinoElementExporter.cs in Sources */ = {isa = PBXBuildFile; fileRef = DABF4DCF1CD6EB84D59EA8CA /* IDatasmithRhinoElementExporter.cs */; };
+		024A2D25AC4D439A3403D359 /* DatasmithActorInfo.cs in Sources */ = {isa = PBXBuildFile; fileRef = C701709EA4D71D8CFC608BC2 /* DatasmithActorInfo.cs */; };
+		9916D82283D576A1BF6BCA84 /* DatasmithCameraActorInfo.cs in Sources */ = {isa = PBXBuildFile; fileRef = 799CA22563AB6BE1A0161A92 /* DatasmithCameraActorInfo.cs */; };
+		7FBBA5E35B73644447AC0DE1 /* DatasmithInfoBase.cs in Sources */ = {isa = PBXBuildFile; fileRef = 367DA4196FBF9B1846D3E84A /* DatasmithInfoBase.cs */; };
+		794F11C0951BBBB7EFCEAA59 /* DatasmithMaterialInfo.cs in Sources */ = {isa = PBXBuildFile; fileRef = 8DA607FAF9F6F5D427C88C55 /* DatasmithMaterialInfo.cs */; };
+		075171E17B014BACD25B6B7C /* DatasmithMeshInfo.cs in Sources */ = {isa = PBXBuildFile; fileRef = BFB29848258AE5F0DBDCE9DC /* DatasmithMeshInfo.cs */; };
+		77DFB4B2ABFE8782FB45A2C8 /* DatasmithRhinoExportContext.cs in Sources */ = {isa = PBXBuildFile; fileRef = 2F93454B07863DCD8EC0EFE5 /* DatasmithRhinoExportContext.cs */; };
+		5A27D4A7F80F9F28EEE6605A /* DatasmithTextureInfo.cs in Sources */ = {isa = PBXBuildFile; fileRef = 84115862E61904175D16E027 /* DatasmithTextureInfo.cs */; };
+		635D43C088758E6FAC38DEE6 /* DatasmithRhinoLogManager.cs in Sources */ = {isa = PBXBuildFile; fileRef = EC99BDF473C1945BB3500AEA /* DatasmithRhinoLogManager.cs */; };
+		37216A15FE7D96DE41A27259 /* DatasmithRhinoProgressManager.cs in Sources */ = {isa = PBXBuildFile; fileRef = 4D33E2B9FE94D0E2F6A1C3A6 /* DatasmithRhinoProgressManager.cs */; };
+		E6A0C64501C19E5209EAA723 /* DatasmithRhinoUniqueNameGenerator.cs in Sources */ = {isa = PBXBuildFile; fileRef = 3BD08972F09D518C53085E24 /* DatasmithRhinoUniqueNameGenerator.cs */; };
+		D2A8736A6F4FEC125359D9E8 /* DatasmithRhinoUtilities.cs in Sources */ = {isa = PBXBuildFile; fileRef = AE496DEB998CDD01F199B8A3 /* DatasmithRhinoUtilities.cs */; };
+		84EB53943B73A89AABA4824C /* DefaultAssemblyInfo.cs in Sources */ = {isa = PBXBuildFile; fileRef = C6CD46EC1429055F3323F2A1 /* DefaultAssemblyInfo.cs */; };
+		21F9A3C36429A715567702A8 /* GeneratedAssemblyInfo.cs.template in Sources */ = {isa = PBXBuildFile; fileRef = E1E6BCA66BCB8B7E25626100 /* GeneratedAssemblyInfo.cs.template */; };
+		A9B6869C29D64ADC488B4E5F /* DatasmithRhino.plist in Sources */ = {isa = PBXBuildFile; fileRef = 285FFF4CD77398B9FC48428D /* DatasmithRhino.plist */; };
+		2350951C20154F243E8A7B7A /* DatasmithRhino.rui in Sources */ = {isa = PBXBuildFile; fileRef = ECEA61443C80586059A39261 /* DatasmithRhino.rui */; };
+		B7ACBB08B77DAD0A7E935A5D /* Resources.Designer.cs in Sources */ = {isa = PBXBuildFile; fileRef = 3502F2F5217325584A4FA1C2 /* Resources.Designer.cs */; };
+		93839ECA7D6C7A89516DB6C9 /* Resources.de.Designer.cs in Sources */ = {isa = PBXBuildFile; fileRef = BE04FDCAB58EFF5A9B5E78F1 /* Resources.de.Designer.cs */; };
+		A7752D786EF4F4E8B4D29BFF /* Resources.de.resx in Sources */ = {isa = PBXBuildFile; fileRef = 55B30673ECC7E7B757A8D3C0 /* Resources.de.resx */; };
+		878B6ED377C199FFA16D7C1F /* Resources.es.Designer.cs in Sources */ = {isa = PBXBuildFile; fileRef = 9B680A9E1D66F4A991FE34E9 /* Resources.es.Designer.cs */; };
+		78DADA8EB01BCAEF5A7A60B7 /* Resources.es.resx in Sources */ = {isa = PBXBuildFile; fileRef = D5352D78DB4EDFADD8782BB8 /* Resources.es.resx */; };
+		094053628CA18A6173F979D8 /* Resources.fr.Designer.cs in Sources */ = {isa = PBXBuildFile; fileRef = 412DBC323C2A209EE4845FEC /* Resources.fr.Designer.cs */; };
+		A8AB966D976263B2C82BC51D /* Resources.fr.resx in Sources */ = {isa = PBXBuildFile; fileRef = 1953F60FE67AFA21BCD0C502 /* Resources.fr.resx */; };
+		AD893D8993E756FEDA570452 /* Resources.ja.Designer.cs in Sources */ = {isa = PBXBuildFile; fileRef = A7E2BD49122366D286FBC111 /* Resources.ja.Designer.cs */; };
+		C425232E82F37D84E0675138 /* Resources.ja.resx in Sources */ = {isa = PBXBuildFile; fileRef = 240E7291C5F91A0E1ADC7050 /* Resources.ja.resx */; };
+		87345EE8BDD57ED8E593B6EA /* Resources.ko.Designer.cs in Sources */ = {isa = PBXBuildFile; fileRef = A65AFA4A7DBB9E85F898DAE3 /* Resources.ko.Designer.cs */; };
+		8805FF49AA6DB8680BF88182 /* Resources.ko.resx in Sources */ = {isa = PBXBuildFile; fileRef = 1FC54CA8158278A14C074EC7 /* Resources.ko.resx */; };
+		5400C5FD27A1EEFFAE2120BA /* Resources.pt.Designer.cs in Sources */ = {isa = PBXBuildFile; fileRef = AB54CE21E3DE009D645DE5B2 /* Resources.pt.Designer.cs */; };
+		FC4F588CDD15B5350AAC2208 /* Resources.pt.resx in Sources */ = {isa = PBXBuildFile; fileRef = 3F021A5D79CE15EB69FD7401 /* Resources.pt.resx */; };
+		C376CE0308CB7089578525ED /* Resources.resx in Sources */ = {isa = PBXBuildFile; fileRef = 83106CBA167D444463B8F73A /* Resources.resx */; };
+		6EF5707620389781B738D0D0 /* Resources.zh.Designer.cs in Sources */ = {isa = PBXBuildFile; fileRef = 9229B7EF2E9227A46594D3E0 /* Resources.zh.Designer.cs */; };
+		11547C7BEFE2337FBE3313DF /* Resources.zh.resx in Sources */ = {isa = PBXBuildFile; fileRef = C2EC979D001906F37188020E /* Resources.zh.resx */; };
+		499910253173878A1B865DA1 /* UnrealEngine.ico in Sources */ = {isa = PBXBuildFile; fileRef = ECA802BAC1088C2BD6255A86 /* UnrealEngine.ico */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8AD3D99ADF93E5BCC2342D6F /* DatasmithRhino.rhp.config */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhino.rhp.config"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Config/DatasmithRhino.rhp.config"; sourceTree = SOURCE_ROOT; };
+		3F59E92E35260B5624AD4125 /* Notarization.entitlements */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Notarization.entitlements"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Config/Notarization.entitlements"; sourceTree = SOURCE_ROOT; };
+		33E534CBCD8254A9BC2D2A3D /* DatasmithRhino6.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhino6.Build.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/DatasmithRhino6.Build.cs"; sourceTree = SOURCE_ROOT; };
+		577D7EB4C1FB5CCFD45DE9CC /* DatasmithRhino6.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhino6.Target.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/DatasmithRhino6.Target.cs"; sourceTree = SOURCE_ROOT; };
+		22A8AE27CD45981B32AEAE49 /* DatasmithRhino6.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhino6.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/DatasmithRhino6/DatasmithRhino6.cs"; sourceTree = SOURCE_ROOT; };
+		9D5EF9CBF82334F0B8162F4A /* DatasmithRhino7.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhino7.Build.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/DatasmithRhino7.Build.cs"; sourceTree = SOURCE_ROOT; };
+		73995A1549D0217109FC44DA /* DatasmithRhino7.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhino7.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/DatasmithRhino7/DatasmithRhino7.cs"; sourceTree = SOURCE_ROOT; };
+		02FDA73A19C6316797B5A649 /* CreateMacPackages.sh */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CreateMacPackages.sh"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/CreateMacPackages.sh"; sourceTree = SOURCE_ROOT; };
+		0F63CE8F7214DBCEA56A827C /* CreateMultilanguageInstaller.bat */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CreateMultilanguageInstaller.bat"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/CreateMultilanguageInstaller.bat"; sourceTree = SOURCE_ROOT; };
+		9655084914AE7B317102FBB8 /* CreateMultilanguageInstaller.py */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CreateMultilanguageInstaller.py"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/CreateMultilanguageInstaller.py"; sourceTree = SOURCE_ROOT; };
+		E82848FD7D550319BB379E8B /* CustomActions.wxs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CustomActions.wxs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/CustomActions.wxs"; sourceTree = SOURCE_ROOT; };
+		07264451DFB66833BA7543E9 /* CustomExitDialog.wxs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CustomExitDialog.wxs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/CustomExitDialog.wxs"; sourceTree = SOURCE_ROOT; };
+		6EC66275E8D90C7E219C6F9E /* CustomInstallDirDlg.wxs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CustomInstallDirDlg.wxs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/CustomInstallDirDlg.wxs"; sourceTree = SOURCE_ROOT; };
+		F08B16B7A0B48DF0073EBB7F /* CustomLicenseAgreementDlg.wxs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CustomLicenseAgreementDlg.wxs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/CustomLicenseAgreementDlg.wxs"; sourceTree = SOURCE_ROOT; };
+		101C5D0197B2EBDE79B6CA30 /* CustomWelcomeDialog.wxs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CustomWelcomeDialog.wxs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/CustomWelcomeDialog.wxs"; sourceTree = SOURCE_ROOT; };
+		C0F2AE5981DBA8F344436B42 /* CustomWixUI_InstallDir.wxs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "CustomWixUI_InstallDir.wxs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/CustomWixUI_InstallDir.wxs"; sourceTree = SOURCE_ROOT; };
+		73B7DCF0C37FF2F83EDC096D /* GenericUiBrandDialog.wxs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "GenericUiBrandDialog.wxs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/GenericUiBrandDialog.wxs"; sourceTree = SOURCE_ROOT; };
+		E24175276E22674A36EEE89D /* Installer.wixproj */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Installer.wixproj"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Installer.wixproj"; sourceTree = SOURCE_ROOT; };
+		6E67EC39B09FB12CC96CFA79 /* UtilExtension_es-es.wxl */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UtilExtension_es-es.wxl"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Localization/UtilExtension_es-es.wxl"; sourceTree = SOURCE_ROOT; };
+		E72EFB1D85BE7D525CD2F518 /* UtilExtension_fr-fr.wxl */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UtilExtension_fr-fr.wxl"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Localization/UtilExtension_fr-fr.wxl"; sourceTree = SOURCE_ROOT; };
+		180DB74E88FFF87F8CBFACF3 /* UtilExtension_ja-jp.wxl */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UtilExtension_ja-jp.wxl"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Localization/UtilExtension_ja-jp.wxl"; sourceTree = SOURCE_ROOT; };
+		7192D21287F2075C9B3FF8FF /* UtilExtension_ko-kr.wxl */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UtilExtension_ko-kr.wxl"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Localization/UtilExtension_ko-kr.wxl"; sourceTree = SOURCE_ROOT; };
+		AA8506F424CC20D721252CE6 /* UtilExtension_pt-br.wxl */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UtilExtension_pt-br.wxl"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Localization/UtilExtension_pt-br.wxl"; sourceTree = SOURCE_ROOT; };
+		294E37F2C8BE05A5479BDF21 /* UtilExtension_zh-cn.wxl */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UtilExtension_zh-cn.wxl"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Localization/UtilExtension_zh-cn.wxl"; sourceTree = SOURCE_ROOT; };
+		B10B61DFAFF768CC1C46F881 /* de-de.wxl */ = {isa = PBXFileReference; explicitFileType = file.text; name = "de-de.wxl"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Localization/de-de.wxl"; sourceTree = SOURCE_ROOT; };
+		1C1E18191E8D381357393D7A /* en-us.wxl */ = {isa = PBXFileReference; explicitFileType = file.text; name = "en-us.wxl"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Localization/en-us.wxl"; sourceTree = SOURCE_ROOT; };
+		C3B77A772D43BD9F10CE6882 /* es-es.wxl */ = {isa = PBXFileReference; explicitFileType = file.text; name = "es-es.wxl"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Localization/es-es.wxl"; sourceTree = SOURCE_ROOT; };
+		872F81BC643C063EE064EDF2 /* fr-fr.wxl */ = {isa = PBXFileReference; explicitFileType = file.text; name = "fr-fr.wxl"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Localization/fr-fr.wxl"; sourceTree = SOURCE_ROOT; };
+		7EAC5678ED4B6A86B06A57F4 /* ja-jp.wxl */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ja-jp.wxl"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Localization/ja-jp.wxl"; sourceTree = SOURCE_ROOT; };
+		F1BDF9A001B49548F988C7E2 /* ko-kr.wxl */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ko-kr.wxl"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Localization/ko-kr.wxl"; sourceTree = SOURCE_ROOT; };
+		C5E1C2E700B1A6201B5C0F61 /* pt-br.wxl */ = {isa = PBXFileReference; explicitFileType = file.text; name = "pt-br.wxl"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Localization/pt-br.wxl"; sourceTree = SOURCE_ROOT; };
+		B19CAC1AABD3D93C00B7D805 /* zh-cn.wxl */ = {isa = PBXFileReference; explicitFileType = file.text; name = "zh-cn.wxl"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Localization/zh-cn.wxl"; sourceTree = SOURCE_ROOT; };
+		D70580AEEECEF2659D278921 /* ReadMe.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ReadMe.txt"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/ReadMe.txt"; sourceTree = SOURCE_ROOT; };
+		6F9F67DE60A253C43C161AC5 /* Banner.bmp */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Banner.bmp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Banner.bmp"; sourceTree = SOURCE_ROOT; };
+		692B2D367319058886BA29FE /* Dialog.bmp */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Dialog.bmp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Dialog.bmp"; sourceTree = SOURCE_ROOT; };
+		B088FF70D8B0FF6863E926F2 /* Exporter Plugin End User License Agreement.docx */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Exporter Plugin End User License Agreement.docx"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Exporter Plugin End User License Agreement.docx"; sourceTree = SOURCE_ROOT; };
+		9FA2EC1153C2455F63403643 /* Exporter Plugin End User License Agreement.rtf */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Exporter Plugin End User License Agreement.rtf"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Exporter Plugin End User License Agreement.rtf"; sourceTree = SOURCE_ROOT; };
+		848266DF2ECF40C6F6784714 /* banner.bmp */ = {isa = PBXFileReference; explicitFileType = file.text; name = "banner.bmp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/General/banner.bmp"; sourceTree = SOURCE_ROOT; };
+		8144D77A9AB039A06A7E7695 /* unreal-logo.jpg */ = {isa = PBXFileReference; explicitFileType = file.text; name = "unreal-logo.jpg"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/General/unreal-logo.jpg"; sourceTree = SOURCE_ROOT; };
+		CE267024E00369477A56DB06 /* 28190.bmp */ = {isa = PBXFileReference; explicitFileType = file.text; name = "28190.bmp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Images/Background/28190.bmp"; sourceTree = SOURCE_ROOT; };
+		5D5471463FCC0E1A157DB4CF /* 28402.bmp */ = {isa = PBXFileReference; explicitFileType = file.text; name = "28402.bmp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Images/Background/28402.bmp"; sourceTree = SOURCE_ROOT; };
+		3C242376AE848499DFB8FC05 /* 28674.bmp */ = {isa = PBXFileReference; explicitFileType = file.text; name = "28674.bmp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Images/Background/28674.bmp"; sourceTree = SOURCE_ROOT; };
+		5D7676A1051EDD993CDB39CE /* 30668.bmp */ = {isa = PBXFileReference; explicitFileType = file.text; name = "30668.bmp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Images/Background/30668.bmp"; sourceTree = SOURCE_ROOT; };
+		9BA7A607F5E3D875E04C0A1A /* 30725.bmp */ = {isa = PBXFileReference; explicitFileType = file.text; name = "30725.bmp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Images/Background/30725.bmp"; sourceTree = SOURCE_ROOT; };
+		5D837E595934DD53745DE31C /* Epic_Games_logo.bmp */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Epic_Games_logo.bmp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Images/Epic_Games_logo.bmp"; sourceTree = SOURCE_ROOT; };
+		F24793C958AEFBF8C3F92A12 /* banner.bmp */ = {isa = PBXFileReference; explicitFileType = file.text; name = "banner.bmp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Images/General/banner.bmp"; sourceTree = SOURCE_ROOT; };
+		76F3AB68DCF43FD526B9C769 /* unreal-logo.jpg */ = {isa = PBXFileReference; explicitFileType = file.text; name = "unreal-logo.jpg"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Images/General/unreal-logo.jpg"; sourceTree = SOURCE_ROOT; };
+		FD930ECB4EDA8A96878ECCA8 /* Microsoft_VC140_CRT_x64.msm */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Microsoft_VC140_CRT_x64.msm"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Microsoft_VC140_CRT_x64.msm"; sourceTree = SOURCE_ROOT; };
+		69CA1C23862C2F675DCAF401 /* Microsoft_VC140_OpenMP_x64.msm */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Microsoft_VC140_OpenMP_x64.msm"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Microsoft_VC140_OpenMP_x64.msm"; sourceTree = SOURCE_ROOT; };
+		111B375D2C3779B4EDE8FB7F /* UnrealEngine.ico */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealEngine.ico"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/UnrealEngine.ico"; sourceTree = SOURCE_ROOT; };
+		A71D8482BFDA8118B1FE0139 /* default_small_banner.bmp */ = {isa = PBXFileReference; explicitFileType = file.text; name = "default_small_banner.bmp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/default_small_banner.bmp"; sourceTree = SOURCE_ROOT; };
+		ABB8340CD599AD97A5D6B8A8 /* RhinoExporter.wxs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "RhinoExporter.wxs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/RhinoExporter.wxs"; sourceTree = SOURCE_ROOT; };
+		B7B09AA6F4CBCFFDB0AD8C99 /* DatasmithDirectLinkConnectionsCommand.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithDirectLinkConnectionsCommand.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/Commands/DatasmithDirectLinkConnectionsCommand.cs"; sourceTree = SOURCE_ROOT; };
+		8ACEB3E56F39697C0094D327 /* DatasmithDirectLinkSyncCommand.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithDirectLinkSyncCommand.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/Commands/DatasmithDirectLinkSyncCommand.cs"; sourceTree = SOURCE_ROOT; };
+		59D66F19239DF021F07B4AF4 /* DatasmithExportCommand.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithExportCommand.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/Commands/DatasmithExportCommand.cs"; sourceTree = SOURCE_ROOT; };
+		E5D614D5C3FBA60CD7149D65 /* DatasmithMessagesCommand.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithMessagesCommand.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/Commands/DatasmithMessagesCommand.cs"; sourceTree = SOURCE_ROOT; };
+		1A3170A72809B57DF9A16172 /* DatasmithToggleAutoSyncCommand.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithToggleAutoSyncCommand.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/Commands/DatasmithToggleAutoSyncCommand.cs"; sourceTree = SOURCE_ROOT; };
+		5BADC88537B3A92E217E5F5D /* DatasmithRhinoExportOptions.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhinoExportOptions.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/DatasmithRhinoExportOptions.cs"; sourceTree = SOURCE_ROOT; };
+		D0E53682FC6DF54FCA9D0B2D /* DatasmithRhinoPlugin.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhinoPlugin.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/DatasmithRhinoPlugin.cs"; sourceTree = SOURCE_ROOT; };
+		229E6C0661A1AF2F747AD685 /* DatasmithRhinoSceneExporter.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhinoSceneExporter.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/DatasmithRhinoSceneExporter.cs"; sourceTree = SOURCE_ROOT; };
+		F1C352856C62184A0321ABB3 /* DatasmithRhinoChangeListener.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhinoChangeListener.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/DirectLink/DatasmithRhinoChangeListener.cs"; sourceTree = SOURCE_ROOT; };
+		240C73C41FA8C2EDD9399373 /* DatasmithRhinoDirectLinkManager.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhinoDirectLinkManager.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/DirectLink/DatasmithRhinoDirectLinkManager.cs"; sourceTree = SOURCE_ROOT; };
+		E4F821E009BEE7CC0CD5615F /* DatasmithRhinoActorExporter.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhinoActorExporter.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/ElementExporters/DatasmithRhinoActorExporter.cs"; sourceTree = SOURCE_ROOT; };
+		EAFF80855FB02D609674F964 /* DatasmithRhinoMaterialExporter.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhinoMaterialExporter.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/ElementExporters/DatasmithRhinoMaterialExporter.cs"; sourceTree = SOURCE_ROOT; };
+		E6A5B092CAD739EABBAFDF27 /* DatasmithRhinoMeshExporter.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhinoMeshExporter.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/ElementExporters/DatasmithRhinoMeshExporter.cs"; sourceTree = SOURCE_ROOT; };
+		C432EF4BBD909DE72B04AB9F /* DatasmithRhinoTextureExporter.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhinoTextureExporter.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/ElementExporters/DatasmithRhinoTextureExporter.cs"; sourceTree = SOURCE_ROOT; };
+		DABF4DCF1CD6EB84D59EA8CA /* IDatasmithRhinoElementExporter.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "IDatasmithRhinoElementExporter.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/ElementExporters/IDatasmithRhinoElementExporter.cs"; sourceTree = SOURCE_ROOT; };
+		C701709EA4D71D8CFC608BC2 /* DatasmithActorInfo.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithActorInfo.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/ExportContext/DatasmithActorInfo.cs"; sourceTree = SOURCE_ROOT; };
+		799CA22563AB6BE1A0161A92 /* DatasmithCameraActorInfo.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithCameraActorInfo.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/ExportContext/DatasmithCameraActorInfo.cs"; sourceTree = SOURCE_ROOT; };
+		367DA4196FBF9B1846D3E84A /* DatasmithInfoBase.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithInfoBase.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/ExportContext/DatasmithInfoBase.cs"; sourceTree = SOURCE_ROOT; };
+		8DA607FAF9F6F5D427C88C55 /* DatasmithMaterialInfo.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithMaterialInfo.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/ExportContext/DatasmithMaterialInfo.cs"; sourceTree = SOURCE_ROOT; };
+		BFB29848258AE5F0DBDCE9DC /* DatasmithMeshInfo.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithMeshInfo.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/ExportContext/DatasmithMeshInfo.cs"; sourceTree = SOURCE_ROOT; };
+		2F93454B07863DCD8EC0EFE5 /* DatasmithRhinoExportContext.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhinoExportContext.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/ExportContext/DatasmithRhinoExportContext.cs"; sourceTree = SOURCE_ROOT; };
+		84115862E61904175D16E027 /* DatasmithTextureInfo.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithTextureInfo.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/ExportContext/DatasmithTextureInfo.cs"; sourceTree = SOURCE_ROOT; };
+		EC99BDF473C1945BB3500AEA /* DatasmithRhinoLogManager.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhinoLogManager.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/Utils/DatasmithRhinoLogManager.cs"; sourceTree = SOURCE_ROOT; };
+		4D33E2B9FE94D0E2F6A1C3A6 /* DatasmithRhinoProgressManager.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhinoProgressManager.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/Utils/DatasmithRhinoProgressManager.cs"; sourceTree = SOURCE_ROOT; };
+		3BD08972F09D518C53085E24 /* DatasmithRhinoUniqueNameGenerator.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhinoUniqueNameGenerator.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/Utils/DatasmithRhinoUniqueNameGenerator.cs"; sourceTree = SOURCE_ROOT; };
+		AE496DEB998CDD01F199B8A3 /* DatasmithRhinoUtilities.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhinoUtilities.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/Utils/DatasmithRhinoUtilities.cs"; sourceTree = SOURCE_ROOT; };
+		C6CD46EC1429055F3323F2A1 /* DefaultAssemblyInfo.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultAssemblyInfo.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Properties/DefaultAssemblyInfo.cs"; sourceTree = SOURCE_ROOT; };
+		E1E6BCA66BCB8B7E25626100 /* GeneratedAssemblyInfo.cs.template */ = {isa = PBXFileReference; explicitFileType = file.text; name = "GeneratedAssemblyInfo.cs.template"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Properties/GeneratedAssemblyInfo.cs.template"; sourceTree = SOURCE_ROOT; };
+		285FFF4CD77398B9FC48428D /* DatasmithRhino.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; name = "DatasmithRhino.plist"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/DatasmithRhino.plist"; sourceTree = SOURCE_ROOT; };
+		ECEA61443C80586059A39261 /* DatasmithRhino.rui */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithRhino.rui"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/DatasmithRhino.rui"; sourceTree = SOURCE_ROOT; };
+		3502F2F5217325584A4FA1C2 /* Resources.Designer.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resources.Designer.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization/Resources.Designer.cs"; sourceTree = SOURCE_ROOT; };
+		BE04FDCAB58EFF5A9B5E78F1 /* Resources.de.Designer.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resources.de.Designer.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization/Resources.de.Designer.cs"; sourceTree = SOURCE_ROOT; };
+		55B30673ECC7E7B757A8D3C0 /* Resources.de.resx */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resources.de.resx"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization/Resources.de.resx"; sourceTree = SOURCE_ROOT; };
+		9B680A9E1D66F4A991FE34E9 /* Resources.es.Designer.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resources.es.Designer.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization/Resources.es.Designer.cs"; sourceTree = SOURCE_ROOT; };
+		D5352D78DB4EDFADD8782BB8 /* Resources.es.resx */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resources.es.resx"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization/Resources.es.resx"; sourceTree = SOURCE_ROOT; };
+		412DBC323C2A209EE4845FEC /* Resources.fr.Designer.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resources.fr.Designer.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization/Resources.fr.Designer.cs"; sourceTree = SOURCE_ROOT; };
+		1953F60FE67AFA21BCD0C502 /* Resources.fr.resx */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resources.fr.resx"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization/Resources.fr.resx"; sourceTree = SOURCE_ROOT; };
+		A7E2BD49122366D286FBC111 /* Resources.ja.Designer.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resources.ja.Designer.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization/Resources.ja.Designer.cs"; sourceTree = SOURCE_ROOT; };
+		240E7291C5F91A0E1ADC7050 /* Resources.ja.resx */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resources.ja.resx"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization/Resources.ja.resx"; sourceTree = SOURCE_ROOT; };
+		A65AFA4A7DBB9E85F898DAE3 /* Resources.ko.Designer.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resources.ko.Designer.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization/Resources.ko.Designer.cs"; sourceTree = SOURCE_ROOT; };
+		1FC54CA8158278A14C074EC7 /* Resources.ko.resx */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resources.ko.resx"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization/Resources.ko.resx"; sourceTree = SOURCE_ROOT; };
+		AB54CE21E3DE009D645DE5B2 /* Resources.pt.Designer.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resources.pt.Designer.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization/Resources.pt.Designer.cs"; sourceTree = SOURCE_ROOT; };
+		3F021A5D79CE15EB69FD7401 /* Resources.pt.resx */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resources.pt.resx"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization/Resources.pt.resx"; sourceTree = SOURCE_ROOT; };
+		83106CBA167D444463B8F73A /* Resources.resx */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resources.resx"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization/Resources.resx"; sourceTree = SOURCE_ROOT; };
+		9229B7EF2E9227A46594D3E0 /* Resources.zh.Designer.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resources.zh.Designer.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization/Resources.zh.Designer.cs"; sourceTree = SOURCE_ROOT; };
+		C2EC979D001906F37188020E /* Resources.zh.resx */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Resources.zh.resx"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization/Resources.zh.resx"; sourceTree = SOURCE_ROOT; };
+		ECA802BAC1088C2BD6255A86 /* UnrealEngine.ico */ = {isa = PBXFileReference; explicitFileType = file.text; name = "UnrealEngine.ico"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/UnrealEngine.ico"; sourceTree = SOURCE_ROOT; };
+		650534CB8A6BA38E731A36C8 /* DatasmithRhino6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DatasmithRhino6; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4263A0DFE59628658C627D1 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	C49A24E41784ED20BDD260FE /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		1192A7C1EFB6DD13787022FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D29B39C8D7D756E2403D4A29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5A2F0FB083B256CD6607748;
+			remoteInfo = "DatasmithRhino6_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		D094DFC7B8E6AB94883D6608 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5A2F0FB083B256CD6607748 /* DatasmithRhino6_Build */;
+			targetProxy = 1192A7C1EFB6DD13787022FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		A00613BCBD5B25C53C114AFF = {
+			isa = PBXGroup;
+			children = (
+				22C7E91515DAE0C0B56804D6 /* Config */,
+				A1B8F43495C7D58BF1DD760D /* DatasmithRhino6 */,
+				9AF8541A4933D9E2348B9B95 /* DatasmithRhino7 */,
+				AA27AD88CA456E90C708B219 /* Installer */,
+				91560FC61AB9C28A4BBDDD82 /* Private */,
+				5C29E1F3D0B8302C53470587 /* Properties */,
+				AA5D60055D0CDBA9EF7737CB /* SharedResources */,
+				33E534CBCD8254A9BC2D2A3D /* DatasmithRhino6.Build.cs */,
+				577D7EB4C1FB5CCFD45DE9CC /* DatasmithRhino6.Target.cs */,
+				9D5EF9CBF82334F0B8162F4A /* DatasmithRhino7.Build.cs */,
+				9ECC208388180D8997E10A43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22C7E91515DAE0C0B56804D6 = {
+			isa = PBXGroup;
+			children = (
+				8AD3D99ADF93E5BCC2342D6F /* DatasmithRhino.rhp.config */,
+				3F59E92E35260B5624AD4125 /* Notarization.entitlements */,
+			);
+			name = "Config";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Config";
+			sourceTree = "<absolute>";
+		};
+		A1B8F43495C7D58BF1DD760D = {
+			isa = PBXGroup;
+			children = (
+				22A8AE27CD45981B32AEAE49 /* DatasmithRhino6.cs */,
+			);
+			name = "DatasmithRhino6";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/DatasmithRhino6";
+			sourceTree = "<absolute>";
+		};
+		9AF8541A4933D9E2348B9B95 = {
+			isa = PBXGroup;
+			children = (
+				73995A1549D0217109FC44DA /* DatasmithRhino7.cs */,
+			);
+			name = "DatasmithRhino7";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/DatasmithRhino7";
+			sourceTree = "<absolute>";
+		};
+		AA27AD88CA456E90C708B219 = {
+			isa = PBXGroup;
+			children = (
+				31F9FB8C52E9854550DB7A1D /* Localization */,
+				86C577818E21A1161D5E896E /* Resources */,
+				02FDA73A19C6316797B5A649 /* CreateMacPackages.sh */,
+				0F63CE8F7214DBCEA56A827C /* CreateMultilanguageInstaller.bat */,
+				9655084914AE7B317102FBB8 /* CreateMultilanguageInstaller.py */,
+				E82848FD7D550319BB379E8B /* CustomActions.wxs */,
+				07264451DFB66833BA7543E9 /* CustomExitDialog.wxs */,
+				6EC66275E8D90C7E219C6F9E /* CustomInstallDirDlg.wxs */,
+				F08B16B7A0B48DF0073EBB7F /* CustomLicenseAgreementDlg.wxs */,
+				101C5D0197B2EBDE79B6CA30 /* CustomWelcomeDialog.wxs */,
+				C0F2AE5981DBA8F344436B42 /* CustomWixUI_InstallDir.wxs */,
+				73B7DCF0C37FF2F83EDC096D /* GenericUiBrandDialog.wxs */,
+				E24175276E22674A36EEE89D /* Installer.wixproj */,
+				D70580AEEECEF2659D278921 /* ReadMe.txt */,
+				ABB8340CD599AD97A5D6B8A8 /* RhinoExporter.wxs */,
+			);
+			name = "Installer";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer";
+			sourceTree = "<absolute>";
+		};
+		31F9FB8C52E9854550DB7A1D = {
+			isa = PBXGroup;
+			children = (
+				6E67EC39B09FB12CC96CFA79 /* UtilExtension_es-es.wxl */,
+				E72EFB1D85BE7D525CD2F518 /* UtilExtension_fr-fr.wxl */,
+				180DB74E88FFF87F8CBFACF3 /* UtilExtension_ja-jp.wxl */,
+				7192D21287F2075C9B3FF8FF /* UtilExtension_ko-kr.wxl */,
+				AA8506F424CC20D721252CE6 /* UtilExtension_pt-br.wxl */,
+				294E37F2C8BE05A5479BDF21 /* UtilExtension_zh-cn.wxl */,
+				B10B61DFAFF768CC1C46F881 /* de-de.wxl */,
+				1C1E18191E8D381357393D7A /* en-us.wxl */,
+				C3B77A772D43BD9F10CE6882 /* es-es.wxl */,
+				872F81BC643C063EE064EDF2 /* fr-fr.wxl */,
+				7EAC5678ED4B6A86B06A57F4 /* ja-jp.wxl */,
+				F1BDF9A001B49548F988C7E2 /* ko-kr.wxl */,
+				C5E1C2E700B1A6201B5C0F61 /* pt-br.wxl */,
+				B19CAC1AABD3D93C00B7D805 /* zh-cn.wxl */,
+			);
+			name = "Localization";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Localization";
+			sourceTree = "<absolute>";
+		};
+		86C577818E21A1161D5E896E = {
+			isa = PBXGroup;
+			children = (
+				1A4DC1AB6EE64691453BE850 /* General */,
+				384D904B065644CFAC8F0104 /* Images */,
+				6F9F67DE60A253C43C161AC5 /* Banner.bmp */,
+				692B2D367319058886BA29FE /* Dialog.bmp */,
+				B088FF70D8B0FF6863E926F2 /* Exporter Plugin End User License Agreement.docx */,
+				9FA2EC1153C2455F63403643 /* Exporter Plugin End User License Agreement.rtf */,
+				FD930ECB4EDA8A96878ECCA8 /* Microsoft_VC140_CRT_x64.msm */,
+				69CA1C23862C2F675DCAF401 /* Microsoft_VC140_OpenMP_x64.msm */,
+				111B375D2C3779B4EDE8FB7F /* UnrealEngine.ico */,
+				A71D8482BFDA8118B1FE0139 /* default_small_banner.bmp */,
+			);
+			name = "Resources";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources";
+			sourceTree = "<absolute>";
+		};
+		1A4DC1AB6EE64691453BE850 = {
+			isa = PBXGroup;
+			children = (
+				848266DF2ECF40C6F6784714 /* banner.bmp */,
+				8144D77A9AB039A06A7E7695 /* unreal-logo.jpg */,
+			);
+			name = "General";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/General";
+			sourceTree = "<absolute>";
+		};
+		384D904B065644CFAC8F0104 = {
+			isa = PBXGroup;
+			children = (
+				CEEC02A5669CFCD26F8C7205 /* Background */,
+				27D9D66A94E9D84ADD274940 /* General */,
+				5D837E595934DD53745DE31C /* Epic_Games_logo.bmp */,
+			);
+			name = "Images";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Images";
+			sourceTree = "<absolute>";
+		};
+		CEEC02A5669CFCD26F8C7205 = {
+			isa = PBXGroup;
+			children = (
+				CE267024E00369477A56DB06 /* 28190.bmp */,
+				5D5471463FCC0E1A157DB4CF /* 28402.bmp */,
+				3C242376AE848499DFB8FC05 /* 28674.bmp */,
+				5D7676A1051EDD993CDB39CE /* 30668.bmp */,
+				9BA7A607F5E3D875E04C0A1A /* 30725.bmp */,
+			);
+			name = "Background";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Images/Background";
+			sourceTree = "<absolute>";
+		};
+		27D9D66A94E9D84ADD274940 = {
+			isa = PBXGroup;
+			children = (
+				F24793C958AEFBF8C3F92A12 /* banner.bmp */,
+				76F3AB68DCF43FD526B9C769 /* unreal-logo.jpg */,
+			);
+			name = "General";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Installer/Resources/Images/General";
+			sourceTree = "<absolute>";
+		};
+		91560FC61AB9C28A4BBDDD82 = {
+			isa = PBXGroup;
+			children = (
+				E4A12BA83E15E0ABDB8A232C /* Commands */,
+				80D93AC3B7B626A7A3C1130F /* DirectLink */,
+				8D35B8B6CAE7BA6AFC5386F3 /* ElementExporters */,
+				BD300CC8469D640633E34640 /* ExportContext */,
+				7EFFD2949635DF228D1B1B09 /* Utils */,
+				5BADC88537B3A92E217E5F5D /* DatasmithRhinoExportOptions.cs */,
+				D0E53682FC6DF54FCA9D0B2D /* DatasmithRhinoPlugin.cs */,
+				229E6C0661A1AF2F747AD685 /* DatasmithRhinoSceneExporter.cs */,
+			);
+			name = "Private";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private";
+			sourceTree = "<absolute>";
+		};
+		E4A12BA83E15E0ABDB8A232C = {
+			isa = PBXGroup;
+			children = (
+				B7B09AA6F4CBCFFDB0AD8C99 /* DatasmithDirectLinkConnectionsCommand.cs */,
+				8ACEB3E56F39697C0094D327 /* DatasmithDirectLinkSyncCommand.cs */,
+				59D66F19239DF021F07B4AF4 /* DatasmithExportCommand.cs */,
+				E5D614D5C3FBA60CD7149D65 /* DatasmithMessagesCommand.cs */,
+				1A3170A72809B57DF9A16172 /* DatasmithToggleAutoSyncCommand.cs */,
+			);
+			name = "Commands";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/Commands";
+			sourceTree = "<absolute>";
+		};
+		80D93AC3B7B626A7A3C1130F = {
+			isa = PBXGroup;
+			children = (
+				F1C352856C62184A0321ABB3 /* DatasmithRhinoChangeListener.cs */,
+				240C73C41FA8C2EDD9399373 /* DatasmithRhinoDirectLinkManager.cs */,
+			);
+			name = "DirectLink";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/DirectLink";
+			sourceTree = "<absolute>";
+		};
+		8D35B8B6CAE7BA6AFC5386F3 = {
+			isa = PBXGroup;
+			children = (
+				E4F821E009BEE7CC0CD5615F /* DatasmithRhinoActorExporter.cs */,
+				EAFF80855FB02D609674F964 /* DatasmithRhinoMaterialExporter.cs */,
+				E6A5B092CAD739EABBAFDF27 /* DatasmithRhinoMeshExporter.cs */,
+				C432EF4BBD909DE72B04AB9F /* DatasmithRhinoTextureExporter.cs */,
+				DABF4DCF1CD6EB84D59EA8CA /* IDatasmithRhinoElementExporter.cs */,
+			);
+			name = "ElementExporters";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/ElementExporters";
+			sourceTree = "<absolute>";
+		};
+		BD300CC8469D640633E34640 = {
+			isa = PBXGroup;
+			children = (
+				C701709EA4D71D8CFC608BC2 /* DatasmithActorInfo.cs */,
+				799CA22563AB6BE1A0161A92 /* DatasmithCameraActorInfo.cs */,
+				367DA4196FBF9B1846D3E84A /* DatasmithInfoBase.cs */,
+				8DA607FAF9F6F5D427C88C55 /* DatasmithMaterialInfo.cs */,
+				BFB29848258AE5F0DBDCE9DC /* DatasmithMeshInfo.cs */,
+				2F93454B07863DCD8EC0EFE5 /* DatasmithRhinoExportContext.cs */,
+				84115862E61904175D16E027 /* DatasmithTextureInfo.cs */,
+			);
+			name = "ExportContext";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/ExportContext";
+			sourceTree = "<absolute>";
+		};
+		7EFFD2949635DF228D1B1B09 = {
+			isa = PBXGroup;
+			children = (
+				EC99BDF473C1945BB3500AEA /* DatasmithRhinoLogManager.cs */,
+				4D33E2B9FE94D0E2F6A1C3A6 /* DatasmithRhinoProgressManager.cs */,
+				3BD08972F09D518C53085E24 /* DatasmithRhinoUniqueNameGenerator.cs */,
+				AE496DEB998CDD01F199B8A3 /* DatasmithRhinoUtilities.cs */,
+			);
+			name = "Utils";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private/Utils";
+			sourceTree = "<absolute>";
+		};
+		5C29E1F3D0B8302C53470587 = {
+			isa = PBXGroup;
+			children = (
+				C6CD46EC1429055F3323F2A1 /* DefaultAssemblyInfo.cs */,
+				E1E6BCA66BCB8B7E25626100 /* GeneratedAssemblyInfo.cs.template */,
+			);
+			name = "Properties";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Properties";
+			sourceTree = "<absolute>";
+		};
+		AA5D60055D0CDBA9EF7737CB = {
+			isa = PBXGroup;
+			children = (
+				1525D3C6746365A114036B1D /* Localization */,
+				285FFF4CD77398B9FC48428D /* DatasmithRhino.plist */,
+				ECEA61443C80586059A39261 /* DatasmithRhino.rui */,
+				ECA802BAC1088C2BD6255A86 /* UnrealEngine.ico */,
+			);
+			name = "SharedResources";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources";
+			sourceTree = "<absolute>";
+		};
+		1525D3C6746365A114036B1D = {
+			isa = PBXGroup;
+			children = (
+				3502F2F5217325584A4FA1C2 /* Resources.Designer.cs */,
+				BE04FDCAB58EFF5A9B5E78F1 /* Resources.de.Designer.cs */,
+				55B30673ECC7E7B757A8D3C0 /* Resources.de.resx */,
+				9B680A9E1D66F4A991FE34E9 /* Resources.es.Designer.cs */,
+				D5352D78DB4EDFADD8782BB8 /* Resources.es.resx */,
+				412DBC323C2A209EE4845FEC /* Resources.fr.Designer.cs */,
+				1953F60FE67AFA21BCD0C502 /* Resources.fr.resx */,
+				A7E2BD49122366D286FBC111 /* Resources.ja.Designer.cs */,
+				240E7291C5F91A0E1ADC7050 /* Resources.ja.resx */,
+				A65AFA4A7DBB9E85F898DAE3 /* Resources.ko.Designer.cs */,
+				1FC54CA8158278A14C074EC7 /* Resources.ko.resx */,
+				AB54CE21E3DE009D645DE5B2 /* Resources.pt.Designer.cs */,
+				3F021A5D79CE15EB69FD7401 /* Resources.pt.resx */,
+				83106CBA167D444463B8F73A /* Resources.resx */,
+				9229B7EF2E9227A46594D3E0 /* Resources.zh.Designer.cs */,
+				C2EC979D001906F37188020E /* Resources.zh.resx */,
+			);
+			name = "Localization";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/SharedResources/Localization";
+			sourceTree = "<absolute>";
+		};
+		9ECC208388180D8997E10A43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				650534CB8A6BA38E731A36C8 /* DatasmithRhino6 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		C5A2F0FB083B256CD6607748 /* DatasmithRhino6_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = 2891990854AB425F72E361B3 /* Build configuration list for PBXLegacyTarget "DatasmithRhino6_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/meghasingh/Documents/GitHub/UnrealEngine";
+			dependencies = (
+			);
+			name = "DatasmithRhino6_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DatasmithRhino6_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		C032D5075DA569A9E1B3CFAD /* DatasmithRhino6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93D6888DAD05288BE32BFBB /* Build configuration list for PBXNativeTarget "DatasmithRhino6" */;
+			buildPhases = (
+				C49A24E41784ED20BDD260FE /* Embed App Extensions */, 
+				5F6AC17D3EB9DBBEFBD0D797 /* Shell Script */, 
+			);
+			dependencies = (
+				D094DFC7B8E6AB94883D6608 /* PBXTargetDependency */,
+			);
+			name = "DatasmithRhino6";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DatasmithRhino6";
+			productReference = "650534CB8A6BA38E731A36C8";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		B1DF091C9AD794F75BDEFB4D /* DatasmithRhino6_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6E10B3C4BB625058DECA3F8 /* Build configuration list for PBXNativeTarget "DatasmithRhino6_Index" */;
+			buildPhases = (
+				E4263A0DFE59628658C627D1 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "DatasmithRhino6_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DatasmithRhino6_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D29B39C8D7D756E2403D4A29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					C032D5075DA569A9E1B3CFAD = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 3208D1FECB7FED49964B4273 /* Build configuration list for PBXProject "DatasmithRhino6" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = A00613BCBD5B25C53C114AFF;
+			productRefGroup = 9ECC208388180D8997E10A43;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			C032D5075DA569A9E1B3CFAD /* DatasmithRhino6 */,
+			C5A2F0FB083B256CD6607748 /* DatasmithRhino6_Build */,
+			B1DF091C9AD794F75BDEFB4D /* DatasmithRhino6_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		2117C6E2AEC3A6D7A44EBFED /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithFacadeCSharp/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithFacadeCSharp/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithRhino6/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithRhino6/VNI",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		47C8CA114BC4D1E569324BCA /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithFacadeCSharp/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithFacadeCSharp/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithRhino6/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithRhino6/VNI",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		9C1E98DEA822B1D573E199C0 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithFacadeCSharp/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithFacadeCSharp/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithRhino6/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithRhino6/VNI",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		DBC94238383677D380E4BB7B /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithFacadeCSharp/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithFacadeCSharp/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithRhino6/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithRhino6/VNI",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		890404603303339B0104CB01 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithRhinoExporter/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithFacadeCSharp/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithFacadeCSharp/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithRhino6/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithRhino6/Inc/DatasmithRhino6/VNI",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		F4287112F3E98512C53BAE94 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino6-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino6;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino6-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		7B06EC3B78CB2A66647154E9 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino6-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino6;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino6-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		DE9403CC48876F48ADC99DB4 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino6";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino6;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino6-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		782BF9AAB8CAB41CF43FC83E /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino6-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino6;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino6-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		6E4CB99F5B7F6FF580E724C6 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino6-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino6;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino6-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		97E4489FEB69D6F3C38DC3FF /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithRhino6";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		778AE63CE29DE9C35B325822 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithRhino6";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		232CAA86DBC929CF0BC1A0C3 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithRhino6";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		6C37C72A1AE1893B0C82AB12 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithRhino6";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		33DFD127FBA7EFCC7772A115 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithRhino6";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		BE0A72FA2B895911AAD38916 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino6-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino6;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino6-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		9EC4A8FEBCDE968BBFA87F25 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino6-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino6;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino6-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		040A1B388083AFBC2AE71F27 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino6";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino6;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino6-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		86F196D54ACC43204F9FBF55 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino6-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino6;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino6-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		DC2808094F0F1081259466FE /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithRhino6";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithRhino6-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithRhino6;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithRhino6-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithRhino6-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3208D1FECB7FED49964B4273 /* Build configuration list for PBXProject "DatasmithRhino6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2117C6E2AEC3A6D7A44EBFED /* "Debug" */,
+				47C8CA114BC4D1E569324BCA /* "DebugGame" */,
+				9C1E98DEA822B1D573E199C0 /* "Development" */,
+				DBC94238383677D380E4BB7B /* "Test" */,
+				890404603303339B0104CB01 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2891990854AB425F72E361B3 /* Build configuration list for PBXLegacyTarget "DatasmithRhino6_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E4489FEB69D6F3C38DC3FF /* "Debug" */,
+				778AE63CE29DE9C35B325822 /* "DebugGame" */,
+				232CAA86DBC929CF0BC1A0C3 /* "Development" */,
+				6C37C72A1AE1893B0C82AB12 /* "Test" */,
+				33DFD127FBA7EFCC7772A115 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		A93D6888DAD05288BE32BFBB /* Build configuration list for PBXNativeTarget "DatasmithRhino6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4287112F3E98512C53BAE94 /* "Debug" */,
+				7B06EC3B78CB2A66647154E9 /* "DebugGame" */,
+				DE9403CC48876F48ADC99DB4 /* "Development" */,
+				782BF9AAB8CAB41CF43FC83E /* "Test" */,
+				6E4CB99F5B7F6FF580E724C6 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		C6E10B3C4BB625058DECA3F8 /* Build configuration list for PBXNativeTarget "DatasmithRhino6_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0A72FA2B895911AAD38916 /* "Debug" */,
+				9EC4A8FEBCDE968BBFA87F25 /* "DebugGame" */,
+				040A1B388083AFBC2AE71F27 /* "Development" */,
+				86F196D54ACC43204F9FBF55 /* "Test" */,
+				DC2808094F0F1081259466FE /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D29B39C8D7D756E2403D4A29 /* Project object */;
+}

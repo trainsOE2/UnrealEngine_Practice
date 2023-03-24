@@ -1,0 +1,1291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B99D82A0DFD17850D6BA44C /* DatasmithFacadeCSharp.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 97E14AE950951948394660E2 /* DatasmithFacadeCSharp.Build.cs */; };
+		06D09C9D1C69CC069095D667 /* DatasmithFacadeCSharp.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 07CD09E84C53B2B0707A6D73 /* DatasmithFacadeCSharp.Target.cs */; };
+		AF6D253E7F535DEF6BE41AA3 /* DatasmithFacadeCSharp.i in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BD7F5EF5C8FDBF070F8BA /* DatasmithFacadeCSharp.i */; };
+		1059D12D26D9A8E539F57B9F /* FacadeHeaderHelper.py in Sources */ = {isa = PBXBuildFile; fileRef = D7D905B90DB5E0B2C6A76DF4 /* FacadeHeaderHelper.py */; };
+		57F2AC8FB8EBC791811E8E63 /* DatasmithFacadeCSharp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E58EDEF5EB37089BD96CBFBE /* DatasmithFacadeCSharp.cpp */; };
+		57ABC6361AA240E67BDBD7BA /* DatasmithFacadeCSharp.h in Sources */ = {isa = PBXBuildFile; fileRef = 5276D83A73F8BEBC2058FDF0 /* DatasmithFacadeCSharp.h */; };
+		0CAD8F2EADFE0690253B8940 /* DatasmithFacadeDLL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAAEBCE27EC69E1A1B2632B4 /* DatasmithFacadeDLL.cpp */; };
+		9832DBD9CBD52EBCB5381412 /* DatasmithFacadeCSharp.cs in Sources */ = {isa = PBXBuildFile; fileRef = BB82CE0AD32704CAD8A4A357 /* DatasmithFacadeCSharp.cs */; };
+		8B7863A462B6AA2598849EC3 /* DatasmithFacadeCSharpPINVOKE.cs in Sources */ = {isa = PBXBuildFile; fileRef = 91C74063512003CC5AA66B56 /* DatasmithFacadeCSharpPINVOKE.cs */; };
+		A6E764A82C6D4554E6487941 /* EDatasmithFacadeAnimationTransformType.cs in Sources */ = {isa = PBXBuildFile; fileRef = 51FC81BE65C383EC5672E4F3 /* EDatasmithFacadeAnimationTransformType.cs */; };
+		87851B34246354675C3D5762 /* EDatasmithFacadeCompletionMode.cs in Sources */ = {isa = PBXBuildFile; fileRef = 7B2229A783FFA84D20E0F6D5 /* EDatasmithFacadeCompletionMode.cs */; };
+		27A84153662BF4DECD3F6C9B /* EDatasmithFacadeCurveInterpMode.cs in Sources */ = {isa = PBXBuildFile; fileRef = 9410AE9C920E9F6F4206F444 /* EDatasmithFacadeCurveInterpMode.cs */; };
+		7DEA8BF5DA75CC7BA01C7C15 /* EDatasmithFacadeElementAnimationSubType.cs in Sources */ = {isa = PBXBuildFile; fileRef = EFD740B12970BE09BCAAB4A6 /* EDatasmithFacadeElementAnimationSubType.cs */; };
+		3453578D255BD61A6FACB52E /* EDatasmithFacadeMaterialExpressionType.cs in Sources */ = {isa = PBXBuildFile; fileRef = B541D7000CCD79CAE1558517 /* EDatasmithFacadeMaterialExpressionType.cs */; };
+		08B583A30CB069759DF04E41 /* EDatasmithFacadePropertyCategory.cs in Sources */ = {isa = PBXBuildFile; fileRef = CE612C06C8E7FA3C424BFF4B /* EDatasmithFacadePropertyCategory.cs */; };
+		521120A88E9838240997DFC8 /* EDatasmithFacadeTransformChannels.cs in Sources */ = {isa = PBXBuildFile; fileRef = F6035FF4EDC71D2B4ACEA2DA /* EDatasmithFacadeTransformChannels.cs */; };
+		CC9DF40CD379FB04090CEDCD /* FDatasmithFacadeActor.cs in Sources */ = {isa = PBXBuildFile; fileRef = 48A0B700A15BE534D734F5D7 /* FDatasmithFacadeActor.cs */; };
+		A22F90CAB2928AD236E49757 /* FDatasmithFacadeActorBinding.cs in Sources */ = {isa = PBXBuildFile; fileRef = F2B00ABF5548C3FE4187E03B /* FDatasmithFacadeActorBinding.cs */; };
+		BBFF09E51D689865E885903E /* FDatasmithFacadeActorCamera.cs in Sources */ = {isa = PBXBuildFile; fileRef = E39520A1D47EDCCCF25BE9CF /* FDatasmithFacadeActorCamera.cs */; };
+		5E83821B71E1C63351F095B9 /* FDatasmithFacadeActorDecal.cs in Sources */ = {isa = PBXBuildFile; fileRef = D0EDC9D7A4147E4661099D3A /* FDatasmithFacadeActorDecal.cs */; };
+		6F02D1155758502FC163DEA7 /* FDatasmithFacadeActorLight.cs in Sources */ = {isa = PBXBuildFile; fileRef = C1B2C12D1BAD63E217E4F5F9 /* FDatasmithFacadeActorLight.cs */; };
+		4CF56296FC9F391EBD8CDB6D /* FDatasmithFacadeActorMesh.cs in Sources */ = {isa = PBXBuildFile; fileRef = 504299F051A77CB8B2C01595 /* FDatasmithFacadeActorMesh.cs */; };
+		D65500D47F554ACC563A5292 /* FDatasmithFacadeAreaLight.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0CE3540916038D19A2462FC4 /* FDatasmithFacadeAreaLight.cs */; };
+		CE3C1E210227EAE50C0D150B /* FDatasmithFacadeBaseAnimation.cs in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CCA17857C0F94FE529B01 /* FDatasmithFacadeBaseAnimation.cs */; };
+		C60C9A9E84D7372CF0B7E0E5 /* FDatasmithFacadeBaseMaterial.cs in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F4BC93F61B7A6323A18A8 /* FDatasmithFacadeBaseMaterial.cs */; };
+		154B48722BA10E846E46F1BF /* FDatasmithFacadeDecalMaterial.cs in Sources */ = {isa = PBXBuildFile; fileRef = 01852C3C3691145CCA2403A6 /* FDatasmithFacadeDecalMaterial.cs */; };
+		09BFF118459EF81A4F5423CA /* FDatasmithFacadeDirectLink.cs in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2A6C89F4271AA37C86E59 /* FDatasmithFacadeDirectLink.cs */; };
+		3BCFAB701790C72F231E2C73 /* FDatasmithFacadeDirectionalLight.cs in Sources */ = {isa = PBXBuildFile; fileRef = 824B76C8A8DD24873CA370F5 /* FDatasmithFacadeDirectionalLight.cs */; };
+		1756D368EDBD23EAE76174CB /* FDatasmithFacadeElement.cs in Sources */ = {isa = PBXBuildFile; fileRef = A331201588671C6510E732B5 /* FDatasmithFacadeElement.cs */; };
+		947129189EA782D8E14E2F7D /* FDatasmithFacadeEndPointObserver.cs in Sources */ = {isa = PBXBuildFile; fileRef = D1832BAE149609BBFDC81AEE /* FDatasmithFacadeEndPointObserver.cs */; };
+		21291C99EFE7A960163AF3E0 /* FDatasmithFacadeExpressionInput.cs in Sources */ = {isa = PBXBuildFile; fileRef = 9B016298C8145BF26731D87A /* FDatasmithFacadeExpressionInput.cs */; };
+		EC4E76913CE61487074387E1 /* FDatasmithFacadeExpressionParameter.cs in Sources */ = {isa = PBXBuildFile; fileRef = B5B7AE3077C438A4C0C61271 /* FDatasmithFacadeExpressionParameter.cs */; };
+		9BEE857D1C96FD314F739DAC /* FDatasmithFacadeExpressionParameterSwigImpl.cs in Sources */ = {isa = PBXBuildFile; fileRef = 84EE22128AB4CCAA566C2D21 /* FDatasmithFacadeExpressionParameterSwigImpl.cs */; };
+		B401FF7556A868EA71C23A98 /* FDatasmithFacadeGuid.cs in Sources */ = {isa = PBXBuildFile; fileRef = F462B8E92C0204156A881147 /* FDatasmithFacadeGuid.cs */; };
+		8C1D3F4EC7D633975FB52047 /* FDatasmithFacadeKeyValueProperty.cs in Sources */ = {isa = PBXBuildFile; fileRef = 14BA2DD894DB57B7AED25560 /* FDatasmithFacadeKeyValueProperty.cs */; };
+		59797DFF5962D2C7F397B5AF /* FDatasmithFacadeLevelSequence.cs in Sources */ = {isa = PBXBuildFile; fileRef = EB25E37F8CB88F7D6AD722FF /* FDatasmithFacadeLevelSequence.cs */; };
+		4339F14169973DF38F836C26 /* FDatasmithFacadeLevelVariantSets.cs in Sources */ = {isa = PBXBuildFile; fileRef = 71FDB57B56F47ADC33595290 /* FDatasmithFacadeLevelVariantSets.cs */; };
+		2E90E83CB3D176FB646134D5 /* FDatasmithFacadeLightmassPortal.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0738B8013A493149C514213B /* FDatasmithFacadeLightmassPortal.cs */; };
+		4FD07C0D014A89501CCA9DA3 /* FDatasmithFacadeLog.cs in Sources */ = {isa = PBXBuildFile; fileRef = 73487F1754C5598766A3C99E /* FDatasmithFacadeLog.cs */; };
+		34295BD8D5717F0F7415614A /* FDatasmithFacadeMaterialExpression.cs in Sources */ = {isa = PBXBuildFile; fileRef = A6D233C8B35D1BE4DACE40D5 /* FDatasmithFacadeMaterialExpression.cs */; };
+		8F573C5E5B81FF21B3FCC8ED /* FDatasmithFacadeMaterialExpressionBool.cs in Sources */ = {isa = PBXBuildFile; fileRef = C7507C169447021072EA0ACB /* FDatasmithFacadeMaterialExpressionBool.cs */; };
+		6CA46331073AE22098DE4E74 /* FDatasmithFacadeMaterialExpressionColor.cs in Sources */ = {isa = PBXBuildFile; fileRef = B7435B67D5CCD12A5C679A56 /* FDatasmithFacadeMaterialExpressionColor.cs */; };
+		7EDFE59B66E44637B924845B /* FDatasmithFacadeMaterialExpressionFlattenNormal.cs in Sources */ = {isa = PBXBuildFile; fileRef = 92EA038E7EF5807A97946E23 /* FDatasmithFacadeMaterialExpressionFlattenNormal.cs */; };
+		9781F28B4C12F0B9C7DFF1BA /* FDatasmithFacadeMaterialExpressionFunctionCall.cs in Sources */ = {isa = PBXBuildFile; fileRef = A3BC4E75267440363949CD59 /* FDatasmithFacadeMaterialExpressionFunctionCall.cs */; };
+		8760AB99584813D46D4B6216 /* FDatasmithFacadeMaterialExpressionGeneric.cs in Sources */ = {isa = PBXBuildFile; fileRef = FF3AF3372E86889143739E16 /* FDatasmithFacadeMaterialExpressionGeneric.cs */; };
+		D953D0374417B58EF0ECB870 /* FDatasmithFacadeMaterialExpressionScalar.cs in Sources */ = {isa = PBXBuildFile; fileRef = 5E8197088E0BAA11CEDD8684 /* FDatasmithFacadeMaterialExpressionScalar.cs */; };
+		3C793BD8731EB897A71CF47D /* FDatasmithFacadeMaterialExpressionTexture.cs in Sources */ = {isa = PBXBuildFile; fileRef = A592174CE903E6E72BEB5D70 /* FDatasmithFacadeMaterialExpressionTexture.cs */; };
+		B7CE96B2F8CD614EB399393B /* FDatasmithFacadeMaterialExpressionTextureCoordinate.cs in Sources */ = {isa = PBXBuildFile; fileRef = F1472B2EA6CCB10BDC857F23 /* FDatasmithFacadeMaterialExpressionTextureCoordinate.cs */; };
+		B9D78B796C907AC4404976D9 /* FDatasmithFacadeMaterialID.cs in Sources */ = {isa = PBXBuildFile; fileRef = 33238CFA47CDD98F66E46940 /* FDatasmithFacadeMaterialID.cs */; };
+		56D5CE3B8F45F369ECDD6F02 /* FDatasmithFacadeMaterialInstance.cs in Sources */ = {isa = PBXBuildFile; fileRef = 80CA2DB5023D2A6CABE037DD /* FDatasmithFacadeMaterialInstance.cs */; };
+		3B68230300D36014C294BF05 /* FDatasmithFacadeMaterialsUtils.cs in Sources */ = {isa = PBXBuildFile; fileRef = 78DB905595D325138283D9AC /* FDatasmithFacadeMaterialsUtils.cs */; };
+		4A3F7B9B1074BC8BF3F1C72E /* FDatasmithFacadeMesh.cs in Sources */ = {isa = PBXBuildFile; fileRef = D762AC9A6D138E44FDB9BD5C /* FDatasmithFacadeMesh.cs */; };
+		A4ED3812A45BE3A44C718F1F /* FDatasmithFacadeMeshElement.cs in Sources */ = {isa = PBXBuildFile; fileRef = 63DE1E8C12E3E0BA3A709C47 /* FDatasmithFacadeMeshElement.cs */; };
+		13739170683C478CDFCC98BA /* FDatasmithFacadeMessageAddress.cs in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE01E85C5160787936FA97 /* FDatasmithFacadeMessageAddress.cs */; };
+		1CBA4D13013ABC4150975240 /* FDatasmithFacadeMetaData.cs in Sources */ = {isa = PBXBuildFile; fileRef = 067A165B6EEEC8BD43394C73 /* FDatasmithFacadeMetaData.cs */; };
+		FE42723A1DD4308A0DD7C962 /* FDatasmithFacadePointLight.cs in Sources */ = {isa = PBXBuildFile; fileRef = F5B932222ABFE935D753DCD8 /* FDatasmithFacadePointLight.cs */; };
+		8EF9F4E7A7931C263C048987 /* FDatasmithFacadePropertyCapture.cs in Sources */ = {isa = PBXBuildFile; fileRef = 62717A56D91144C5696D6115 /* FDatasmithFacadePropertyCapture.cs */; };
+		9F75D44A702258F048A1D63D /* FDatasmithFacadeRawInfo.cs in Sources */ = {isa = PBXBuildFile; fileRef = 1C9067D748BF6F8EE780B748 /* FDatasmithFacadeRawInfo.cs */; };
+		C605987E04F4E53402709E6C /* FDatasmithFacadeScene.cs in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C0E474F5EF2FCD9B79083 /* FDatasmithFacadeScene.cs */; };
+		7B557BFBB77302B88E77147F /* FDatasmithFacadeSpotLight.cs in Sources */ = {isa = PBXBuildFile; fileRef = CF284B344CC3382DDFB361E3 /* FDatasmithFacadeSpotLight.cs */; };
+		745A8DF2D6E0BEAB659A26AA /* FDatasmithFacadeSubsequenceAnimation.cs in Sources */ = {isa = PBXBuildFile; fileRef = 43C022D0903C83292178F52C /* FDatasmithFacadeSubsequenceAnimation.cs */; };
+		F13CCC97034FBD7BE2F12EEF /* FDatasmithFacadeTexture.cs in Sources */ = {isa = PBXBuildFile; fileRef = C95AC5054179EE59542DFB82 /* FDatasmithFacadeTexture.cs */; };
+		EF800338C88D47FCCC4BFCDC /* FDatasmithFacadeTransformAnimation.cs in Sources */ = {isa = PBXBuildFile; fileRef = F4B18E1D8BA4AEC9C2928FB2 /* FDatasmithFacadeTransformAnimation.cs */; };
+		60CDF0E47ED0F882577D807A /* FDatasmithFacadeUEPbrMaterial.cs in Sources */ = {isa = PBXBuildFile; fileRef = 7D37600E507EF5C6A088ECA1 /* FDatasmithFacadeUEPbrMaterial.cs */; };
+		208AC6C56BD31AA68E45FFD1 /* FDatasmithFacadeUniqueNameProvider.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0CC74100663DF3CE6DFAF141 /* FDatasmithFacadeUniqueNameProvider.cs */; };
+		BE01D886F2645FDC78F9FB0D /* FDatasmithFacadeVariant.cs in Sources */ = {isa = PBXBuildFile; fileRef = AF54B5FE0EED5492D757A59B /* FDatasmithFacadeVariant.cs */; };
+		48978DEAEED340E36DDADFD7 /* FDatasmithFacadeVariantSet.cs in Sources */ = {isa = PBXBuildFile; fileRef = DFE46BDF1842CBF118CCB49C /* FDatasmithFacadeVariantSet.cs */; };
+		17559040D1091BEF51A1E018 /* FDatasmithFacadeVisibilityAnimation.cs in Sources */ = {isa = PBXBuildFile; fileRef = 5C30F485BF2EA0518A8865A4 /* FDatasmithFacadeVisibilityAnimation.cs */; };
+		5D0C327749E98FAC06DD80E4 /* IDatasmithExporterUIModule.cs in Sources */ = {isa = PBXBuildFile; fileRef = 0B3B8946960544BD2738039A /* IDatasmithExporterUIModule.cs */; };
+		450887DDD40FEA5CF051BD73 /* IDirectLinkUI.cs in Sources */ = {isa = PBXBuildFile; fileRef = 114C445948444D7D9C0E4E63 /* IDirectLinkUI.cs */; };
+		BE2458DDB784F23E756B2D25 /* ReadMe.txt in Sources */ = {isa = PBXBuildFile; fileRef = 8130C8923C356A86E0371D15 /* ReadMe.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		97E14AE950951948394660E2 /* DatasmithFacadeCSharp.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithFacadeCSharp.Build.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/DatasmithFacadeCSharp.Build.cs"; sourceTree = SOURCE_ROOT; };
+		07CD09E84C53B2B0707A6D73 /* DatasmithFacadeCSharp.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithFacadeCSharp.Target.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/DatasmithFacadeCSharp.Target.cs"; sourceTree = SOURCE_ROOT; };
+		7C5BD7F5EF5C8FDBF070F8BA /* DatasmithFacadeCSharp.i */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithFacadeCSharp.i"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/DatasmithFacadeCSharp.i"; sourceTree = SOURCE_ROOT; };
+		D7D905B90DB5E0B2C6A76DF4 /* FacadeHeaderHelper.py */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FacadeHeaderHelper.py"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/FacadeHeaderHelper.py"; sourceTree = SOURCE_ROOT; };
+		E58EDEF5EB37089BD96CBFBE /* DatasmithFacadeCSharp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DatasmithFacadeCSharp.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private/DatasmithFacadeCSharp.cpp"; sourceTree = SOURCE_ROOT; };
+		5276D83A73F8BEBC2058FDF0 /* DatasmithFacadeCSharp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; name = "DatasmithFacadeCSharp.h"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private/DatasmithFacadeCSharp.h"; sourceTree = SOURCE_ROOT; };
+		DAAEBCE27EC69E1A1B2632B4 /* DatasmithFacadeDLL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "DatasmithFacadeDLL.cpp"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private/DatasmithFacadeDLL.cpp"; sourceTree = SOURCE_ROOT; };
+		BB82CE0AD32704CAD8A4A357 /* DatasmithFacadeCSharp.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithFacadeCSharp.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/DatasmithFacadeCSharp.cs"; sourceTree = SOURCE_ROOT; };
+		91C74063512003CC5AA66B56 /* DatasmithFacadeCSharpPINVOKE.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DatasmithFacadeCSharpPINVOKE.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/DatasmithFacadeCSharpPINVOKE.cs"; sourceTree = SOURCE_ROOT; };
+		51FC81BE65C383EC5672E4F3 /* EDatasmithFacadeAnimationTransformType.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadeAnimationTransformType.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadeAnimationTransformType.cs"; sourceTree = SOURCE_ROOT; };
+		7B2229A783FFA84D20E0F6D5 /* EDatasmithFacadeCompletionMode.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadeCompletionMode.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadeCompletionMode.cs"; sourceTree = SOURCE_ROOT; };
+		9410AE9C920E9F6F4206F444 /* EDatasmithFacadeCurveInterpMode.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadeCurveInterpMode.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadeCurveInterpMode.cs"; sourceTree = SOURCE_ROOT; };
+		EFD740B12970BE09BCAAB4A6 /* EDatasmithFacadeElementAnimationSubType.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadeElementAnimationSubType.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadeElementAnimationSubType.cs"; sourceTree = SOURCE_ROOT; };
+		B541D7000CCD79CAE1558517 /* EDatasmithFacadeMaterialExpressionType.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadeMaterialExpressionType.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadeMaterialExpressionType.cs"; sourceTree = SOURCE_ROOT; };
+		CE612C06C8E7FA3C424BFF4B /* EDatasmithFacadePropertyCategory.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadePropertyCategory.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadePropertyCategory.cs"; sourceTree = SOURCE_ROOT; };
+		F6035FF4EDC71D2B4ACEA2DA /* EDatasmithFacadeTransformChannels.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "EDatasmithFacadeTransformChannels.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/EDatasmithFacadeTransformChannels.cs"; sourceTree = SOURCE_ROOT; };
+		48A0B700A15BE534D734F5D7 /* FDatasmithFacadeActor.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeActor.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActor.cs"; sourceTree = SOURCE_ROOT; };
+		F2B00ABF5548C3FE4187E03B /* FDatasmithFacadeActorBinding.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeActorBinding.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActorBinding.cs"; sourceTree = SOURCE_ROOT; };
+		E39520A1D47EDCCCF25BE9CF /* FDatasmithFacadeActorCamera.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeActorCamera.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActorCamera.cs"; sourceTree = SOURCE_ROOT; };
+		D0EDC9D7A4147E4661099D3A /* FDatasmithFacadeActorDecal.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeActorDecal.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActorDecal.cs"; sourceTree = SOURCE_ROOT; };
+		C1B2C12D1BAD63E217E4F5F9 /* FDatasmithFacadeActorLight.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeActorLight.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActorLight.cs"; sourceTree = SOURCE_ROOT; };
+		504299F051A77CB8B2C01595 /* FDatasmithFacadeActorMesh.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeActorMesh.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeActorMesh.cs"; sourceTree = SOURCE_ROOT; };
+		0CE3540916038D19A2462FC4 /* FDatasmithFacadeAreaLight.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeAreaLight.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeAreaLight.cs"; sourceTree = SOURCE_ROOT; };
+		7A4CCA17857C0F94FE529B01 /* FDatasmithFacadeBaseAnimation.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeBaseAnimation.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeBaseAnimation.cs"; sourceTree = SOURCE_ROOT; };
+		7F4F4BC93F61B7A6323A18A8 /* FDatasmithFacadeBaseMaterial.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeBaseMaterial.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeBaseMaterial.cs"; sourceTree = SOURCE_ROOT; };
+		01852C3C3691145CCA2403A6 /* FDatasmithFacadeDecalMaterial.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeDecalMaterial.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeDecalMaterial.cs"; sourceTree = SOURCE_ROOT; };
+		2EE2A6C89F4271AA37C86E59 /* FDatasmithFacadeDirectLink.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeDirectLink.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeDirectLink.cs"; sourceTree = SOURCE_ROOT; };
+		824B76C8A8DD24873CA370F5 /* FDatasmithFacadeDirectionalLight.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeDirectionalLight.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeDirectionalLight.cs"; sourceTree = SOURCE_ROOT; };
+		A331201588671C6510E732B5 /* FDatasmithFacadeElement.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeElement.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeElement.cs"; sourceTree = SOURCE_ROOT; };
+		D1832BAE149609BBFDC81AEE /* FDatasmithFacadeEndPointObserver.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeEndPointObserver.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeEndPointObserver.cs"; sourceTree = SOURCE_ROOT; };
+		9B016298C8145BF26731D87A /* FDatasmithFacadeExpressionInput.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeExpressionInput.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeExpressionInput.cs"; sourceTree = SOURCE_ROOT; };
+		B5B7AE3077C438A4C0C61271 /* FDatasmithFacadeExpressionParameter.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeExpressionParameter.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeExpressionParameter.cs"; sourceTree = SOURCE_ROOT; };
+		84EE22128AB4CCAA566C2D21 /* FDatasmithFacadeExpressionParameterSwigImpl.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeExpressionParameterSwigImpl.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeExpressionParameterSwigImpl.cs"; sourceTree = SOURCE_ROOT; };
+		F462B8E92C0204156A881147 /* FDatasmithFacadeGuid.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeGuid.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeGuid.cs"; sourceTree = SOURCE_ROOT; };
+		14BA2DD894DB57B7AED25560 /* FDatasmithFacadeKeyValueProperty.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeKeyValueProperty.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeKeyValueProperty.cs"; sourceTree = SOURCE_ROOT; };
+		EB25E37F8CB88F7D6AD722FF /* FDatasmithFacadeLevelSequence.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeLevelSequence.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeLevelSequence.cs"; sourceTree = SOURCE_ROOT; };
+		71FDB57B56F47ADC33595290 /* FDatasmithFacadeLevelVariantSets.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeLevelVariantSets.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeLevelVariantSets.cs"; sourceTree = SOURCE_ROOT; };
+		0738B8013A493149C514213B /* FDatasmithFacadeLightmassPortal.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeLightmassPortal.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeLightmassPortal.cs"; sourceTree = SOURCE_ROOT; };
+		73487F1754C5598766A3C99E /* FDatasmithFacadeLog.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeLog.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeLog.cs"; sourceTree = SOURCE_ROOT; };
+		A6D233C8B35D1BE4DACE40D5 /* FDatasmithFacadeMaterialExpression.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpression.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpression.cs"; sourceTree = SOURCE_ROOT; };
+		C7507C169447021072EA0ACB /* FDatasmithFacadeMaterialExpressionBool.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionBool.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionBool.cs"; sourceTree = SOURCE_ROOT; };
+		B7435B67D5CCD12A5C679A56 /* FDatasmithFacadeMaterialExpressionColor.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionColor.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionColor.cs"; sourceTree = SOURCE_ROOT; };
+		92EA038E7EF5807A97946E23 /* FDatasmithFacadeMaterialExpressionFlattenNormal.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionFlattenNormal.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionFlattenNormal.cs"; sourceTree = SOURCE_ROOT; };
+		A3BC4E75267440363949CD59 /* FDatasmithFacadeMaterialExpressionFunctionCall.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionFunctionCall.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionFunctionCall.cs"; sourceTree = SOURCE_ROOT; };
+		FF3AF3372E86889143739E16 /* FDatasmithFacadeMaterialExpressionGeneric.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionGeneric.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionGeneric.cs"; sourceTree = SOURCE_ROOT; };
+		5E8197088E0BAA11CEDD8684 /* FDatasmithFacadeMaterialExpressionScalar.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionScalar.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionScalar.cs"; sourceTree = SOURCE_ROOT; };
+		A592174CE903E6E72BEB5D70 /* FDatasmithFacadeMaterialExpressionTexture.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionTexture.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionTexture.cs"; sourceTree = SOURCE_ROOT; };
+		F1472B2EA6CCB10BDC857F23 /* FDatasmithFacadeMaterialExpressionTextureCoordinate.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialExpressionTextureCoordinate.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialExpressionTextureCoordinate.cs"; sourceTree = SOURCE_ROOT; };
+		33238CFA47CDD98F66E46940 /* FDatasmithFacadeMaterialID.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialID.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialID.cs"; sourceTree = SOURCE_ROOT; };
+		80CA2DB5023D2A6CABE037DD /* FDatasmithFacadeMaterialInstance.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialInstance.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialInstance.cs"; sourceTree = SOURCE_ROOT; };
+		78DB905595D325138283D9AC /* FDatasmithFacadeMaterialsUtils.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMaterialsUtils.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMaterialsUtils.cs"; sourceTree = SOURCE_ROOT; };
+		D762AC9A6D138E44FDB9BD5C /* FDatasmithFacadeMesh.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMesh.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMesh.cs"; sourceTree = SOURCE_ROOT; };
+		63DE1E8C12E3E0BA3A709C47 /* FDatasmithFacadeMeshElement.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMeshElement.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMeshElement.cs"; sourceTree = SOURCE_ROOT; };
+		2CFE01E85C5160787936FA97 /* FDatasmithFacadeMessageAddress.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMessageAddress.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMessageAddress.cs"; sourceTree = SOURCE_ROOT; };
+		067A165B6EEEC8BD43394C73 /* FDatasmithFacadeMetaData.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeMetaData.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeMetaData.cs"; sourceTree = SOURCE_ROOT; };
+		F5B932222ABFE935D753DCD8 /* FDatasmithFacadePointLight.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadePointLight.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadePointLight.cs"; sourceTree = SOURCE_ROOT; };
+		62717A56D91144C5696D6115 /* FDatasmithFacadePropertyCapture.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadePropertyCapture.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadePropertyCapture.cs"; sourceTree = SOURCE_ROOT; };
+		1C9067D748BF6F8EE780B748 /* FDatasmithFacadeRawInfo.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeRawInfo.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeRawInfo.cs"; sourceTree = SOURCE_ROOT; };
+		7C2C0E474F5EF2FCD9B79083 /* FDatasmithFacadeScene.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeScene.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeScene.cs"; sourceTree = SOURCE_ROOT; };
+		CF284B344CC3382DDFB361E3 /* FDatasmithFacadeSpotLight.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeSpotLight.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeSpotLight.cs"; sourceTree = SOURCE_ROOT; };
+		43C022D0903C83292178F52C /* FDatasmithFacadeSubsequenceAnimation.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeSubsequenceAnimation.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeSubsequenceAnimation.cs"; sourceTree = SOURCE_ROOT; };
+		C95AC5054179EE59542DFB82 /* FDatasmithFacadeTexture.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeTexture.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeTexture.cs"; sourceTree = SOURCE_ROOT; };
+		F4B18E1D8BA4AEC9C2928FB2 /* FDatasmithFacadeTransformAnimation.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeTransformAnimation.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeTransformAnimation.cs"; sourceTree = SOURCE_ROOT; };
+		7D37600E507EF5C6A088ECA1 /* FDatasmithFacadeUEPbrMaterial.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeUEPbrMaterial.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeUEPbrMaterial.cs"; sourceTree = SOURCE_ROOT; };
+		0CC74100663DF3CE6DFAF141 /* FDatasmithFacadeUniqueNameProvider.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeUniqueNameProvider.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeUniqueNameProvider.cs"; sourceTree = SOURCE_ROOT; };
+		AF54B5FE0EED5492D757A59B /* FDatasmithFacadeVariant.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeVariant.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeVariant.cs"; sourceTree = SOURCE_ROOT; };
+		DFE46BDF1842CBF118CCB49C /* FDatasmithFacadeVariantSet.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeVariantSet.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeVariantSet.cs"; sourceTree = SOURCE_ROOT; };
+		5C30F485BF2EA0518A8865A4 /* FDatasmithFacadeVisibilityAnimation.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "FDatasmithFacadeVisibilityAnimation.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/FDatasmithFacadeVisibilityAnimation.cs"; sourceTree = SOURCE_ROOT; };
+		0B3B8946960544BD2738039A /* IDatasmithExporterUIModule.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "IDatasmithExporterUIModule.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/IDatasmithExporterUIModule.cs"; sourceTree = SOURCE_ROOT; };
+		114C445948444D7D9C0E4E63 /* IDirectLinkUI.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "IDirectLinkUI.cs"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public/IDirectLinkUI.cs"; sourceTree = SOURCE_ROOT; };
+		8130C8923C356A86E0371D15 /* ReadMe.txt */ = {isa = PBXFileReference; explicitFileType = file.text; name = "ReadMe.txt"; path = "../../../../GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/ReadMe.txt"; sourceTree = SOURCE_ROOT; };
+		FA152AF1C6000CEBC0DAECCD /* DatasmithFacadeCSharp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = DatasmithFacadeCSharp; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73F581C5C8074CEB3C0FB142 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F2AC8FB8EBC791811E8E63 /* DatasmithFacadeCSharp.cpp in Sources */,
+				0CAD8F2EADFE0690253B8940 /* DatasmithFacadeDLL.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+	441DFB26B1E2CF33EB831A20 /* Embed App Extensions */ = {
+		isa = PBXCopyFilesBuildPhase;
+		buildActionMask = 2147483647;
+		dstPath = "";
+		dstSubfolderSpec = 13;
+		files = (
+		);
+		name = "Embed App Extensions";
+		runOnlyForDeploymentPostprocessing = 0;
+	};
+/* End PBXCopyFilesBuildPhase section */
+/* Begin PBXContainerItemProxy section */
+		EAE7A8EB74454E5FDED60873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 019716F9BE6B50D8527B3350 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C8B2B80E13E7CBFFDEE2F2E;
+			remoteInfo = "DatasmithFacadeCSharp_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		5785C733C577822049F66824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C8B2B80E13E7CBFFDEE2F2E /* DatasmithFacadeCSharp_Build */;
+			targetProxy = EAE7A8EB74454E5FDED60873 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXGroup section */
+		487B2733DD2CCA5081B04752 = {
+			isa = PBXGroup;
+			children = (
+				0057C7BB56F2D88280109650 /* Private */,
+				1CD228BC2EC3763ADCF6518B /* Public */,
+				97E14AE950951948394660E2 /* DatasmithFacadeCSharp.Build.cs */,
+				07CD09E84C53B2B0707A6D73 /* DatasmithFacadeCSharp.Target.cs */,
+				7C5BD7F5EF5C8FDBF070F8BA /* DatasmithFacadeCSharp.i */,
+				D7D905B90DB5E0B2C6A76DF4 /* FacadeHeaderHelper.py */,
+				8130C8923C356A86E0371D15 /* ReadMe.txt */,
+				666A528F89E6959E9A2DBC26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0057C7BB56F2D88280109650 = {
+			isa = PBXGroup;
+			children = (
+				E58EDEF5EB37089BD96CBFBE /* DatasmithFacadeCSharp.cpp */,
+				5276D83A73F8BEBC2058FDF0 /* DatasmithFacadeCSharp.h */,
+				DAAEBCE27EC69E1A1B2632B4 /* DatasmithFacadeDLL.cpp */,
+			);
+			name = "Private";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private";
+			sourceTree = "<absolute>";
+		};
+		1CD228BC2EC3763ADCF6518B = {
+			isa = PBXGroup;
+			children = (
+				BB82CE0AD32704CAD8A4A357 /* DatasmithFacadeCSharp.cs */,
+				91C74063512003CC5AA66B56 /* DatasmithFacadeCSharpPINVOKE.cs */,
+				51FC81BE65C383EC5672E4F3 /* EDatasmithFacadeAnimationTransformType.cs */,
+				7B2229A783FFA84D20E0F6D5 /* EDatasmithFacadeCompletionMode.cs */,
+				9410AE9C920E9F6F4206F444 /* EDatasmithFacadeCurveInterpMode.cs */,
+				EFD740B12970BE09BCAAB4A6 /* EDatasmithFacadeElementAnimationSubType.cs */,
+				B541D7000CCD79CAE1558517 /* EDatasmithFacadeMaterialExpressionType.cs */,
+				CE612C06C8E7FA3C424BFF4B /* EDatasmithFacadePropertyCategory.cs */,
+				F6035FF4EDC71D2B4ACEA2DA /* EDatasmithFacadeTransformChannels.cs */,
+				48A0B700A15BE534D734F5D7 /* FDatasmithFacadeActor.cs */,
+				F2B00ABF5548C3FE4187E03B /* FDatasmithFacadeActorBinding.cs */,
+				E39520A1D47EDCCCF25BE9CF /* FDatasmithFacadeActorCamera.cs */,
+				D0EDC9D7A4147E4661099D3A /* FDatasmithFacadeActorDecal.cs */,
+				C1B2C12D1BAD63E217E4F5F9 /* FDatasmithFacadeActorLight.cs */,
+				504299F051A77CB8B2C01595 /* FDatasmithFacadeActorMesh.cs */,
+				0CE3540916038D19A2462FC4 /* FDatasmithFacadeAreaLight.cs */,
+				7A4CCA17857C0F94FE529B01 /* FDatasmithFacadeBaseAnimation.cs */,
+				7F4F4BC93F61B7A6323A18A8 /* FDatasmithFacadeBaseMaterial.cs */,
+				01852C3C3691145CCA2403A6 /* FDatasmithFacadeDecalMaterial.cs */,
+				2EE2A6C89F4271AA37C86E59 /* FDatasmithFacadeDirectLink.cs */,
+				824B76C8A8DD24873CA370F5 /* FDatasmithFacadeDirectionalLight.cs */,
+				A331201588671C6510E732B5 /* FDatasmithFacadeElement.cs */,
+				D1832BAE149609BBFDC81AEE /* FDatasmithFacadeEndPointObserver.cs */,
+				9B016298C8145BF26731D87A /* FDatasmithFacadeExpressionInput.cs */,
+				B5B7AE3077C438A4C0C61271 /* FDatasmithFacadeExpressionParameter.cs */,
+				84EE22128AB4CCAA566C2D21 /* FDatasmithFacadeExpressionParameterSwigImpl.cs */,
+				F462B8E92C0204156A881147 /* FDatasmithFacadeGuid.cs */,
+				14BA2DD894DB57B7AED25560 /* FDatasmithFacadeKeyValueProperty.cs */,
+				EB25E37F8CB88F7D6AD722FF /* FDatasmithFacadeLevelSequence.cs */,
+				71FDB57B56F47ADC33595290 /* FDatasmithFacadeLevelVariantSets.cs */,
+				0738B8013A493149C514213B /* FDatasmithFacadeLightmassPortal.cs */,
+				73487F1754C5598766A3C99E /* FDatasmithFacadeLog.cs */,
+				A6D233C8B35D1BE4DACE40D5 /* FDatasmithFacadeMaterialExpression.cs */,
+				C7507C169447021072EA0ACB /* FDatasmithFacadeMaterialExpressionBool.cs */,
+				B7435B67D5CCD12A5C679A56 /* FDatasmithFacadeMaterialExpressionColor.cs */,
+				92EA038E7EF5807A97946E23 /* FDatasmithFacadeMaterialExpressionFlattenNormal.cs */,
+				A3BC4E75267440363949CD59 /* FDatasmithFacadeMaterialExpressionFunctionCall.cs */,
+				FF3AF3372E86889143739E16 /* FDatasmithFacadeMaterialExpressionGeneric.cs */,
+				5E8197088E0BAA11CEDD8684 /* FDatasmithFacadeMaterialExpressionScalar.cs */,
+				A592174CE903E6E72BEB5D70 /* FDatasmithFacadeMaterialExpressionTexture.cs */,
+				F1472B2EA6CCB10BDC857F23 /* FDatasmithFacadeMaterialExpressionTextureCoordinate.cs */,
+				33238CFA47CDD98F66E46940 /* FDatasmithFacadeMaterialID.cs */,
+				80CA2DB5023D2A6CABE037DD /* FDatasmithFacadeMaterialInstance.cs */,
+				78DB905595D325138283D9AC /* FDatasmithFacadeMaterialsUtils.cs */,
+				D762AC9A6D138E44FDB9BD5C /* FDatasmithFacadeMesh.cs */,
+				63DE1E8C12E3E0BA3A709C47 /* FDatasmithFacadeMeshElement.cs */,
+				2CFE01E85C5160787936FA97 /* FDatasmithFacadeMessageAddress.cs */,
+				067A165B6EEEC8BD43394C73 /* FDatasmithFacadeMetaData.cs */,
+				F5B932222ABFE935D753DCD8 /* FDatasmithFacadePointLight.cs */,
+				62717A56D91144C5696D6115 /* FDatasmithFacadePropertyCapture.cs */,
+				1C9067D748BF6F8EE780B748 /* FDatasmithFacadeRawInfo.cs */,
+				7C2C0E474F5EF2FCD9B79083 /* FDatasmithFacadeScene.cs */,
+				CF284B344CC3382DDFB361E3 /* FDatasmithFacadeSpotLight.cs */,
+				43C022D0903C83292178F52C /* FDatasmithFacadeSubsequenceAnimation.cs */,
+				C95AC5054179EE59542DFB82 /* FDatasmithFacadeTexture.cs */,
+				F4B18E1D8BA4AEC9C2928FB2 /* FDatasmithFacadeTransformAnimation.cs */,
+				7D37600E507EF5C6A088ECA1 /* FDatasmithFacadeUEPbrMaterial.cs */,
+				0CC74100663DF3CE6DFAF141 /* FDatasmithFacadeUniqueNameProvider.cs */,
+				AF54B5FE0EED5492D757A59B /* FDatasmithFacadeVariant.cs */,
+				DFE46BDF1842CBF118CCB49C /* FDatasmithFacadeVariantSet.cs */,
+				5C30F485BF2EA0518A8865A4 /* FDatasmithFacadeVisibilityAnimation.cs */,
+				0B3B8946960544BD2738039A /* IDatasmithExporterUIModule.cs */,
+				114C445948444D7D9C0E4E63 /* IDirectLinkUI.cs */,
+			);
+			name = "Public";
+			path = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public";
+			sourceTree = "<absolute>";
+		};
+		666A528F89E6959E9A2DBC26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA152AF1C6000CEBC0DAECCD /* DatasmithFacadeCSharp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		2C8B2B80E13E7CBFFDEE2F2E /* DatasmithFacadeCSharp_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG)";
+			buildConfigurationList = E21CFE75D4C61C817C5338AF /* Build configuration list for PBXLegacyTarget "DatasmithFacadeCSharp_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Build/BatchFiles/Mac/XcodeBuild.sh";
+			buildWorkingDirectory = "/Users/meghasingh/Documents/GitHub/UnrealEngine";
+			dependencies = (
+			);
+			name = "DatasmithFacadeCSharp_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DatasmithFacadeCSharp_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		0EE6D54452F3BFF0F7645FC5 /* DatasmithFacadeCSharp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B666131A158A0872BB2225FA /* Build configuration list for PBXNativeTarget "DatasmithFacadeCSharp" */;
+			buildPhases = (
+				441DFB26B1E2CF33EB831A20 /* Embed App Extensions */, 
+				CDA47E7780BC6C1BBF00C0E8 /* Shell Script */, 
+			);
+			dependencies = (
+				5785C733C577822049F66824 /* PBXTargetDependency */,
+			);
+			name = "DatasmithFacadeCSharp";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DatasmithFacadeCSharp";
+			productReference = "FA152AF1C6000CEBC0DAECCD";
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		4C905A49E97D6410FADABEE8 /* DatasmithFacadeCSharp_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ACD7DA05A48750BE5FC0FA9 /* Build configuration list for PBXNativeTarget "DatasmithFacadeCSharp_Index" */;
+			buildPhases = (
+				73F581C5C8074CEB3C0FB142 /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "DatasmithFacadeCSharp_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "DatasmithFacadeCSharp_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		019716F9BE6B50D8527B3350 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					0EE6D54452F3BFF0F7645FC5 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = E433D5808A1F33075D165B06 /* Build configuration list for PBXProject "DatasmithFacadeCSharp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 487B2733DD2CCA5081B04752;
+			productRefGroup = 666A528F89E6959E9A2DBC26;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			0EE6D54452F3BFF0F7645FC5 /* DatasmithFacadeCSharp */,
+			2C8B2B80E13E7CBFFDEE2F2E /* DatasmithFacadeCSharp_Build */,
+			4C905A49E97D6410FADABEE8 /* DatasmithFacadeCSharp_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		AB048779645C1556B90F4A6C /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Datasmith/DatasmithCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DirectLink/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DirectLink/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Datasmith/DirectLink/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Messaging/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Messaging/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/MeshDescription/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/MeshDescription/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/RawMesh/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/RawMesh/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RawMesh/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/StaticMeshDescription/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/StaticMeshDescription/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporter/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporter/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporter/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporterUI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporterUI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporterUI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacade/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacade/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithFacade/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/UdpMessaging/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/UdpMessaging/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Networking/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Networking/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacadeCSharp/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacadeCSharp/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Debug";
+		};
+		CFB4BD36C4D10E4A0B63EF90 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Datasmith/DatasmithCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DirectLink/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DirectLink/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Datasmith/DirectLink/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Messaging/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Messaging/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/MeshDescription/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/MeshDescription/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/RawMesh/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/RawMesh/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RawMesh/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/StaticMeshDescription/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/StaticMeshDescription/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporter/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporter/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporter/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporterUI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporterUI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporterUI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacade/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacade/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithFacade/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/UdpMessaging/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/UdpMessaging/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Networking/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Networking/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacadeCSharp/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacadeCSharp/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		0F43305201B31C9058B57C18 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Datasmith/DatasmithCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DirectLink/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DirectLink/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Datasmith/DirectLink/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Messaging/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Messaging/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/MeshDescription/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/MeshDescription/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/RawMesh/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/RawMesh/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RawMesh/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/StaticMeshDescription/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/StaticMeshDescription/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporter/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporter/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporter/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporterUI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporterUI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporterUI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacade/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacade/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithFacade/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/UdpMessaging/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/UdpMessaging/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Networking/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Networking/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacadeCSharp/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacadeCSharp/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		E0D05EEEF606F04AF8F0CB7D /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Datasmith/DatasmithCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DirectLink/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DirectLink/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Datasmith/DirectLink/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Messaging/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Messaging/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/MeshDescription/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/MeshDescription/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/RawMesh/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/RawMesh/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RawMesh/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/StaticMeshDescription/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/StaticMeshDescription/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporter/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporter/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporter/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporterUI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporterUI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporterUI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacade/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacade/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithFacade/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/UdpMessaging/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/UdpMessaging/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Networking/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Networking/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacadeCSharp/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacadeCSharp/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Test";
+		};
+		2DA210CE5D951E46093EEE41 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/ThirdParty/mimalloc/include",
+				);
+				USER_HEADER_SEARCH_PATHS = (
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Core/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Core/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/TraceLog/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Core/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/TraceLog/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/TraceLog/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithCore/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithCore/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Datasmith/DatasmithCore/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/CoreUObject/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/CoreUObject/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/CoreUObject/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DirectLink/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DirectLink/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Datasmith/DirectLink/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Messaging/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Messaging/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Messaging/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/MeshDescription/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/MeshDescription/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/MeshDescription/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/RawMesh/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/RawMesh/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/RawMesh/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/StaticMeshDescription/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/StaticMeshDescription/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/StaticMeshDescription/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporter/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporter/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporter/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporterUI/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithExporterUI/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithExporterUI/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacade/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacade/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Developer/Datasmith/DatasmithFacade/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/UdpMessaging/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/UdpMessaging/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Networking/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Networking/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Networking/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Sockets/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/Sockets/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Sockets/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/NetCommon/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/NetCommon/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Runtime/Net/Common/Public",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacadeCSharp/UHT",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Build/Mac/x86_64/DatasmithFacadeCSharp/Inc/DatasmithFacadeCSharp/VNI",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith",
+					"/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Public",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		EA6FECB75E883BEFDA61F824 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithFacadeCSharp-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithFacadeCSharp;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithFacadeCSharp-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		F196B3238C060FD8F43F5C08 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithFacadeCSharp-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithFacadeCSharp;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithFacadeCSharp-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		4FF650D098774897E6C54B40 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithFacadeCSharp";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithFacadeCSharp;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithFacadeCSharp-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		DF58F2F312010AA5EF99C620 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithFacadeCSharp-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithFacadeCSharp;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithFacadeCSharp-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		AC281AD07FAB33187424EC5F /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithFacadeCSharp-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithFacadeCSharp;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithFacadeCSharp-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		89D46B7FA39582445C127AAD /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithFacadeCSharp";
+				UE_BUILD_TARGET_CONFIG = "Debug";
+			};
+			name = "Debug";
+		};
+		BAAC8117FA3ACA784759AFEE /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithFacadeCSharp";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		8784D4C49E65A27B0EAA07B6 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithFacadeCSharp";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		00B45AC72F28702049C6E4CD /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithFacadeCSharp";
+				UE_BUILD_TARGET_CONFIG = "Test";
+			};
+			name = "Test";
+		};
+		7B02EB31DBAD730700759A8D /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				GCC_PREPROCESSOR_DEFINITIONS = ();
+				HEADER_SEARCH_PATHS = ();
+				USER_HEADER_SEARCH_PATHS = ();
+				UE_BUILD_TARGET_NAME = "DatasmithFacadeCSharp";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		5B55CE8F6DC366BD59118C11 /* "Debug" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithFacadeCSharp-Mac-Debug";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithFacadeCSharp;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithFacadeCSharp-Mac-Debug-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Debug";
+		};
+		D84C7F8B0430A1F7663E9ED7 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithFacadeCSharp-Mac-DebugGame";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithFacadeCSharp;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithFacadeCSharp-Mac-DebugGame-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		097876933D1F9523CF673B0D /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithFacadeCSharp";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithFacadeCSharp;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithFacadeCSharp-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		06B38507B9BDBE19ADF9B4E4 /* "Test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithFacadeCSharp-Mac-Test";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithFacadeCSharp;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithFacadeCSharp-Mac-Test-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Test";
+		};
+		17A2C3B3A89DC4C8C5435A91 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos";
+				"VALID_ARCHS[sdk=iphoneos*]" = "arm64";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"VALID_ARCHS[sdk=appletvos*]" = "arm64";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				"PRODUCT_NAME[sdk=appletvos*]" = "DatasmithFacadeCSharp";
+				"TARGETED_DEVICE_FAMILY[sdk=appletvos*]" = "3";
+				"SDKROOT[sdk=appletvos]" = appletvos;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"VALID_ARCHS[sdk=macosx*]" = "x86_64 arm64";
+				"PRODUCT_NAME[sdk=macosx*]" = "DatasmithFacadeCSharp-Mac-Shipping";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/Mac";
+				"SDKROOT[sdk=macosx*]" = macosx;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = com.YourCompany.DatasmithFacadeCSharp;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/IOS/Payload";
+				"CONFIGURATION_BUILD_DIR[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Binaries/TVOS/Payload";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/Mac/DatasmithFacadeCSharp-Mac-Shipping-Info.plist";
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/IOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = "";
+				"INFOPLIST_FILE[sdk=appletvos*]" = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Intermediate/TVOS/DatasmithFacadeCSharp-Info.plist";
+				"CODE_SIGN_ENTITLEMENTS[sdk=appletvos*]" = "";
+				OTHER_CODE_SIGN_FLAGS = "--generate-entitlement-der --deep";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				SDKROOT = macosx;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/meghasingh/Documents/GitHub/UnrealEngine/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E433D5808A1F33075D165B06 /* Build configuration list for PBXProject "DatasmithFacadeCSharp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB048779645C1556B90F4A6C /* "Debug" */,
+				CFB4BD36C4D10E4A0B63EF90 /* "DebugGame" */,
+				0F43305201B31C9058B57C18 /* "Development" */,
+				E0D05EEEF606F04AF8F0CB7D /* "Test" */,
+				2DA210CE5D951E46093EEE41 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		E21CFE75D4C61C817C5338AF /* Build configuration list for PBXLegacyTarget "DatasmithFacadeCSharp_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89D46B7FA39582445C127AAD /* "Debug" */,
+				BAAC8117FA3ACA784759AFEE /* "DebugGame" */,
+				8784D4C49E65A27B0EAA07B6 /* "Development" */,
+				00B45AC72F28702049C6E4CD /* "Test" */,
+				7B02EB31DBAD730700759A8D /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		B666131A158A0872BB2225FA /* Build configuration list for PBXNativeTarget "DatasmithFacadeCSharp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6FECB75E883BEFDA61F824 /* "Debug" */,
+				F196B3238C060FD8F43F5C08 /* "DebugGame" */,
+				4FF650D098774897E6C54B40 /* "Development" */,
+				DF58F2F312010AA5EF99C620 /* "Test" */,
+				AC281AD07FAB33187424EC5F /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		1ACD7DA05A48750BE5FC0FA9 /* Build configuration list for PBXNativeTarget "DatasmithFacadeCSharp_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B55CE8F6DC366BD59118C11 /* "Debug" */,
+				D84C7F8B0430A1F7663E9ED7 /* "DebugGame" */,
+				097876933D1F9523CF673B0D /* "Development" */,
+				06B38507B9BDBE19ADF9B4E4 /* "Test" */,
+				17A2C3B3A89DC4C8C5435A91 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 019716F9BE6B50D8527B3350 /* Project object */;
+}

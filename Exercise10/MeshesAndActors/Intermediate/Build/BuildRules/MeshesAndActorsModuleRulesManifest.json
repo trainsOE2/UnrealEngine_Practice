@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/meghasingh/Documents/Unreal Projects/MeshesAndActors/Source/MeshesAndActors/MeshesAndActors.Build.cs",
+		"/Users/meghasingh/Documents/Unreal Projects/MeshesAndActors/Source/MeshesAndActors.Target.cs",
+		"/Users/meghasingh/Documents/Unreal Projects/MeshesAndActors/Source/MeshesAndActorsEditor.Target.cs"
+	],
+	"EngineVersion": "5.1.1"
+}
